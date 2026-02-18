@@ -64,6 +64,8 @@ export function Header() {
     }, 150)
   }
 
+  const isHomepage = pathname === "/"
+
   return (
     <>
       <motion.header
@@ -73,14 +75,18 @@ export function Header() {
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
           isScrolled
-            ? "bg-primary-950/95 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20"
-            : "bg-gradient-to-b from-black/40 via-black/20 to-transparent"
+            ? "bg-primary-950/95 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20 pt-0"
+            : "bg-gradient-to-b from-black/40 via-black/20 to-transparent",
+          isHomepage && !isScrolled ? "pt-4 md:pt-6" : ""
         )}
       >
         <Container>
-          <nav className="flex items-center justify-between h-20">
+          <nav className={cn(
+            "flex items-center justify-between overflow-visible transition-all duration-500",
+            isHomepage && !isScrolled ? "h-28 md:h-40" : "h-20"
+          )}>
             {/* Logo */}
-            <Link href="/" className="relative flex items-start">
+            <Link href="/" className="relative flex items-center z-10">
               <Image
                 src="/logo.png"
                 alt="Birdsong Realty Team"
@@ -88,9 +94,9 @@ export function Header() {
                 height={200}
                 className={cn(
                   "w-auto transition-all duration-500",
-                  pathname === "/" && !isScrolled
-                    ? "h-24 md:h-36 mt-2 md:mt-3"
-                    : "h-10 md:h-14 mt-0"
+                  isHomepage && !isScrolled
+                    ? "h-24 md:h-36"
+                    : "h-10 md:h-14"
                 )}
                 style={{
                   filter: "brightness(0) invert(1)",
