@@ -33,8 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
-# large video files (unused, switched to static images)
-public/hero-*.mp4
+# large video files (keep hero-cinematic, exclude others)
+public/hero-action.mp4
+public/hero-professional.mp4
 
 # vercel
 .vercel
