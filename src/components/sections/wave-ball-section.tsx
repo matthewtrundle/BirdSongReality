@@ -1,6 +1,7 @@
 "use client"
 
 import { useRef } from "react"
+import Image from "next/image"
 import { motion, useInView } from "framer-motion"
 import { Container, Section } from "@/components/layout"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
@@ -33,7 +34,7 @@ export function WaveBallSection() {
                 }}
                 transition={{ duration: 0.4 }}
               >
-                {/* Video container */}
+                {/* Image container */}
                 <div className="w-full h-full rounded-2xl overflow-hidden relative bg-primary-950">
                   {/* Glass effect overlay */}
                   <div className="absolute inset-0 z-10 pointer-events-none">
@@ -42,16 +43,12 @@ export function WaveBallSection() {
                     <div className="absolute left-0 top-0 h-full w-px bg-gradient-to-b from-white/15 via-transparent to-transparent" />
                   </div>
 
-                  {/* Looping video */}
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-cover"
-                  >
-                    <source src="/hero-professional.mp4" type="video/mp4" />
-                  </video>
+                  <Image
+                    src="/images/hero/hill-country-aerial.jpg"
+                    alt="Austin Hill Country aerial view"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </motion.div>
 
