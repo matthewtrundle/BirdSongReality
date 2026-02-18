@@ -1,0 +1,490 @@
+[
+  {
+    "slug": "tech-professional",
+    "title": "Tech Professional in Austin",
+    "headline": "Where Silicon Hills Meets Quality of Life",
+    "description": "Austin's booming tech industry offers career opportunities and quality of life that big-city tech hubs can't match.",
+    "intro": "Austin has earned its 'Silicon Hills' nickname by attracting tech giants like Apple, Google, Tesla, Meta, and Samsung alongside thousands of startups and established companies. For tech professionals, Austin offers something rare: major-league career opportunities combined with a cost of living, outdoor lifestyle, and cultural scene that coastal tech hubs struggle to match. No state income tax is the icing on the cake.",
+    "sections": [
+      {
+        "title": "Tech Industry Landscape",
+        "content": "Austin's tech ecosystem spans the full spectrum—from Apple's $1 billion campus and Tesla's Gigafactory to a thriving startup scene nurtured by UT Austin, accelerators, and venture capital. Major employers include Dell, Oracle, Indeed, Samsung, and dozens of companies that have relocated headquarters or expanded significantly. The tech corridor runs from downtown through the Domain area and north to Round Rock and Cedar Park.",
+        "highlights": ["Apple, Google, Tesla, Meta, Samsung", "Thriving startup ecosystem", "UT Austin talent pipeline", "No state income tax on your salary"]
+      },
+      {
+        "title": "Best Neighborhoods for Tech Workers",
+        "content": "The Domain and North Austin put you closest to many tech campuses. East Austin and South Congress offer walkable urban living. Mueller provides master-planned community appeal. Downtown offers the shortest commute for those working in the urban core. Cedar Park and Round Rock provide suburban value near major employers.",
+        "highlights": ["Domain/North Austin near tech corridor", "East Austin for urban lifestyle", "Cedar Park/Round Rock for families", "Downtown for walkability"]
+      },
+      {
+        "title": "Beyond the Office",
+        "content": "Austin's appeal goes well beyond career opportunities. The outdoor lifestyle—Lady Bird Lake, Barton Springs, the Greenbelt—provides daily adventure. The live music scene, food culture, and festivals create a social life that puts other tech hubs to shame. And your tech salary goes significantly further here than in San Francisco, Seattle, or New York.",
+        "highlights": ["Outdoor lifestyle year-round", "Live Music Capital of the World", "Food scene rivaling any city", "Your salary goes further here"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "No State Income Tax",
+        "description": "Keep more of your tech salary with Texas's zero state income tax—a significant savings compared to California or New York.",
+        "icon": "tax"
+      },
+      {
+        "title": "Major Employers",
+        "description": "Apple, Google, Tesla, Meta, Samsung, Dell, Oracle, and thousands more offer world-class career opportunities.",
+        "icon": "career"
+      },
+      {
+        "title": "Outdoor Lifestyle",
+        "description": "Swim at Barton Springs, hike the Greenbelt, kayak Lady Bird Lake—all within minutes of your office.",
+        "icon": "nature"
+      },
+      {
+        "title": "Culture & Nightlife",
+        "description": "Live music every night, world-class food, festivals, and a social scene that makes Austin genuinely fun.",
+        "icon": "music"
+      }
+    ],
+    "considerations": [
+      {
+        "title": "Traffic Growth",
+        "description": "Austin's rapid growth has increased commute times, especially on I-35 and MoPac. Consider proximity to your office carefully."
+      },
+      {
+        "title": "Summer Heat",
+        "description": "Austin summers are hot—consistently 100+ degrees from June through September. Air conditioning is essential."
+      }
+    ],
+    "testimonial": {
+      "quote": "I moved from San Francisco and got a bigger house, lower taxes, better weather eight months of the year, and a social life that doesn't revolve around work. Austin is the best decision I ever made.",
+      "author": "David Park",
+      "role": "Software Engineer, moved 2022"
+    },
+    "relatedNeighborhoods": ["east-austin", "mueller", "north-austin"],
+    "relatedProperties": {
+      "type": "Condo or single-family home",
+      "priceRange": "$400K - $900K",
+      "features": ["Home office space", "Near tech corridor", "Walkable neighborhood", "Modern amenities"]
+    },
+    "seoKeywords": ["tech jobs austin", "moving to austin tech", "silicon hills austin", "austin tech companies"],
+    "faqs": [
+      {
+        "question": "How does Austin's tech scene compare to Silicon Valley?",
+        "answer": "Austin has most major tech companies plus a strong startup scene, with significantly lower cost of living and no state income tax."
+      },
+      {
+        "question": "What neighborhoods are best for tech workers?",
+        "answer": "Domain/North Austin for proximity to campuses, East Austin for urban lifestyle, Cedar Park/Round Rock for suburban families."
+      }
+    ],
+    "callToAction": {
+      "title": "Find Your Austin Tech Home",
+      "description": "Let us help you find the perfect home near Austin's tech corridor with the lifestyle you want.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  },
+  {
+    "slug": "young-family",
+    "title": "Young Family in Austin",
+    "headline": "Raise Your Family in Austin's Best Neighborhoods",
+    "description": "Austin offers families excellent schools, safe neighborhoods, outdoor activities, and a culture that celebrates childhood.",
+    "intro": "Austin is consistently ranked among the best cities for families, and the reasons are clear: excellent public and private schools, safe neighborhoods with parks and pools, an outdoor lifestyle that keeps kids active, and a culture that genuinely values children and community. From the acclaimed Eanes ISD to the family-friendly master-planned communities of Mueller and Circle C, Austin offers options for every family's needs and budget.",
+    "sections": [
+      {
+        "title": "Top School Districts",
+        "content": "Austin's school landscape is diverse and strong. Eanes ISD (Westlake) consistently ranks among Texas's top districts. Lake Travis ISD offers excellent academics with Hill Country beauty. Round Rock ISD is one of the largest and highest-rated in the state. Austin ISD has standout campuses and popular magnet programs. Private options include St. Stephen's, St. Andrew's, and Regents School.",
+        "highlights": ["Eanes ISD (Westlake) - top rated", "Lake Travis ISD - excellent academics", "Round Rock ISD - highly rated, large district", "Strong private school options"]
+      },
+      {
+        "title": "Family-Friendly Neighborhoods",
+        "content": "Mueller offers master-planned community with parks, pools, and walkable design. Circle C in Southwest Austin provides excellent schools and family amenities. Cedar Park and Round Rock deliver suburban value with top schools. Tarrytown and Zilker offer central Austin living with neighborhood character. Steiner Ranch and Lakeway combine Hill Country beauty with family amenities.",
+        "highlights": ["Mueller for walkable community", "Circle C for Southwest Austin", "Cedar Park/Round Rock for value", "Tarrytown/Zilker for central living"]
+      },
+      {
+        "title": "Outdoor Family Activities",
+        "content": "Austin's outdoor lifestyle is perfect for families. Barton Springs, Deep Eddy Pool, and numerous splash pads keep kids cool. Zilker Park, Pease Park, and dozens of neighborhood parks provide playgrounds and green space. The hike-and-bike trail is perfect for family cycling. McKinney Falls and Hamilton Pool offer nature adventures.",
+        "highlights": ["Natural swimming pools", "Extensive park system", "Family cycling trails", "Nature adventures nearby"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Excellent Schools",
+        "description": "Multiple top-rated school districts and strong private school options for every educational philosophy.",
+        "icon": "school"
+      },
+      {
+        "title": "Safe Neighborhoods",
+        "description": "Family-oriented communities with parks, pools, and neighbors who look out for each other.",
+        "icon": "shield"
+      },
+      {
+        "title": "Outdoor Lifestyle",
+        "description": "Swimming holes, hiking trails, parks, and year-round outdoor activities that keep kids active and happy.",
+        "icon": "nature"
+      },
+      {
+        "title": "Cultural Enrichment",
+        "description": "Children's museums, the Thinkery, library programs, and festivals create rich childhood experiences.",
+        "icon": "learning"
+      }
+    ],
+    "testimonial": {
+      "quote": "Our kids swim at Barton Springs, bike the trail, and go to a school we love. They're growing up with outdoor confidence and cultural exposure we couldn't find anywhere else.",
+      "author": "The Nguyen Family",
+      "role": "Mueller residents since 2020"
+    },
+    "relatedNeighborhoods": ["mueller", "zilker", "circle-c"],
+    "relatedProperties": {
+      "type": "Single-family home",
+      "priceRange": "$500K - $1.2M",
+      "features": ["Top school district", "Family neighborhood", "Near parks", "Multiple bedrooms"]
+    },
+    "seoKeywords": ["best neighborhoods families austin", "austin schools", "family friendly austin", "raising kids austin"],
+    "faqs": [
+      {
+        "question": "What are the best school districts?",
+        "answer": "Eanes (Westlake), Lake Travis, and Round Rock ISDs are consistently top-rated. Austin ISD has excellent magnet programs and standout campuses."
+      },
+      {
+        "question": "What are the most family-friendly neighborhoods?",
+        "answer": "Mueller, Circle C, Cedar Park, Round Rock, Tarrytown, and Steiner Ranch are all excellent for families with different character and price points."
+      }
+    ],
+    "callToAction": {
+      "title": "Find Your Family's Austin Home",
+      "description": "Let us help you find the perfect home in a family-friendly neighborhood with great schools.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  },
+  {
+    "slug": "outdoor-enthusiast",
+    "title": "Outdoor Enthusiast in Austin",
+    "headline": "Your Playground is 300 Days of Sunshine",
+    "description": "Austin offers hiking, biking, swimming, climbing, and paddling with 300 days of sunshine and natural beauty.",
+    "intro": "Austin is an outdoor lover's paradise, offering 300 days of sunshine, hundreds of miles of trails, natural swimming holes, world-class mountain biking, and paddle sports on multiple waterways. The Barton Creek Greenbelt, Lady Bird Lake, and surrounding Hill Country provide adventure ranging from casual walks to serious athletic pursuits. For outdoor enthusiasts, Austin's combination of climate, terrain, and urban access is hard to beat anywhere in America.",
+    "sections": [
+      {
+        "title": "Hiking and Trail Running",
+        "content": "The Barton Creek Greenbelt offers 12+ miles of trails through limestone canyons. The hike-and-bike trail around Lady Bird Lake provides 10 miles of flat, paved running. McKinney Falls, Wild Basin Wilderness Preserve, and the Balcones Canyonlands offer diverse terrain. Enchanted Rock and Pedernales Falls are day-trip worthy Hill Country destinations.",
+        "highlights": ["Barton Creek Greenbelt (12+ miles)", "Lady Bird Lake Trail (10-mile loop)", "McKinney Falls State Park", "Hill Country day trips"]
+      },
+      {
+        "title": "Water Activities",
+        "content": "Lady Bird Lake is Austin's paddling paradise—kayaks, SUPs, and canoes (no motorized boats). Barton Springs and Deep Eddy provide year-round swimming. Lake Austin and Lake Travis offer boating, swimming, and water sports. Barton Creek and Bull Creek feature natural swimming holes when water levels cooperate.",
+        "highlights": ["Kayaking Lady Bird Lake", "Year-round swimming at Barton Springs", "Lake Travis for boating", "Natural swimming holes"]
+      },
+      {
+        "title": "Cycling and Mountain Biking",
+        "content": "Austin is one of America's best cycling cities. The hike-and-bike trail, dedicated bike lanes, and cycling-friendly culture make road cycling accessible. Walnut Creek, Brushy Creek, and Emma Long offer technical mountain bike trails. The Veloway provides a dedicated cycling loop in South Austin. Major cycling events and clubs create a strong community.",
+        "highlights": ["Extensive bike lane network", "Walnut Creek mountain bike trails", "The Veloway cycling loop", "Strong cycling community"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "300 Days of Sunshine",
+        "description": "Austin's climate supports year-round outdoor activity, with mild winters and extended fall and spring seasons.",
+        "icon": "sun"
+      },
+      {
+        "title": "Diverse Terrain",
+        "description": "From urban trails to Hill Country canyons, limestone swimming holes to open water lakes—variety is everywhere.",
+        "icon": "mountain"
+      },
+      {
+        "title": "Active Community",
+        "description": "Running clubs, cycling groups, hiking meetups, and outdoor sports organizations create connections.",
+        "icon": "community"
+      },
+      {
+        "title": "Urban Accessibility",
+        "description": "World-class outdoor recreation minutes from downtown—no weekend road trips required for adventure.",
+        "icon": "location"
+      }
+    ],
+    "testimonial": {
+      "quote": "I run the Lady Bird Trail before work, kayak at lunch sometimes, and hit the Greenbelt on weekends. In Colorado I had to drive hours for this. Here it's all within 15 minutes.",
+      "author": "Jason Torres",
+      "role": "Trail Runner and Climber"
+    },
+    "relatedNeighborhoods": ["barton-hills", "zilker", "west-austin"],
+    "relatedProperties": {
+      "type": "Home near trails or water",
+      "priceRange": "$450K - $1M",
+      "features": ["Near Greenbelt access", "Close to Lady Bird Lake", "Outdoor storage", "Active neighborhood"]
+    },
+    "seoKeywords": ["outdoor activities austin", "hiking austin", "swimming holes austin", "active lifestyle austin"],
+    "callToAction": {
+      "title": "Find Your Adventure Home",
+      "description": "Let us help you find a home with trail access, lake proximity, or Hill Country views.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  },
+  {
+    "slug": "music-lover",
+    "title": "Music Lover in Austin",
+    "headline": "Live in the Live Music Capital of the World",
+    "description": "Austin's legendary music scene offers live performances every night across hundreds of venues in every genre.",
+    "intro": "Austin didn't earn its 'Live Music Capital of the World' title by accident. On any given night, over 250 live music venues across the city host performances spanning every genre—from country honky-tonks to indie rock clubs, jazz lounges to hip-hop showcases, blues bars to electronic dance venues. For music lovers, living in Austin means your favorite artist will come to you, your local bar has live music, and discovering your next favorite band is as easy as walking down the street.",
+    "sections": [
+      {
+        "title": "Venue Landscape",
+        "content": "Austin's music venues range from intimate to massive. ACL Live at the Moody Theater hosts major acts. Stubb's and Emo's anchor the Red River scene. The Continental Club is a South Congress institution. The White Horse keeps honky-tonk alive. Antone's is a blues legend. The Paramount and State theaters offer elegant performances. And thousands of bars and restaurants feature live music nightly.",
+        "highlights": ["250+ live music venues", "ACL Live for major acts", "Red River for indie/rock", "Continental Club for legendary shows"]
+      },
+      {
+        "title": "Festivals and Events",
+        "content": "SXSW and ACL Festival are the headliners, but Austin's festival calendar runs year-round. Old Settler's for Americana, Levitation for psych rock, Hot Luck for food-and-music convergence, and dozens of smaller festivals fill the calendar. Free concerts in parks, venue anniversary shows, and secret pop-up performances keep the scene exciting and accessible.",
+        "highlights": ["SXSW in March", "ACL Fest in October", "Free concerts year-round", "Genre-specific festivals"]
+      },
+      {
+        "title": "Music Neighborhoods",
+        "content": "South Congress and South Lamar are anchored by the Continental Club and iconic venues. East 6th Street has evolved into a craft cocktail and music corridor. Red River Street is Austin's indie rock epicenter. Rainey Street offers music in a more upscale setting. And neighborhood bars across the city feature talent that would headline in other cities.",
+        "highlights": ["South Congress for legends", "Red River for indie/rock", "East 6th for discovery", "Every neighborhood has live music"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Live Music Every Night",
+        "description": "250+ venues mean there's always something playing in every genre, every night of the week.",
+        "icon": "music"
+      },
+      {
+        "title": "World-Class Festivals",
+        "description": "SXSW, ACL, and dozens of festivals bring global talent to your city.",
+        "icon": "festival"
+      },
+      {
+        "title": "Discover New Artists",
+        "description": "Austin is where artists are born—catch the next big thing at a small venue for $10.",
+        "icon": "discovery"
+      },
+      {
+        "title": "Music Community",
+        "description": "Join a city that doesn't just consume music but creates, supports, and celebrates it.",
+        "icon": "community"
+      }
+    ],
+    "testimonial": {
+      "quote": "I've seen more incredible live shows in two years here than in a decade in my old city. Last month I saw a Grammy winner at a 200-person venue. That's Austin.",
+      "author": "Rachel Morrison",
+      "role": "Music Lover, East Austin"
+    },
+    "relatedNeighborhoods": ["east-austin", "south-congress", "downtown"],
+    "relatedProperties": {
+      "type": "Condo or home near venues",
+      "priceRange": "$350K - $750K",
+      "features": ["Walking distance to venues", "Urban neighborhood", "Nightlife access", "Walkable area"]
+    },
+    "seoKeywords": ["live music austin", "music scene austin", "best music city", "austin music venues"],
+    "callToAction": {
+      "title": "Find Your Music District Home",
+      "description": "Let us help you find a home in the heart of Austin's legendary music scene.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  },
+  {
+    "slug": "empty-nester-hill-country",
+    "title": "Empty Nester in Hill Country",
+    "headline": "Downsize to Lake Views and Hill Country Sunsets",
+    "description": "Austin's Hill Country and lake communities offer empty nesters scenic beauty, active lifestyle, and close proximity to the city.",
+    "intro": "With the kids launched and the big house feeling too big, Austin's Hill Country and lake communities beckon with a different kind of living. Imagine waking to Hill Country views, spending mornings on Lake Travis, and being 30 minutes from downtown Austin's culture, dining, and healthcare. Communities like Lakeway, Bee Cave, Dripping Springs, and Lake Travis offer the scenic beauty of the Texas Hill Country with the convenience of Austin just down the road.",
+    "sections": [
+      {
+        "title": "Hill Country Communities",
+        "content": "Lakeway offers golf, lake access, and resort-style living. Bee Cave and the Hill Country Galleria provide upscale suburban convenience. Dripping Springs—the 'Gateway to the Hill Country'—offers small-town charm with wineries and distilleries. Spicewood and Marble Falls extend further into the Hill Country for those seeking more rural tranquility. Each community offers a different balance of amenities and solitude.",
+        "highlights": ["Lakeway for golf and lake life", "Bee Cave for upscale convenience", "Dripping Springs for Hill Country charm", "Multiple lake communities available"]
+      },
+      {
+        "title": "Active Lifestyle",
+        "content": "Empty nesters in the Hill Country stay active with golf, lake sports, hiking, and cycling. Lake Travis and Lake Austin provide boating and swimming. The Hill Country is increasingly known for its wine trail and craft distilleries. Community centers and social clubs create connections. The slower pace doesn't mean less to do—it means more time to do what you love.",
+        "highlights": ["Golf courses and country clubs", "Lake access for boating", "Hill Country wine trail", "Hiking and cycling trails"]
+      },
+      {
+        "title": "Proximity to Austin",
+        "content": "Hill Country living doesn't mean isolation. Most communities are 20-40 minutes from downtown Austin, providing easy access to restaurants, cultural events, medical specialists, and the airport. You get the best of both worlds—serene Hill Country living with big-city amenities when you want them.",
+        "highlights": ["20-40 minutes to downtown", "Easy airport access", "Major hospital proximity", "Austin dining and culture nearby"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Scenic Beauty",
+        "description": "Hill Country views, lake sunsets, and natural beauty that renews the soul daily.",
+        "icon": "landscape"
+      },
+      {
+        "title": "Active Living",
+        "description": "Golf, boating, hiking, wine tasting, and an active social scene keep life engaging.",
+        "icon": "activity"
+      },
+      {
+        "title": "Right-Sized Living",
+        "description": "Downsize from the big family home to a right-sized property that fits your new lifestyle.",
+        "icon": "home"
+      },
+      {
+        "title": "City Access",
+        "description": "Austin's restaurants, culture, healthcare, and airport are always just a short drive away.",
+        "icon": "city"
+      }
+    ],
+    "testimonial": {
+      "quote": "We sold our five-bedroom in North Austin and bought a lake house in Lakeway. We golf, boat, and have dinner in Austin whenever we want. This is the life we worked for.",
+      "author": "Mike & Susan Crawford",
+      "role": "Lakeway residents since 2021"
+    },
+    "relatedNeighborhoods": ["lakeway", "bee-cave", "dripping-springs"],
+    "relatedProperties": {
+      "type": "Lake home or Hill Country property",
+      "priceRange": "$500K - $1.5M",
+      "features": ["Lake views or access", "Low maintenance", "Community amenities", "Single story available"]
+    },
+    "seoKeywords": ["hill country living austin", "empty nester austin", "lakeway homes", "lake travis living"],
+    "callToAction": {
+      "title": "Find Your Hill Country Home",
+      "description": "Let us help you find the perfect lake or Hill Country property for your next chapter.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  },
+  {
+    "slug": "austin-foodie",
+    "title": "Austin Foodie",
+    "headline": "Live Where the Food Scene Never Stops Evolving",
+    "description": "Austin's food scene ranges from legendary BBQ to James Beard-winning restaurants, food trucks to fine dining.",
+    "intro": "Austin has quietly become one of America's most exciting food cities, with a scene that ranges from legendary barbecue and breakfast tacos to James Beard Award-winning fine dining and innovative food trucks. The city's creative spirit extends to its kitchens, where chefs blend Texas traditions with global influences to create something uniquely Austin. For foodies, living here means eating incredibly well—at every price point—every single day.",
+    "sections": [
+      {
+        "title": "Dining Landscape",
+        "content": "Austin's food scene defies easy categorization. James Beard winners like Uchi and Franklin Barbecue anchor the high end. Innovative restaurants like Suerte, Emmer & Rye, and Odd Duck push boundaries. Food truck parks like Cosmic Coffee and Fareground bring diverse cuisines to casual settings. The breakfast taco culture is sacred—Veracruz All Natural and Joe's Bakery are temples.",
+        "highlights": ["Multiple James Beard winners", "World's best barbecue", "Innovative fine dining scene", "Sacred breakfast taco culture"]
+      },
+      {
+        "title": "Foodie Neighborhoods",
+        "content": "East Austin is the epicenter of culinary innovation, with new restaurants opening regularly. South Lamar and South First offer acclaimed restaurants in walkable settings. South Congress blends dining with shopping and culture. Rainey Street combines food and nightlife. North Lamar has the city's best Asian dining corridor. Each neighborhood has its own culinary personality.",
+        "highlights": ["East Austin for cutting-edge dining", "South Lamar for restaurant row", "South Congress for variety", "North Lamar for Asian cuisine"]
+      },
+      {
+        "title": "Food Culture",
+        "content": "Austin's food culture goes beyond restaurants. The SFC Farmers Markets connect eaters to local farms. The Austin Food + Wine Festival celebrates the scene annually. Food trailers serve as launching pads for the next generation of chefs. And the community's passion for local, sustainable, creative food drives continuous innovation.",
+        "highlights": ["Strong farm-to-table movement", "Food truck incubator culture", "Annual food festivals", "Passionate food community"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "World-Class Dining",
+        "description": "From James Beard winners to food trucks, eat remarkably well at every price point.",
+        "icon": "dining"
+      },
+      {
+        "title": "BBQ Capital",
+        "description": "Home to the world's best barbecue—Franklin, La Barbecue, Terry Black's, and many more.",
+        "icon": "bbq"
+      },
+      {
+        "title": "Food Innovation",
+        "description": "Austin's creative spirit produces restaurants and food concepts found nowhere else.",
+        "icon": "innovation"
+      },
+      {
+        "title": "Accessible Prices",
+        "description": "Exceptional food at prices well below comparable scenes in NYC, LA, or SF.",
+        "icon": "money"
+      }
+    ],
+    "testimonial": {
+      "quote": "I eat better here in a week than I did in a month in New York—and spend half as much. The food truck to fine dining pipeline is incredible.",
+      "author": "Maria Santos",
+      "role": "Food Writer, East Austin"
+    },
+    "relatedNeighborhoods": ["east-austin", "south-lamar", "south-congress"],
+    "relatedProperties": {
+      "type": "Home in dining district",
+      "priceRange": "$400K - $800K",
+      "features": ["Walkable to restaurants", "Near food corridors", "Urban setting", "Kitchen for entertaining"]
+    },
+    "seoKeywords": ["austin food scene", "best restaurants austin", "foodie austin", "dining austin neighborhoods"],
+    "callToAction": {
+      "title": "Find Your Foodie Home Base",
+      "description": "Let us help you find a home in the heart of Austin's incredible dining scene.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  },
+  {
+    "slug": "remote-worker",
+    "title": "Remote Worker in Austin",
+    "headline": "Work From Anywhere—So Why Not Austin?",
+    "description": "Austin offers remote workers exceptional quality of life, no state income tax, and a thriving creative community.",
+    "intro": "The remote work revolution has untethered millions from their office zip codes, and Austin has emerged as one of the top destinations for this new workforce. The reasoning is compelling: no state income tax (keeping more of your remote salary), exceptional quality of life, a thriving creative and social scene, reliable infrastructure, and a cost of living that—while growing—still beats the coastal cities many remote workers are fleeing. Austin rewards the freedom of remote work with a life worth living.",
+    "sections": [
+      {
+        "title": "Infrastructure and Connectivity",
+        "content": "Austin's tech heritage means excellent internet infrastructure across the city. Google Fiber, AT&T Fiber, and Spectrum provide reliable high-speed options. Co-working spaces like WeWork, Industrious, and local options provide professional workspace when needed. Coffee shops like Epoch (24 hours!), Houndstooth, and Merit serve as unofficial offices with strong WiFi and good coffee.",
+        "highlights": ["Google Fiber available", "Multiple high-speed providers", "Co-working spaces citywide", "Coffee shop offices abundant"]
+      },
+      {
+        "title": "Quality of Life",
+        "content": "The real value proposition of remote-working from Austin isn't just financial—it's experiential. Close your laptop and be swimming at Barton Springs in 15 minutes. Walk to live music on a Tuesday. Grab breakfast tacos from a world-class food truck. The quality of daily life in Austin justifies the move even before you calculate the tax savings.",
+        "highlights": ["Barton Springs after work", "Live music on weeknights", "World-class food daily", "Year-round outdoor lifestyle"]
+      },
+      {
+        "title": "Community and Networking",
+        "content": "Remote work can be isolating, but Austin's social fabric makes it easy to build connections. The tech community hosts regular meetups and events. Co-working spaces create professional networks. The live music, bar, and restaurant scenes provide natural social environments. Running clubs, cycling groups, and outdoor activities create fitness-based friendships.",
+        "highlights": ["Tech meetups and events", "Co-working community", "Active social scene", "Fitness and outdoor groups"]
+      }
+    ],
+    "benefits": [
+      {
+        "title": "No State Income Tax",
+        "description": "Keep 100% of what you'd lose to state income tax—potentially saving $10K-$30K+ annually.",
+        "icon": "tax"
+      },
+      {
+        "title": "Exceptional Quality of Life",
+        "description": "Swimming holes, live music, food trucks, and sunshine—your after-work life just got a massive upgrade.",
+        "icon": "lifestyle"
+      },
+      {
+        "title": "Strong Infrastructure",
+        "description": "Reliable high-speed internet, co-working options, and coffee shops designed for working.",
+        "icon": "wifi"
+      },
+      {
+        "title": "Social Scene",
+        "description": "Austin's friendly culture and abundant social options make building community easy.",
+        "icon": "community"
+      }
+    ],
+    "testimonial": {
+      "quote": "My company is in NYC. My salary is NYC. My taxes and cost of living are Austin. And I paddleboard on my lunch break. I'll never go back to an office.",
+      "author": "Alexis Johnson",
+      "role": "Product Manager, Remote since 2021"
+    },
+    "relatedNeighborhoods": ["east-austin", "south-congress", "downtown"],
+    "relatedProperties": {
+      "type": "Home or condo with office space",
+      "priceRange": "$350K - $700K",
+      "features": ["Dedicated home office", "High-speed internet", "Walkable neighborhood", "Near co-working options"]
+    },
+    "seoKeywords": ["remote work austin", "work from home austin", "digital nomad austin", "moving to austin remote"],
+    "faqs": [
+      {
+        "question": "How's the internet in Austin?",
+        "answer": "Excellent—Google Fiber, AT&T Fiber, and Spectrum provide reliable high-speed options throughout the city."
+      },
+      {
+        "question": "How much can I save on taxes?",
+        "answer": "With no state income tax, a remote worker earning $150K saves approximately $7-15K+ annually compared to California, New York, or other high-tax states."
+      }
+    ],
+    "callToAction": {
+      "title": "Find Your Remote Work Home Base",
+      "description": "Let us help you find the perfect Austin home for your remote work lifestyle.",
+      "buttonText": "Schedule Consultation",
+      "buttonLink": "/contact"
+    }
+  }
+]

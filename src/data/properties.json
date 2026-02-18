@@ -1,0 +1,1279 @@
+{
+  "properties": [
+    {
+      "id": "westlake-hills-estate",
+      "slug": "westlake-hills-estate",
+      "status": "sold",
+      "featured": true,
+      "name": "Westlake Hills Estate",
+      "tagline": "Panoramic Hill Country Views from Every Room",
+      "description": "Experience the ultimate in luxury living at this stunning Westlake Hills estate. This 6-bedroom home offers panoramic Hill Country views from every room, a resort-style infinity pool, and mature live oak trees throughout the property. A rare opportunity to own one of Westlake's most prestigious addresses.",
+      "shortDescription": "6BR estate with Hill Country views, infinity pool, and live oak canopy",
+      "location": {
+        "address": "4200 Westlake Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78746",
+        "coordinates": { "lat": 30.3077, "lng": -97.8012 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Westlake Hills"
+      },
+      "specs": {
+        "bedrooms": 6,
+        "bathrooms": 7,
+        "sqft": 6200,
+        "lotSize": "1.2 acres",
+        "yearBuilt": 2019,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 2950000,
+        "pricePerSqft": 476,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 18
+      },
+      "saleDate": "2024-11-15",
+      "salePrice": 2900000,
+      "daysToSell": 24,
+      "features": {
+        "highlights": ["Hill Country Views", "Infinity Pool", "Live Oak Canopy", "Gated Entry"],
+        "outdoor": ["Infinity pool with spa", "Outdoor kitchen", "Covered patio with fireplace", "Mature live oaks", "Sport court", "3-car garage"],
+        "indoor": ["Gourmet kitchen with Sub-Zero/Wolf", "Wine cellar", "Smart home system", "12-ft ceilings", "Home theater", "Study with built-ins"],
+        "investment": ["Eanes ISD", "Premium Location", "Low Density Area"]
+      },
+      "images": {
+        "hero": "/images/properties/westlake-hills-estate/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/westlake-hills-estate/living.jpg", "alt": "Open living room with Hill Country views", "category": "interior" },
+          { "src": "/images/properties/westlake-hills-estate/pool.jpg", "alt": "Infinity pool overlooking the hills", "category": "outdoor" },
+          { "src": "/images/properties/westlake-hills-estate/master.jpg", "alt": "Primary suite with panoramic views", "category": "interior" },
+          { "src": "/images/properties/westlake-hills-estate/kitchen.jpg", "alt": "Gourmet chef's kitchen", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Stone/Stucco",
+        "roof": "Standing Seam Metal",
+        "parking": "3 Car Garage",
+        "hvac": "Central A/C (3 zones)",
+        "hoa": "$150/month"
+      },
+      "seo": {
+        "title": "Westlake Hills Estate | Luxury Home Sold in Austin",
+        "description": "Luxury 6BR estate with Hill Country views, infinity pool, and live oak canopy in Westlake Hills, Austin TX. Sold for $2,900,000. View our portfolio."
+      }
+    },
+    {
+      "id": "tarrytown-craftsman",
+      "slug": "tarrytown-craftsman",
+      "status": "sold",
+      "featured": true,
+      "name": "Tarrytown Craftsman",
+      "tagline": "Classic Elegance in Austin's Most Coveted Neighborhood",
+      "description": "This beautifully restored Craftsman in the heart of Tarrytown blends period charm with modern luxury. Steps from Lake Austin and the Hike-and-Bike Trail, this 5-bedroom home features original hardwood floors, a chef's kitchen, and a private backyard oasis with mature pecan trees.",
+      "shortDescription": "5BR restored Craftsman near Lake Austin with chef's kitchen",
+      "location": {
+        "address": "2415 Townes Lane",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78703",
+        "coordinates": { "lat": 30.2966, "lng": -97.7739 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Tarrytown"
+      },
+      "specs": {
+        "bedrooms": 5,
+        "bathrooms": 4.5,
+        "sqft": 4200,
+        "lotSize": "0.32 acres",
+        "yearBuilt": 1952,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 2195000,
+        "pricePerSqft": 523,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 10
+      },
+      "saleDate": "2024-10-22",
+      "salePrice": 2250000,
+      "daysToSell": 14,
+      "features": {
+        "highlights": ["Restored Craftsman", "Near Lake Austin", "Mature Pecan Trees", "Chef's Kitchen"],
+        "outdoor": ["Saltwater pool", "Outdoor fireplace", "Covered porch", "Mature pecan trees", "Landscaped gardens"],
+        "indoor": ["Original hardwood floors", "Chef's kitchen", "Custom built-ins", "Formal dining", "Sunroom"],
+        "investment": ["Austin ISD", "Walk to Lake Austin", "Historic Character"]
+      },
+      "images": {
+        "hero": "/images/properties/tarrytown-craftsman/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/tarrytown-craftsman/living.jpg", "alt": "Living room with original hardwoods", "category": "interior" },
+          { "src": "/images/properties/tarrytown-craftsman/backyard.jpg", "alt": "Backyard with pool and pecan trees", "category": "outdoor" },
+          { "src": "/images/properties/tarrytown-craftsman/kitchen.jpg", "alt": "Renovated chef's kitchen", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame/Stone",
+        "roof": "Composition Shingle",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Tarrytown Craftsman | Classic Austin Home Sold",
+        "description": "Restored 5BR Craftsman with pool and mature trees near Lake Austin in Tarrytown, Austin TX. Sold for $2,250,000. View our portfolio."
+      }
+    },
+    {
+      "id": "barton-creek-lakefront",
+      "slug": "barton-creek-lakefront",
+      "status": "sold",
+      "featured": true,
+      "name": "Barton Creek Lakefront",
+      "tagline": "Where Luxury Meets the Water",
+      "description": "A breathtaking lakefront estate in the exclusive Barton Creek community. This 5-bedroom modern Mediterranean features a private boat dock, panoramic lake views, and resort-style outdoor living. Membership to Barton Creek Country Club available with purchase.",
+      "shortDescription": "5BR lakefront estate with boat dock and country club access",
+      "location": {
+        "address": "8712 Lakecliff Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78735",
+        "coordinates": { "lat": 30.2732, "lng": -97.8425 },
+        "distanceToLake": "Lakefront",
+        "neighborhood": "Barton Creek"
+      },
+      "specs": {
+        "bedrooms": 5,
+        "bathrooms": 6,
+        "sqft": 5800,
+        "lotSize": "0.85 acres",
+        "yearBuilt": 2017,
+        "floors": 3
+      },
+      "pricing": {
+        "listPrice": 3200000,
+        "pricePerSqft": 552,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 22
+      },
+      "saleDate": "2024-12-01",
+      "salePrice": 3150000,
+      "daysToSell": 28,
+      "features": {
+        "highlights": ["Lakefront", "Private Boat Dock", "Country Club Access", "Panoramic Views"],
+        "outdoor": ["Private boat dock", "Infinity edge pool", "Outdoor kitchen with pizza oven", "Fire pit terrace", "Multiple viewing decks"],
+        "indoor": ["Floor-to-ceiling lake views", "Wine grotto", "Home gym", "Chef's kitchen", "Elevator"],
+        "investment": ["Eanes ISD", "Gated Community", "Country Club Membership Available"]
+      },
+      "images": {
+        "hero": "/images/properties/barton-creek-lakefront/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/barton-creek-lakefront/lake-view.jpg", "alt": "Panoramic lake views from great room", "category": "interior" },
+          { "src": "/images/properties/barton-creek-lakefront/dock.jpg", "alt": "Private boat dock on Lake Austin", "category": "outdoor" },
+          { "src": "/images/properties/barton-creek-lakefront/pool.jpg", "alt": "Infinity pool with lake backdrop", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Stone/Stucco",
+        "roof": "Clay Tile",
+        "parking": "3 Car Garage",
+        "hvac": "Central A/C (4 zones)",
+        "hoa": "$500/month"
+      },
+      "seo": {
+        "title": "Barton Creek Lakefront | Lake Austin Estate Sold",
+        "description": "Lakefront 5BR estate with boat dock and country club access in Barton Creek, Austin TX. Sold for $3,150,000. View our portfolio."
+      }
+    },
+    {
+      "id": "downtown-penthouse",
+      "slug": "downtown-penthouse",
+      "status": "sold",
+      "featured": true,
+      "name": "The Austonian Penthouse",
+      "tagline": "Elevated Luxury Above the Austin Skyline",
+      "description": "Perched atop one of Austin's most iconic towers, this 3-bedroom penthouse offers unobstructed 270-degree views of Lady Bird Lake, the Capitol, and the Hill Country. Floor-to-ceiling windows, a private terrace, and access to world-class amenities define this exceptional residence.",
+      "shortDescription": "3BR penthouse with panoramic skyline views and resort amenities",
+      "location": {
+        "address": "200 Congress Avenue, PH3",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "coordinates": { "lat": 30.2644, "lng": -97.7437 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Downtown Austin"
+      },
+      "specs": {
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "sqft": 3400,
+        "lotSize": "N/A",
+        "yearBuilt": 2010,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 2495000,
+        "pricePerSqft": 734,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 8
+      },
+      "saleDate": "2024-09-15",
+      "salePrice": 2500000,
+      "daysToSell": 12,
+      "features": {
+        "highlights": ["Penthouse", "270-Degree Views", "Private Terrace", "Resort Amenities"],
+        "outdoor": ["Private terrace", "Rooftop pool access", "Sky lounge"],
+        "indoor": ["Floor-to-ceiling windows", "Italian marble floors", "Bespoke cabinetry", "Smart home system"],
+        "investment": ["Walk to Everything", "Concierge Services", "Lock-and-Leave Lifestyle"]
+      },
+      "images": {
+        "hero": "/images/properties/downtown-penthouse/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/downtown-penthouse/view.jpg", "alt": "Panoramic skyline and Capitol views", "category": "interior" },
+          { "src": "/images/properties/downtown-penthouse/terrace.jpg", "alt": "Private terrace with city views", "category": "outdoor" },
+          { "src": "/images/properties/downtown-penthouse/master.jpg", "alt": "Primary suite with lake views", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Condo",
+        "construction": "Concrete/Steel",
+        "roof": "Flat/Built-up",
+        "parking": "3 Assigned Spaces",
+        "hvac": "Central A/C",
+        "hoa": "$1,800/month"
+      },
+      "seo": {
+        "title": "The Austonian Penthouse | Luxury Condo Sold in Downtown Austin",
+        "description": "Exclusive 3BR penthouse with panoramic skyline views and resort amenities in Downtown Austin, TX. Sold for $2,500,000. View our portfolio."
+      }
+    },
+    {
+      "id": "mueller-modern",
+      "slug": "mueller-modern",
+      "status": "sold",
+      "featured": true,
+      "name": "Mueller Modern Farmhouse",
+      "tagline": "New Urbanism Meets Texas Modern",
+      "description": "This stunning modern farmhouse in the award-winning Mueller development combines clean lines with warm Texas character. Featuring an open floor plan, chef's kitchen, and a beautifully landscaped yard steps from Mueller Lake Park and the Thinkery children's museum.",
+      "shortDescription": "4BR modern farmhouse in walkable Mueller community",
+      "location": {
+        "address": "1905 Zach Scott Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78723",
+        "coordinates": { "lat": 30.2981, "lng": -97.7055 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Mueller"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "sqft": 2800,
+        "lotSize": "0.12 acres",
+        "yearBuilt": 2020,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 750000,
+        "pricePerSqft": 268,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 6
+      },
+      "saleDate": "2024-10-05",
+      "salePrice": 775000,
+      "daysToSell": 10,
+      "features": {
+        "highlights": ["Modern Farmhouse", "Walkable Community", "Near Mueller Lake Park", "Energy Efficient"],
+        "outdoor": ["Covered back porch", "Landscaped yard", "Drought-tolerant plants", "Outdoor dining area"],
+        "indoor": ["Open floor plan", "Chef's kitchen with quartz counters", "Owner's suite with walk-in closet", "Mudroom"],
+        "investment": ["Mueller Community", "Walk to Dining/Shopping", "Strong Appreciation"]
+      },
+      "images": {
+        "hero": "/images/properties/mueller-modern/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/mueller-modern/living.jpg", "alt": "Open living and dining with modern finishes", "category": "interior" },
+          { "src": "/images/properties/mueller-modern/kitchen.jpg", "alt": "Chef's kitchen with island", "category": "interior" },
+          { "src": "/images/properties/mueller-modern/porch.jpg", "alt": "Covered back porch", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame/Hardie Board",
+        "roof": "Metal",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "$85/month"
+      },
+      "seo": {
+        "title": "Mueller Modern Farmhouse | Austin Home Sold in Mueller",
+        "description": "Modern farmhouse 4BR home in walkable Mueller community, Austin TX. Sold for $775,000. View our portfolio."
+      }
+    },
+    {
+      "id": "zilker-bungalow",
+      "slug": "zilker-bungalow",
+      "status": "sold",
+      "featured": false,
+      "name": "Zilker Park Bungalow",
+      "tagline": "Live Steps from Barton Springs",
+      "description": "A beautifully updated 1940s bungalow in the heart of Zilker, just blocks from Barton Springs Pool and Zilker Park. This charming 3-bedroom home blends original character with a modern addition, featuring a stunning open kitchen and a shaded backyard perfect for entertaining.",
+      "shortDescription": "3BR updated bungalow blocks from Barton Springs and Zilker Park",
+      "location": {
+        "address": "1712 Treadwell Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "coordinates": { "lat": 30.2614, "lng": -97.7702 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Zilker"
+      },
+      "specs": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1850,
+        "lotSize": "0.18 acres",
+        "yearBuilt": 1948,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 895000,
+        "pricePerSqft": 484,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 4
+      },
+      "saleDate": "2024-08-20",
+      "salePrice": 925000,
+      "daysToSell": 7,
+      "features": {
+        "highlights": ["Near Barton Springs", "Updated Bungalow", "Shaded Lot", "Walk to Zilker Park"],
+        "outdoor": ["Shaded backyard", "String-lit patio", "Raised garden beds", "Privacy fence"],
+        "indoor": ["Original hardwood floors", "Modern open kitchen", "Clawfoot tub", "Built-in bookshelves"],
+        "investment": ["Zilker Location", "Strong Appreciation", "Rental Potential"]
+      },
+      "images": {
+        "hero": "/images/properties/zilker-bungalow/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/zilker-bungalow/living.jpg", "alt": "Charming living room with hardwoods", "category": "interior" },
+          { "src": "/images/properties/zilker-bungalow/backyard.jpg", "alt": "Shaded backyard with patio", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame",
+        "roof": "Composition Shingle",
+        "parking": "1 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Zilker Park Bungalow | Charming Austin Home Sold",
+        "description": "Updated 3BR bungalow blocks from Barton Springs and Zilker Park in Austin, TX. Sold for $925,000. View our portfolio."
+      }
+    },
+    {
+      "id": "hyde-park-victorian",
+      "slug": "hyde-park-victorian",
+      "status": "sold",
+      "featured": false,
+      "name": "Hyde Park Victorian",
+      "tagline": "Historic Elegance in Austin's First Suburb",
+      "description": "A stately Victorian in the heart of Hyde Park, Austin's beloved historic neighborhood. This 4-bedroom home has been meticulously maintained and updated, featuring a wraparound front porch, original millwork, soaring ceilings, and a detached studio perfect for a home office.",
+      "shortDescription": "4BR Victorian with wraparound porch and detached studio",
+      "location": {
+        "address": "4105 Avenue G",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78751",
+        "coordinates": { "lat": 30.3055, "lng": -97.7314 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Hyde Park"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "sqft": 2600,
+        "lotSize": "0.22 acres",
+        "yearBuilt": 1915,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 785000,
+        "pricePerSqft": 302,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 14
+      },
+      "saleDate": "2024-09-28",
+      "salePrice": 790000,
+      "daysToSell": 18,
+      "features": {
+        "highlights": ["Historic Victorian", "Wraparound Porch", "Detached Studio", "Walk to UT"],
+        "outdoor": ["Wraparound front porch", "Fenced backyard", "Detached studio/office", "Mature shade trees"],
+        "indoor": ["Original millwork and trim", "10-ft ceilings", "Updated kitchen", "Claw-foot tub", "Stained glass accents"],
+        "investment": ["Historic Neighborhood", "Near UT Campus", "Strong Rental Market"]
+      },
+      "images": {
+        "hero": "/images/properties/hyde-park-victorian/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/hyde-park-victorian/porch.jpg", "alt": "Wraparound front porch", "category": "outdoor" },
+          { "src": "/images/properties/hyde-park-victorian/living.jpg", "alt": "Living room with original details", "category": "interior" },
+          { "src": "/images/properties/hyde-park-victorian/studio.jpg", "alt": "Detached studio office", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame",
+        "roof": "Metal",
+        "parking": "Detached Garage",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Hyde Park Victorian | Historic Austin Home Sold",
+        "description": "Stately 4BR Victorian with wraparound porch and detached studio in Hyde Park, Austin TX. Sold for $790,000. View our portfolio."
+      }
+    },
+    {
+      "id": "south-congress-loft",
+      "slug": "south-congress-loft",
+      "status": "sold",
+      "featured": false,
+      "name": "SoCo Industrial Loft",
+      "tagline": "Urban Living on Austin's Most Iconic Street",
+      "description": "An exceptional loft-style condo steps from South Congress Avenue's legendary shops, restaurants, and live music venues. Soaring 16-foot ceilings, exposed brick walls, polished concrete floors, and a private rooftop deck with stunning downtown skyline views.",
+      "shortDescription": "2BR industrial loft with rooftop deck on South Congress",
+      "location": {
+        "address": "1600 South Congress Avenue, Unit 401",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "coordinates": { "lat": 30.2488, "lng": -97.7489 },
+        "distanceToLake": "N/A",
+        "neighborhood": "South Congress"
+      },
+      "specs": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1650,
+        "lotSize": "N/A",
+        "yearBuilt": 2015,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 525000,
+        "pricePerSqft": 318,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 12
+      },
+      "saleDate": "2024-11-02",
+      "salePrice": 535000,
+      "daysToSell": 16,
+      "features": {
+        "highlights": ["SoCo Location", "Rooftop Deck", "Exposed Brick", "Skyline Views"],
+        "outdoor": ["Private rooftop deck", "Downtown skyline views", "Community courtyard"],
+        "indoor": ["16-ft ceilings", "Exposed brick walls", "Polished concrete floors", "Open kitchen"],
+        "investment": ["Walk to SoCo", "Urban Lifestyle", "Strong Appreciation"]
+      },
+      "images": {
+        "hero": "/images/properties/south-congress-loft/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/south-congress-loft/living.jpg", "alt": "Loft living with exposed brick", "category": "interior" },
+          { "src": "/images/properties/south-congress-loft/rooftop.jpg", "alt": "Rooftop deck with skyline views", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Condo",
+        "construction": "Concrete/Steel",
+        "roof": "Flat",
+        "parking": "1 Assigned Space",
+        "hvac": "Central A/C",
+        "hoa": "$450/month"
+      },
+      "seo": {
+        "title": "SoCo Industrial Loft | South Congress Condo Sold in Austin",
+        "description": "Loft-style 2BR condo with rooftop deck and skyline views on South Congress, Austin TX. Sold for $535,000. View our portfolio."
+      }
+    },
+    {
+      "id": "east-austin-modern",
+      "slug": "east-austin-modern",
+      "status": "sold",
+      "featured": false,
+      "name": "East Austin Modern",
+      "tagline": "Contemporary Design in Austin's Hottest Neighborhood",
+      "description": "A striking contemporary home on East Cesar Chavez, the epicenter of Austin's creative renaissance. This 3-bedroom home features walls of glass, a stunning courtyard with lap pool, rooftop deck with downtown views, and walkability to East Austin's best restaurants and galleries.",
+      "shortDescription": "3BR contemporary with courtyard pool and rooftop deck",
+      "location": {
+        "address": "1811 East Cesar Chavez Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78702",
+        "coordinates": { "lat": 30.2558, "lng": -97.7268 },
+        "distanceToLake": "N/A",
+        "neighborhood": "East Austin"
+      },
+      "specs": {
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "sqft": 2400,
+        "lotSize": "0.1 acres",
+        "yearBuilt": 2022,
+        "floors": 3
+      },
+      "pricing": {
+        "listPrice": 875000,
+        "pricePerSqft": 365,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 9
+      },
+      "saleDate": "2024-10-18",
+      "salePrice": 885000,
+      "daysToSell": 14,
+      "features": {
+        "highlights": ["Contemporary Design", "Courtyard Pool", "Rooftop Deck", "Walk to Restaurants"],
+        "outdoor": ["Courtyard lap pool", "Rooftop deck with skyline views", "Low-maintenance xeriscaping"],
+        "indoor": ["Walls of glass", "Floating staircase", "Chef's kitchen", "Polished concrete floors"],
+        "investment": ["East Austin Location", "Walk Score 90+", "Strong Appreciation"]
+      },
+      "images": {
+        "hero": "/images/properties/east-austin-modern/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/east-austin-modern/courtyard.jpg", "alt": "Courtyard with lap pool", "category": "outdoor" },
+          { "src": "/images/properties/east-austin-modern/living.jpg", "alt": "Open living with walls of glass", "category": "interior" },
+          { "src": "/images/properties/east-austin-modern/rooftop.jpg", "alt": "Rooftop deck with downtown views", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Steel/Stucco",
+        "roof": "Flat/TPO",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "East Austin Modern | Contemporary Home Sold in East Austin",
+        "description": "Striking 3BR contemporary with courtyard pool and rooftop deck in East Austin, TX. Sold for $885,000. View our portfolio."
+      }
+    },
+    {
+      "id": "allandale-ranch",
+      "slug": "allandale-ranch",
+      "status": "sold",
+      "featured": false,
+      "name": "Allandale Mid-Century Ranch",
+      "tagline": "Timeless Design in a Tree-Lined Neighborhood",
+      "description": "A lovingly restored mid-century ranch in the heart of Allandale, one of Austin's most desirable neighborhoods. This 3-bedroom home features an open floor plan, walls of windows overlooking mature oaks, and a sparkling pool. Walk to local favorites like Brentwood Social House.",
+      "shortDescription": "3BR mid-century ranch with pool in tree-lined Allandale",
+      "location": {
+        "address": "5505 Shoalwood Avenue",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78756",
+        "coordinates": { "lat": 30.3292, "lng": -97.7381 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Allandale"
+      },
+      "specs": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1950,
+        "lotSize": "0.2 acres",
+        "yearBuilt": 1957,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 650000,
+        "pricePerSqft": 333,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 7
+      },
+      "saleDate": "2024-07-15",
+      "salePrice": 660000,
+      "daysToSell": 11,
+      "features": {
+        "highlights": ["Mid-Century Design", "Pool", "Mature Oak Trees", "Walkable"],
+        "outdoor": ["Sparkling pool", "Covered patio", "Mature live oaks", "Privacy fence"],
+        "indoor": ["Open floor plan", "Walls of windows", "Restored terrazzo floors", "Updated kitchen"],
+        "investment": ["Allandale Location", "Walk to Shops/Dining", "Strong Schools"]
+      },
+      "images": {
+        "hero": "/images/properties/allandale-ranch/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/allandale-ranch/pool.jpg", "alt": "Backyard pool under live oaks", "category": "outdoor" },
+          { "src": "/images/properties/allandale-ranch/living.jpg", "alt": "Mid-century living room", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Brick/Wood Frame",
+        "roof": "Composition Shingle",
+        "parking": "1 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Allandale Mid-Century Ranch | Austin Home Sold",
+        "description": "Restored 3BR mid-century ranch with pool in tree-lined Allandale, Austin TX. Sold for $660,000. View our portfolio."
+      }
+    },
+    {
+      "id": "travis-heights-retreat",
+      "slug": "travis-heights-retreat",
+      "status": "sold",
+      "featured": false,
+      "name": "Travis Heights Treehouse",
+      "tagline": "An Urban Retreat in the Treetops",
+      "description": "Nestled among towering live oaks on a quiet Travis Heights street, this 4-bedroom home feels like a treehouse retreat while being minutes from downtown and South Congress. The multi-level design offers incredible privacy, canopy views, and a zen-inspired backyard with hot tub and fire pit.",
+      "shortDescription": "4BR multi-level retreat in the trees of Travis Heights",
+      "location": {
+        "address": "1106 Travis Heights Boulevard",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "coordinates": { "lat": 30.2440, "lng": -97.7473 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Travis Heights"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "sqft": 3100,
+        "lotSize": "0.25 acres",
+        "yearBuilt": 2005,
+        "floors": 3
+      },
+      "pricing": {
+        "listPrice": 1195000,
+        "pricePerSqft": 385,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 15
+      },
+      "saleDate": "2024-08-30",
+      "salePrice": 1175000,
+      "daysToSell": 21,
+      "features": {
+        "highlights": ["Treehouse Feel", "Downtown Views", "Hot Tub", "Walkable to SoCo"],
+        "outdoor": ["Hot tub", "Fire pit", "Zen garden", "Multiple decks", "Live oak canopy"],
+        "indoor": ["Multi-level design", "Walls of glass", "Owner's suite with balcony", "Home office"],
+        "investment": ["Travis Heights Premium", "Near South Congress", "Established Trees"]
+      },
+      "images": {
+        "hero": "/images/properties/travis-heights-retreat/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/travis-heights-retreat/deck.jpg", "alt": "Deck among the treetops", "category": "outdoor" },
+          { "src": "/images/properties/travis-heights-retreat/living.jpg", "alt": "Living room with canopy views", "category": "interior" },
+          { "src": "/images/properties/travis-heights-retreat/backyard.jpg", "alt": "Zen backyard with hot tub", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame/Stone",
+        "roof": "Metal",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Travis Heights Treehouse | Unique Austin Home Sold",
+        "description": "Multi-level 4BR retreat among live oaks in Travis Heights, Austin TX. Sold for $1,175,000. View our portfolio."
+      }
+    },
+    {
+      "id": "lake-travis-villa",
+      "slug": "lake-travis-villa",
+      "status": "sold",
+      "featured": false,
+      "name": "Lake Travis Villa",
+      "tagline": "Lakeside Living at Its Finest",
+      "description": "A stunning waterfront villa perched above Lake Travis with breathtaking sunset views. This 4-bedroom Tuscan-inspired home features a resort-style pool with waterfall, boat dock with lift, and an open floor plan designed to capture lake views from every main room.",
+      "shortDescription": "4BR waterfront villa on Lake Travis with dock and pool",
+      "location": {
+        "address": "15200 Lakeshore Drive",
+        "city": "Lakeway",
+        "state": "TX",
+        "zip": "78734",
+        "coordinates": { "lat": 30.3565, "lng": -97.9488 },
+        "distanceToLake": "Lakefront",
+        "neighborhood": "Lakeway"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "sqft": 3800,
+        "lotSize": "0.6 acres",
+        "yearBuilt": 2016,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 1795000,
+        "pricePerSqft": 472,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 30
+      },
+      "saleDate": "2024-09-08",
+      "salePrice": 1750000,
+      "daysToSell": 38,
+      "features": {
+        "highlights": ["Lake Travis Waterfront", "Boat Dock with Lift", "Sunset Views", "Resort Pool"],
+        "outdoor": ["Pool with waterfall feature", "Boat dock with covered lift", "Outdoor kitchen", "Fire pit with lake views"],
+        "indoor": ["Open floor plan with lake views", "Gourmet kitchen", "Wine room", "Game room"],
+        "investment": ["Lakefront Property", "Lake Travis Location", "Vacation Rental Potential"]
+      },
+      "images": {
+        "hero": "/images/properties/lake-travis-villa/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/lake-travis-villa/lake-view.jpg", "alt": "Sunset views over Lake Travis", "category": "outdoor" },
+          { "src": "/images/properties/lake-travis-villa/pool.jpg", "alt": "Resort pool with waterfall", "category": "outdoor" },
+          { "src": "/images/properties/lake-travis-villa/living.jpg", "alt": "Great room with lake views", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Stone/Stucco",
+        "roof": "Clay Tile",
+        "parking": "3 Car Garage",
+        "hvac": "Central A/C (2 zones)",
+        "hoa": "$275/month"
+      },
+      "seo": {
+        "title": "Lake Travis Villa | Waterfront Home Sold in Lakeway",
+        "description": "Waterfront 4BR villa with boat dock and sunset views on Lake Travis, Lakeway TX. Sold for $1,750,000. View our portfolio."
+      }
+    },
+    {
+      "id": "rosedale-cottage",
+      "slug": "rosedale-cottage",
+      "status": "sold",
+      "featured": false,
+      "name": "Rosedale Garden Cottage",
+      "tagline": "Storybook Charm in Central Austin",
+      "description": "A storybook cottage in the sought-after Rosedale neighborhood, this 3-bedroom gem features a charming front garden, updated interiors with original character, and one of Rosedale's famous tree-canopied streets. Steps from Ramsey Park and top-rated Rosedale School.",
+      "shortDescription": "3BR charming cottage with garden in walkable Rosedale",
+      "location": {
+        "address": "4511 Ramsey Avenue",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78756",
+        "coordinates": { "lat": 30.3210, "lng": -97.7408 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Rosedale"
+      },
+      "specs": {
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1700,
+        "lotSize": "0.17 acres",
+        "yearBuilt": 1952,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 625000,
+        "pricePerSqft": 368,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 5
+      },
+      "saleDate": "2024-06-15",
+      "salePrice": 640000,
+      "daysToSell": 8,
+      "features": {
+        "highlights": ["Charming Cottage", "Walk to Ramsey Park", "Tree-Canopied Street", "Top Schools"],
+        "outdoor": ["English garden front yard", "Private backyard", "Covered side porch", "Mature trees"],
+        "indoor": ["Updated kitchen", "Original hardwoods", "Breakfast nook", "Built-in shelving"],
+        "investment": ["Rosedale Location", "Top-Rated Schools", "Strong Demand"]
+      },
+      "images": {
+        "hero": "/images/properties/rosedale-cottage/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/rosedale-cottage/garden.jpg", "alt": "Charming front garden", "category": "outdoor" },
+          { "src": "/images/properties/rosedale-cottage/kitchen.jpg", "alt": "Updated cottage kitchen", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame",
+        "roof": "Composition Shingle",
+        "parking": "1 Car Carport",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Rosedale Garden Cottage | Charming Austin Home Sold",
+        "description": "Charming 3BR cottage with garden in walkable Rosedale, Austin TX. Sold for $640,000. View our portfolio."
+      }
+    },
+    {
+      "id": "downtown-condo",
+      "slug": "downtown-condo",
+      "status": "sold",
+      "featured": false,
+      "name": "Rainey Street High-Rise",
+      "tagline": "Live Where Austin Comes Alive",
+      "description": "A sleek 2-bedroom condo in a luxury high-rise on Rainey Street, Austin's most vibrant entertainment district. Floor-to-ceiling windows frame Lady Bird Lake and downtown views. Resort amenities include rooftop pool, fitness center, and resident lounge.",
+      "shortDescription": "2BR luxury high-rise condo with Lady Bird Lake views",
+      "location": {
+        "address": "70 Rainey Street, Unit 2205",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "coordinates": { "lat": 30.2570, "lng": -97.7395 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Downtown Austin"
+      },
+      "specs": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1350,
+        "lotSize": "N/A",
+        "yearBuilt": 2021,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 575000,
+        "pricePerSqft": 426,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 18
+      },
+      "saleDate": "2024-11-20",
+      "salePrice": 565000,
+      "daysToSell": 24,
+      "features": {
+        "highlights": ["Rainey Street", "Lake Views", "Rooftop Pool", "Modern Finishes"],
+        "outdoor": ["Rooftop pool", "Sky lounge", "Dog park"],
+        "indoor": ["Floor-to-ceiling windows", "Quartz countertops", "European cabinetry", "Hardwood floors"],
+        "investment": ["Rainey District", "Walk to Lady Bird Lake", "Lock-and-Leave"]
+      },
+      "images": {
+        "hero": "/images/properties/downtown-condo/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/downtown-condo/view.jpg", "alt": "Lady Bird Lake views", "category": "interior" },
+          { "src": "/images/properties/downtown-condo/kitchen.jpg", "alt": "Modern kitchen with lake views", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Condo",
+        "construction": "Concrete/Steel",
+        "roof": "Flat",
+        "parking": "1 Assigned Space",
+        "hvac": "Central A/C",
+        "hoa": "$650/month"
+      },
+      "seo": {
+        "title": "Rainey Street High-Rise | Downtown Austin Condo Sold",
+        "description": "Sleek 2BR condo with Lady Bird Lake views in Rainey Street high-rise, Austin TX. Sold for $565,000. View our portfolio."
+      }
+    },
+    {
+      "id": "steiner-ranch-family",
+      "slug": "steiner-ranch-family",
+      "status": "sold",
+      "featured": false,
+      "name": "Steiner Ranch Family Estate",
+      "tagline": "Hill Country Living with Lake Access",
+      "description": "A spacious family estate in the premier Steiner Ranch community with Hill Country views and Lake Austin access. This 5-bedroom home features a resort-style backyard with pool and waterslide, a media room, and is walking distance to top-rated Leander ISD schools.",
+      "shortDescription": "5BR family estate in Steiner Ranch with pool and lake access",
+      "location": {
+        "address": "12820 Appaloosa Chase Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78732",
+        "coordinates": { "lat": 30.3780, "lng": -97.8920 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Steiner Ranch"
+      },
+      "specs": {
+        "bedrooms": 5,
+        "bathrooms": 4.5,
+        "sqft": 4200,
+        "lotSize": "0.35 acres",
+        "yearBuilt": 2015,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 895000,
+        "pricePerSqft": 213,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 25
+      },
+      "saleDate": "2024-07-20",
+      "salePrice": 880000,
+      "daysToSell": 32,
+      "features": {
+        "highlights": ["Pool with Waterslide", "Hill Country Views", "Lake Access", "Top Schools"],
+        "outdoor": ["Pool with waterslide", "Covered patio", "Outdoor kitchen", "Hill Country views"],
+        "indoor": ["Media room", "Game loft", "Gourmet kitchen", "Owner's retreat"],
+        "investment": ["Steiner Ranch Community", "Leander ISD", "Community Amenities"]
+      },
+      "images": {
+        "hero": "/images/properties/steiner-ranch-family/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/steiner-ranch-family/pool.jpg", "alt": "Resort-style pool with waterslide", "category": "outdoor" },
+          { "src": "/images/properties/steiner-ranch-family/media.jpg", "alt": "Media room", "category": "interior" },
+          { "src": "/images/properties/steiner-ranch-family/view.jpg", "alt": "Hill Country views from backyard", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Stone/Frame",
+        "roof": "Composition Shingle",
+        "parking": "3 Car Garage",
+        "hvac": "Central A/C (2 zones)",
+        "hoa": "$175/month"
+      },
+      "seo": {
+        "title": "Steiner Ranch Family Estate | Austin Home Sold",
+        "description": "Spacious 5BR family estate with pool and Hill Country views in Steiner Ranch, Austin TX. Sold for $880,000. View our portfolio."
+      }
+    },
+    {
+      "id": "clarksville-townhome",
+      "slug": "clarksville-townhome",
+      "status": "sold",
+      "featured": false,
+      "name": "Clarksville Townhome",
+      "tagline": "Urban Sophistication Steps from MoPac",
+      "description": "A sophisticated 3-bedroom townhome in the historic Clarksville neighborhood, one of Austin's most walkable and culturally rich enclaves. Modern finishes throughout, a private rooftop terrace with Hill Country sunsets, and steps from Jeffrey's, Josephine House, and West Austin gems.",
+      "shortDescription": "3BR modern townhome with rooftop terrace in Clarksville",
+      "location": {
+        "address": "1600 West Lynn Street, Unit B",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78703",
+        "coordinates": { "lat": 30.2822, "lng": -97.7611 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Clarksville"
+      },
+      "specs": {
+        "bedrooms": 3,
+        "bathrooms": 3.5,
+        "sqft": 2200,
+        "lotSize": "N/A",
+        "yearBuilt": 2019,
+        "floors": 3
+      },
+      "pricing": {
+        "listPrice": 795000,
+        "pricePerSqft": 361,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 11
+      },
+      "saleDate": "2024-10-10",
+      "salePrice": 805000,
+      "daysToSell": 15,
+      "features": {
+        "highlights": ["Clarksville Location", "Rooftop Terrace", "Modern Finishes", "Walk to Dining"],
+        "outdoor": ["Private rooftop terrace", "Hill Country sunset views", "Small courtyard"],
+        "indoor": ["White oak floors", "Quartz waterfall island", "Spa-like primary bath", "Built-in wine storage"],
+        "investment": ["Clarksville Walkability", "Near Lake Austin Blvd", "Low Maintenance"]
+      },
+      "images": {
+        "hero": "/images/properties/clarksville-townhome/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/clarksville-townhome/rooftop.jpg", "alt": "Rooftop terrace with sunset views", "category": "outdoor" },
+          { "src": "/images/properties/clarksville-townhome/kitchen.jpg", "alt": "Modern kitchen with waterfall island", "category": "interior" },
+          { "src": "/images/properties/clarksville-townhome/living.jpg", "alt": "Open living space", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Townhome",
+        "construction": "Wood Frame/Stucco",
+        "roof": "Flat/TPO",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "$350/month"
+      },
+      "seo": {
+        "title": "Clarksville Townhome | Austin Townhome Sold",
+        "description": "Modern 3BR townhome with rooftop terrace in Clarksville, Austin TX. Sold for $805,000. View our portfolio."
+      }
+    },
+    {
+      "id": "cedar-park-new-build",
+      "slug": "cedar-park-new-build",
+      "status": "sold",
+      "featured": false,
+      "name": "Cedar Park New Build",
+      "tagline": "Brand New in Brushy Creek",
+      "description": "A brand-new 4-bedroom home in the desirable Brushy Creek community of Cedar Park. This energy-efficient home features an open concept design, large kitchen island, covered patio, and is near excellent Leander ISD schools, H-E-B, and the 183A toll road for easy commuting.",
+      "shortDescription": "4BR new construction in Brushy Creek near top schools",
+      "location": {
+        "address": "2305 Brushy Creek Trail",
+        "city": "Cedar Park",
+        "state": "TX",
+        "zip": "78613",
+        "coordinates": { "lat": 30.5015, "lng": -97.8083 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Cedar Park"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "sqft": 2650,
+        "lotSize": "0.15 acres",
+        "yearBuilt": 2024,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 525000,
+        "pricePerSqft": 198,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 20
+      },
+      "saleDate": "2024-08-10",
+      "salePrice": 520000,
+      "daysToSell": 26,
+      "features": {
+        "highlights": ["New Construction", "Energy Efficient", "Open Floor Plan", "Top Schools"],
+        "outdoor": ["Covered patio", "Fenced backyard", "Drought-tolerant landscaping"],
+        "indoor": ["Open concept living", "Large kitchen island", "Owner's suite down", "Upstairs game room"],
+        "investment": ["Leander ISD", "New Build Warranty", "Growing Community"]
+      },
+      "images": {
+        "hero": "/images/properties/cedar-park-new-build/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/cedar-park-new-build/kitchen.jpg", "alt": "Open kitchen with large island", "category": "interior" },
+          { "src": "/images/properties/cedar-park-new-build/patio.jpg", "alt": "Covered back patio", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Frame/Stone Veneer",
+        "roof": "Composition Shingle",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C",
+        "hoa": "$65/month"
+      },
+      "seo": {
+        "title": "Cedar Park New Build | New Construction Home Sold",
+        "description": "Brand-new 4BR home in Brushy Creek, Cedar Park TX. Sold for $520,000. View our portfolio."
+      }
+    },
+    {
+      "id": "bouldin-creek-duplex",
+      "slug": "bouldin-creek-duplex",
+      "status": "sold",
+      "featured": false,
+      "name": "Bouldin Creek Modern Duplex",
+      "tagline": "Live in One, Rent the Other",
+      "description": "A stylish modern duplex in the booming Bouldin Creek neighborhood, steps from South First Street's vibrant food and drink scene. Each unit features 2 bedrooms, private yards, and contemporary finishes. An ideal owner-occupant investment opportunity in one of Austin's most desirable zip codes.",
+      "shortDescription": "Modern duplex (2BR each unit) in walkable Bouldin Creek",
+      "location": {
+        "address": "1409 South 3rd Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "coordinates": { "lat": 30.2505, "lng": -97.7555 },
+        "distanceToLake": "N/A",
+        "neighborhood": "Bouldin Creek"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "sqft": 2400,
+        "lotSize": "0.14 acres",
+        "yearBuilt": 2021,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 850000,
+        "pricePerSqft": 354,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 8
+      },
+      "saleDate": "2024-09-01",
+      "salePrice": 860000,
+      "daysToSell": 12,
+      "features": {
+        "highlights": ["Duplex Investment", "Walk to South First", "Modern Design", "Private Yards"],
+        "outdoor": ["Private yards each unit", "Covered patios", "Low-maintenance landscaping"],
+        "indoor": ["Contemporary finishes", "Open kitchens", "In-unit laundry", "High ceilings"],
+        "investment": ["Duplex Income", "78704 Location", "Strong Rental Demand"]
+      },
+      "images": {
+        "hero": "/images/properties/bouldin-creek-duplex/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/bouldin-creek-duplex/interior.jpg", "alt": "Modern open living area", "category": "interior" },
+          { "src": "/images/properties/bouldin-creek-duplex/exterior.jpg", "alt": "Modern duplex exterior", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Townhome",
+        "construction": "Wood Frame/Hardie Board",
+        "roof": "Metal",
+        "parking": "2 Carports",
+        "hvac": "Central A/C (2 units)",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Bouldin Creek Modern Duplex | Austin Investment Property Sold",
+        "description": "Stylish modern duplex in Bouldin Creek, Austin TX. Sold for $860,000. View our portfolio."
+      }
+    },
+    {
+      "id": "north-loop-cottage",
+      "slug": "north-loop-cottage",
+      "status": "sold",
+      "featured": false,
+      "name": "North Loop Cottage",
+      "tagline": "Eclectic Charm Near Austin's Best Vintage Shops",
+      "description": "An adorable 2-bedroom cottage on a tree-shaded lot in the eclectic North Loop neighborhood. Updated with care to preserve its 1940s character, this home is steps from Epoch Coffee, Brentwood Social House, and North Loop's beloved vintage shops and eateries.",
+      "shortDescription": "2BR updated cottage in eclectic North Loop near shops",
+      "location": {
+        "address": "5201 Evans Avenue",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78751",
+        "coordinates": { "lat": 30.3180, "lng": -97.7225 },
+        "distanceToLake": "N/A",
+        "neighborhood": "North Loop"
+      },
+      "specs": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "sqft": 1050,
+        "lotSize": "0.13 acres",
+        "yearBuilt": 1945,
+        "floors": 1
+      },
+      "pricing": {
+        "listPrice": 395000,
+        "pricePerSqft": 376,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 3
+      },
+      "saleDate": "2024-06-28",
+      "salePrice": 415000,
+      "daysToSell": 6,
+      "features": {
+        "highlights": ["Updated Cottage", "North Loop Location", "Tree-Shaded Lot", "Walk to Coffee"],
+        "outdoor": ["Covered front porch", "Shaded backyard", "Garden area", "Privacy fence"],
+        "indoor": ["Original hardwoods", "Updated bath", "Bright kitchen", "Breakfast nook"],
+        "investment": ["North Loop Walkability", "Starter Home", "Strong Appreciation"]
+      },
+      "images": {
+        "hero": "/images/properties/north-loop-cottage/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/north-loop-cottage/porch.jpg", "alt": "Charming front porch", "category": "outdoor" },
+          { "src": "/images/properties/north-loop-cottage/kitchen.jpg", "alt": "Bright updated kitchen", "category": "interior" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Wood Frame",
+        "roof": "Composition Shingle",
+        "parking": "Off-Street",
+        "hvac": "Central A/C",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "North Loop Cottage | Austin Starter Home Sold",
+        "description": "Updated 2BR cottage in eclectic North Loop, Austin TX. Sold for $415,000. View our portfolio."
+      }
+    },
+    {
+      "id": "lake-austin-sanctuary",
+      "slug": "lake-austin-sanctuary",
+      "status": "sold",
+      "featured": false,
+      "name": "Lake Austin Sanctuary",
+      "tagline": "A Private Waterfront Retreat",
+      "description": "A secluded waterfront sanctuary on Lake Austin accessible via a private gated road. This 4-bedroom home offers 150 feet of lake frontage, a deep-water dock, and total privacy among ancient cypress trees. The terraced hillside garden leads down to a stone patio at the water's edge.",
+      "shortDescription": "4BR private waterfront on Lake Austin with deep-water dock",
+      "location": {
+        "address": "5800 Scenic Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78731",
+        "coordinates": { "lat": 30.3310, "lng": -97.8148 },
+        "distanceToLake": "Lakefront",
+        "neighborhood": "Lake Austin"
+      },
+      "specs": {
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "sqft": 3500,
+        "lotSize": "1.5 acres",
+        "yearBuilt": 2000,
+        "floors": 2
+      },
+      "pricing": {
+        "listPrice": 2400000,
+        "pricePerSqft": 686,
+        "currency": "USD",
+        "status": "Sold",
+        "daysOnMarket": 35
+      },
+      "saleDate": "2024-10-30",
+      "salePrice": 2350000,
+      "daysToSell": 42,
+      "features": {
+        "highlights": ["150ft Lake Frontage", "Deep-Water Dock", "Total Privacy", "Gated Access"],
+        "outdoor": ["Deep-water boat dock", "Terraced gardens", "Stone patio at water's edge", "Ancient cypress trees", "Outdoor kitchen"],
+        "indoor": ["Lake views from every room", "Vaulted great room", "Stone fireplace", "Chef's kitchen"],
+        "investment": ["Lake Austin Frontage", "Rare Privacy", "Strong Value Retention"]
+      },
+      "images": {
+        "hero": "/images/properties/lake-austin-sanctuary/hero.jpg",
+        "gallery": [
+          { "src": "/images/properties/lake-austin-sanctuary/dock.jpg", "alt": "Private dock on Lake Austin", "category": "outdoor" },
+          { "src": "/images/properties/lake-austin-sanctuary/living.jpg", "alt": "Great room with lake views", "category": "interior" },
+          { "src": "/images/properties/lake-austin-sanctuary/garden.jpg", "alt": "Terraced gardens to lake", "category": "outdoor" }
+        ]
+      },
+      "details": {
+        "propertyType": "Single Family",
+        "construction": "Stone/Cedar",
+        "roof": "Standing Seam Metal",
+        "parking": "2 Car Garage",
+        "hvac": "Central A/C (2 zones)",
+        "hoa": "None"
+      },
+      "seo": {
+        "title": "Lake Austin Sanctuary | Private Waterfront Sold",
+        "description": "Secluded 4BR waterfront home with 150ft of Lake Austin frontage and deep-water dock, Austin TX. Sold for $2,350,000. View our portfolio."
+      }
+    }
+  ],
+  "filters": {
+    "bedroomOptions": [1, 2, 3, 4, 5, "6+"],
+    "propertyTypes": [
+      { "id": "single-family", "label": "Single Family" },
+      { "id": "condo", "label": "Condo" },
+      { "id": "townhome", "label": "Townhome" }
+    ],
+    "featureFilters": [
+      { "id": "pool", "label": "Private Pool" },
+      { "id": "lakefront", "label": "Lakefront" },
+      { "id": "hill-country-views", "label": "Hill Country Views" },
+      { "id": "downtown-views", "label": "Downtown Views" },
+      { "id": "new-construction", "label": "New Construction" },
+      { "id": "walkable", "label": "Walkable" }
+    ],
+    "priceRanges": [
+      { "id": "under-500k", "label": "Under $500K", "min": 0, "max": 500000 },
+      { "id": "500k-1m", "label": "$500K - $1M", "min": 500000, "max": 1000000 },
+      { "id": "1m-2m", "label": "$1M - $2M", "min": 1000000, "max": 2000000 },
+      { "id": "over-2m", "label": "$2M+", "min": 2000000, "max": null }
+    ]
+  }
+}

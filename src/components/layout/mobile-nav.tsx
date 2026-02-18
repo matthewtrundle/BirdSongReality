@@ -1,0 +1,215 @@
+"use client"
+
+import { useEffect, useState } from "react"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { motion, AnimatePresence } from "framer-motion"
+import { Button } from "@/components/ui"
+import { NAV_LINKS, SITE_CONFIG } from "@/lib/constants"
+import { cn } from "@/lib/utils"
+
+interface MobileNavProps {
+  isOpen: boolean
+  onClose: () => void
+}
+
+export function MobileNav({ isOpen, onClose }: MobileNavProps) {
+  const pathname = usePathname()
+  const [expandedItem, setExpandedItem] = useState<string | null>(null)
+
+  // Lock body scroll when menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = ""
+    }
+    return () => {
+      document.body.style.overflow = ""
+    }
+  }, [isOpen])
+
+  // Close on escape key
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose()
+    }
+    window.addEventListener("keydown", handleEscape)
+    return () => window.removeEventListener("keydown", handleEscape)
+  }, [onClose])
+
+  // Reset expanded items when menu closes
+  useEffect(() => {
+    if (!isOpen) {
+      setExpandedItem(null)
+    }
+  }, [isOpen])
+
+  const toggleExpanded = (label: string) => {
+    setExpandedItem((prev) => (prev === label ? null : label))
+  }
+
+  return (
+    <AnimatePresence>
+      {isOpen && (
+        <>
+          {/* Backdrop */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 bg-black/50 z-50 md:hidden"
+            onClick={onClose}
+          />
+
+          {/* Menu Panel */}
+          <motion.div
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ type: "spring", damping: 30, stiffness: 300 }}
+            className="fixed top-0 right-0 bottom-0 w-[85%] max-w-sm bg-white z-50 md:hidden shadow-xl"
+          >
+            <div className="flex flex-col h-full">
+              {/* Header */}
+              <div className="flex items-center justify-between p-4 border-b border-neutral-100">
+                <span className="font-display text-xl font-semibold text-primary-700">
+                  {SITE_CONFIG.shortName}
+                </span>
+                <button
+                  onClick={onClose}
+                  className="p-2 -mr-2 text-neutral-500 hover:text-neutral-900"
+                  aria-label="Close menu"
+                >
+                  <svg
+                    className="w-6 h-6"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              {/* Navigation Links */}
+              <nav className="flex-1 overflow-y-auto py-6">
+                <ul className="space-y-1 px-4">
+                  {NAV_LINKS.map((link, index) => {
+                    const hasChildren = "children" in link && link.children && link.children.length > 0
+                    const isExpanded = expandedItem === link.label
+                    const isChildActive = hasChildren && link.children?.some((child) => pathname === child.href)
+
+                    return (
+                      <motion.li
+                        key={link.href}
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ delay: index * 0.05 }}
+                      >
+                        {hasChildren ? (
+                          <div>
+                            {/* Parent link with toggle */}
+                            <div className="flex items-center">
+                              <Link
+                                href={link.href}
+                                onClick={onClose}
+                                className={cn(
+                                  "flex-1 block py-3 px-4 text-lg font-medium rounded-lg transition-colors",
+                                  pathname === link.href || isChildActive
+                                    ? "bg-primary-50 text-primary-700"
+                                    : "text-neutral-700 hover:bg-neutral-50"
+                                )}
+                              >
+                                {link.label}
+                              </Link>
+                              <button
+                                onClick={() => toggleExpanded(link.label)}
+                                className="p-3 text-neutral-500 hover:text-neutral-900 transition-colors"
+                                aria-label={isExpanded ? `Collapse ${link.label} menu` : `Expand ${link.label} menu`}
+                              >
+                                <svg
+                                  className={cn(
+                                    "w-5 h-5 transition-transform duration-200",
+                                    isExpanded && "rotate-180"
+                                  )}
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                </svg>
+                              </button>
+                            </div>
+
+                            {/* Children */}
+                            <AnimatePresence>
+                              {isExpanded && (
+                                <motion.ul
+                                  initial={{ height: 0, opacity: 0 }}
+                                  animate={{ height: "auto", opacity: 1 }}
+                                  exit={{ height: 0, opacity: 0 }}
+                                  transition={{ duration: 0.2, ease: [0.4, 0, 0.2, 1] }}
+                                  className="overflow-hidden"
+                                >
+                                  {link.children?.map((child) => (
+                                    <li key={child.href}>
+                                      <Link
+                                        href={child.href}
+                                        onClick={onClose}
+                                        className={cn(
+                                          "block py-2.5 pl-8 pr-4 text-base rounded-lg transition-colors",
+                                          pathname === child.href
+                                            ? "text-primary-700 font-medium bg-primary-50/50"
+                                            : "text-neutral-600 hover:bg-neutral-50 hover:text-neutral-800"
+                                        )}
+                                      >
+                                        {child.label}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </motion.ul>
+                              )}
+                            </AnimatePresence>
+                          </div>
+                        ) : (
+                          <Link
+                            href={link.href}
+                            onClick={onClose}
+                            className={cn(
+                              "block py-3 px-4 text-lg font-medium rounded-lg transition-colors",
+                              pathname === link.href
+                                ? "bg-primary-50 text-primary-700"
+                                : "text-neutral-700 hover:bg-neutral-50"
+                            )}
+                          >
+                            {link.label}
+                          </Link>
+                        )}
+                      </motion.li>
+                    )
+                  })}
+                </ul>
+              </nav>
+
+              {/* Footer Actions */}
+              <div className="p-4 border-t border-neutral-100">
+                <Button variant="cta" size="lg" className="w-full" asChild>
+                  <Link href="/contact" onClick={onClose}>
+                    Contact Us
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
+  )
+}

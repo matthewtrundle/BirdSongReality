@@ -1,0 +1,491 @@
+[
+  {
+    "slug": "best-restaurants",
+    "title": "Best Restaurants in Austin",
+    "category": "dining",
+    "description": "From legendary BBQ joints to innovative farm-to-table dining, discover the best restaurants Austin has to offer.",
+    "intro": "Austin's dining scene is one of the most exciting in the country. Anchored by world-class barbecue and fueled by a creative, multicultural food community, the city offers everything from James Beard Award-winning restaurants to beloved food truck trailers. Here's our guide to the best restaurants in Austin.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Franklin Barbecue",
+        "slug": "franklin-barbecue",
+        "description": "The most famous barbecue in America—legendary brisket worth the wait.",
+        "highlights": ["World-famous brisket", "James Beard Award winner", "Worth the 3-hour wait"],
+        "priceRange": "$$",
+        "bestFor": "Once-in-a-lifetime BBQ experience"
+      },
+      {
+        "rank": 2,
+        "name": "Uchi",
+        "slug": "uchi-austin",
+        "description": "Innovative Japanese cuisine from James Beard Award-winning chef Tyson Cole.",
+        "highlights": ["Creative omakase", "Award-winning chef", "South Lamar atmosphere"],
+        "priceRange": "$$$$",
+        "bestFor": "Special occasion sushi"
+      },
+      {
+        "rank": 3,
+        "name": "Suerte",
+        "slug": "suerte-austin",
+        "description": "Modern Mexican cuisine in East Austin with masa made fresh daily.",
+        "highlights": ["House-made masa", "East Austin vibe", "Exceptional cocktails"],
+        "priceRange": "$$$",
+        "bestFor": "Elevated Mexican dining"
+      },
+      {
+        "rank": 4,
+        "name": "Emmer & Rye",
+        "slug": "emmer-and-rye",
+        "description": "Farm-to-table creativity with a dim sum cart of seasonal small plates.",
+        "highlights": ["Dim sum cart concept", "Seasonal menu", "Rainey Street location"],
+        "priceRange": "$$$",
+        "bestFor": "Adventurous diners"
+      },
+      {
+        "rank": 5,
+        "name": "Valentina's Tex Mex BBQ",
+        "slug": "valentinas-tex-mex",
+        "description": "The perfect marriage of Tex-Mex and Texas barbecue.",
+        "highlights": ["Brisket breakfast tacos", "Full BBQ menu", "South Austin gem"],
+        "priceRange": "$$",
+        "bestFor": "Tex-Mex meets BBQ"
+      }
+    ],
+    "tips": ["Reservations essential for fine dining—book 2-4 weeks ahead", "Food trucks don't take reservations and often have shorter waits than restaurants", "Many top restaurants are closed Mondays"],
+    "seoKeywords": ["best restaurants Austin", "where to eat Austin", "top dining Austin TX"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-bbq", "best-breakfast-tacos", "best-happy-hour"]
+  },
+  {
+    "slug": "best-bbq",
+    "title": "Best BBQ in Austin",
+    "category": "dining",
+    "description": "Austin is the barbecue capital of the world. Here are the spots that make it so.",
+    "intro": "Austin takes its barbecue seriously—and for good reason. Central Texas-style BBQ, defined by slow-smoked beef brisket over post oak wood, reaches its pinnacle in Austin. From legendary pitmasters to up-and-coming smokers, here's where to find the best barbecue in town.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Franklin Barbecue",
+        "slug": "franklin-barbecue",
+        "description": "The standard against which all Texas BBQ is measured.",
+        "highlights": ["Legendary brisket", "Celebrity pitmaster", "Line starts at 7 AM"],
+        "priceRange": "$$",
+        "bestFor": "The ultimate BBQ pilgrimage"
+      },
+      {
+        "rank": 2,
+        "name": "la Barbecue",
+        "slug": "la-barbecue",
+        "description": "East Austin trailer serving exceptional brisket with shorter waits than Franklin.",
+        "highlights": ["Outstanding brisket", "Shorter lines", "East Austin location"],
+        "priceRange": "$$",
+        "bestFor": "Great BBQ without the Franklin wait"
+      },
+      {
+        "rank": 3,
+        "name": "Micklethwait Craft Meats",
+        "slug": "micklethwait-craft-meats",
+        "description": "East Austin trailer with creative sides and perfectly smoked meats.",
+        "highlights": ["Creative sides", "Excellent sausage", "Artisan approach"],
+        "priceRange": "$$",
+        "bestFor": "Craft BBQ enthusiasts"
+      },
+      {
+        "rank": 4,
+        "name": "Interstellar BBQ",
+        "slug": "interstellar-bbq",
+        "description": "Cedar Park destination with some of the best brisket outside city limits.",
+        "highlights": ["Suburb location with city quality", "Great beef ribs", "Less crowded"],
+        "priceRange": "$$",
+        "bestFor": "North Austin BBQ"
+      }
+    ],
+    "tips": ["Weekday visits have shorter lines everywhere", "Most BBQ spots sell out—arrive early", "Cash or card accepted at most spots now", "Sides matter—try the creamed corn and coleslaw"],
+    "seoKeywords": ["best BBQ Austin", "Austin barbecue", "brisket Austin TX", "Texas BBQ"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-restaurants", "best-food-trucks"]
+  },
+  {
+    "slug": "best-breakfast-tacos",
+    "title": "Best Breakfast Tacos in Austin",
+    "category": "dining",
+    "description": "Breakfast tacos are Austin's true staple food. Here's where to find the best ones.",
+    "intro": "Breakfast tacos aren't just food in Austin—they're a way of life. Every morning, Austinites line up at their favorite spots for flour or corn tortillas stuffed with eggs, bacon, potato, cheese, and salsa. The breakfast taco debate is passionate and never-ending. Here are our picks.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Veracruz All Natural",
+        "slug": "veracruz-all-natural",
+        "description": "The migas taco here is widely considered the best breakfast taco in Austin.",
+        "highlights": ["Famous migas taco", "Fresh tortillas", "Multiple locations"],
+        "priceRange": "$",
+        "bestFor": "The definitive Austin breakfast taco"
+      },
+      {
+        "rank": 2,
+        "name": "Valentina's Tex Mex BBQ",
+        "slug": "valentinas-tex-mex",
+        "description": "Brisket breakfast tacos that combine two Austin obsessions.",
+        "highlights": ["Brisket breakfast taco", "Full Plate special", "South Austin"],
+        "priceRange": "$",
+        "bestFor": "BBQ lovers' breakfast"
+      },
+      {
+        "rank": 3,
+        "name": "Joe's Bakery",
+        "slug": "joes-bakery",
+        "description": "Old-school East Austin institution serving tacos since 1962.",
+        "highlights": ["Historic institution", "Authentic Tex-Mex", "Cash only"],
+        "priceRange": "$",
+        "bestFor": "Classic East Austin experience"
+      }
+    ],
+    "tips": ["Most taco spots open at 7 AM", "Weekend mornings are busy—go early or weekday", "Ask for salsa verde and salsa roja to try both"],
+    "seoKeywords": ["best breakfast tacos Austin", "Austin tacos", "morning tacos Austin TX"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-restaurants", "best-brunch"]
+  },
+  {
+    "slug": "best-live-music-venues",
+    "title": "Best Live Music Venues in Austin",
+    "category": "entertainment",
+    "description": "The best places to hear live music in the Live Music Capital of the World.",
+    "intro": "Austin's live music scene is the city's beating heart. From intimate clubs where you can touch the stage to sprawling outdoor amphitheaters, the variety and quality of venues is unmatched. Whether you want honky-tonk country, cutting-edge indie, or jazz standards, there's a venue calling your name.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Continental Club",
+        "slug": "continental-club",
+        "description": "Legendary South Congress institution hosting blues, country, and rockabilly since 1955.",
+        "highlights": ["Austin icon since 1955", "Nightly shows", "No cover most nights"],
+        "bestFor": "Authentic Austin music experience"
+      },
+      {
+        "rank": 2,
+        "name": "Stubb's BBQ",
+        "slug": "stubbs-bbq",
+        "description": "Indoor/outdoor venue with world-class BBQ and touring acts.",
+        "highlights": ["Outdoor amphitheater", "Great BBQ", "Touring national acts"],
+        "bestFor": "Outdoor concerts"
+      },
+      {
+        "rank": 3,
+        "name": "ACL Live at The Moody Theater",
+        "slug": "acl-live",
+        "description": "Home of Austin City Limits TV show, hosting major artists.",
+        "highlights": ["TV taping venue", "Excellent sound", "Downtown location"],
+        "bestFor": "Big-name concerts"
+      },
+      {
+        "rank": 4,
+        "name": "Broken Spoke",
+        "slug": "broken-spoke",
+        "description": "Legendary honky-tonk dance hall since 1964 with two-stepping and cold beer.",
+        "highlights": ["Classic honky-tonk", "Two-step lessons", "Real Texas dance hall"],
+        "bestFor": "Country music and dancing"
+      }
+    ],
+    "tips": ["Most clubs have shows 7 nights a week", "Arrive early for popular shows", "Cash for cover charges and tips", "Check venue websites for weekly schedules"],
+    "seoKeywords": ["best live music Austin", "Austin music venues", "live music capital venues"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-bars", "best-date-night"]
+  },
+  {
+    "slug": "best-neighborhoods-to-live",
+    "title": "Best Neighborhoods to Live in Austin",
+    "category": "lifestyle",
+    "description": "From urban walkability to Hill Country estates, the best neighborhoods for every lifestyle.",
+    "intro": "Austin's neighborhoods are as diverse as the city itself. Each area has its own personality, price point, and appeal. Whether you're a young professional seeking nightlife, a family prioritizing schools, or a nature lover wanting Hill Country views, this guide will help you find your Austin neighborhood.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "South Congress (SoCo)",
+        "description": "Iconic Austin street with eclectic shops, restaurants, and walkability.",
+        "highlights": ["Walkable", "Iconic Austin culture", "Great restaurants"],
+        "priceRange": "$$$$",
+        "bestFor": "Urban lifestyle seekers"
+      },
+      {
+        "rank": 2,
+        "name": "Mueller",
+        "description": "New-urbanist community with parks, trails, and neighborhood amenities.",
+        "highlights": ["Community pools", "Walkable to shops", "Family-friendly"],
+        "priceRange": "$$$",
+        "bestFor": "Families wanting urban community"
+      },
+      {
+        "rank": 3,
+        "name": "Westlake/Eanes",
+        "description": "Premium neighborhood with top-rated schools and Hill Country setting.",
+        "highlights": ["Top schools in Texas", "Hill Country views", "Established community"],
+        "priceRange": "$$$$",
+        "bestFor": "Families prioritizing education"
+      },
+      {
+        "rank": 4,
+        "name": "East Austin",
+        "description": "The city's most dynamic neighborhood with culture, food, and nightlife.",
+        "highlights": ["Cultural hub", "Best food scene", "Rapid appreciation"],
+        "priceRange": "$$$",
+        "bestFor": "Young professionals and creatives"
+      },
+      {
+        "rank": 5,
+        "name": "Cedar Park/Leander",
+        "description": "Growing suburbs with excellent schools and more affordable homes.",
+        "highlights": ["Great schools", "More affordable", "Family-centric"],
+        "priceRange": "$$",
+        "bestFor": "Value-conscious families"
+      }
+    ],
+    "tips": ["Visit neighborhoods at different times of day before committing", "Consider your commute—Austin traffic is real", "School district boundaries don't always follow neighborhood lines"],
+    "seoKeywords": ["best neighborhoods Austin", "where to live Austin", "Austin neighborhoods guide"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-family-neighborhoods", "best-restaurants"]
+  },
+  {
+    "slug": "best-outdoor-activities",
+    "title": "Best Outdoor Activities in Austin",
+    "category": "activities",
+    "description": "From swimming holes to mountain biking, the best ways to enjoy Austin's 300 days of sunshine.",
+    "intro": "Austin's outdoor recreation scene is one of the city's biggest draws. With over 300 days of sunshine, extensive trail networks, natural swimming holes, and lakes for every water activity, Austin rewards those who love being outside. Here are the best outdoor activities in the city.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Barton Springs Pool",
+        "description": "Spring-fed pool in Zilker Park—the soul of Austin's outdoor culture.",
+        "highlights": ["68°F year-round", "3-acre natural pool", "Zilker Park setting"],
+        "bestFor": "Everyone—Austin's most iconic outdoor spot"
+      },
+      {
+        "rank": 2,
+        "name": "Lady Bird Lake Paddling",
+        "description": "Kayak or SUP through downtown with skyline views and no motorized boats.",
+        "highlights": ["Downtown skyline views", "No motorized boats", "Multiple rental spots"],
+        "bestFor": "Water lovers wanting city views"
+      },
+      {
+        "rank": 3,
+        "name": "Barton Creek Greenbelt",
+        "description": "Miles of hiking and biking trails through limestone canyons with swimming holes.",
+        "highlights": ["Swimming holes", "Mountain biking", "Urban wilderness"],
+        "bestFor": "Hikers and trail runners"
+      },
+      {
+        "rank": 4,
+        "name": "Mount Bonnell",
+        "description": "Short climb to the best panoramic view of Austin and Lake Austin.",
+        "highlights": ["Best city view", "Short hike (102 steps)", "Sunset destination"],
+        "bestFor": "Quick nature escape with views"
+      }
+    ],
+    "tips": ["Summer activities should start early to avoid heat", "Carry more water than you think you need", "Barton Springs and greenbelt can close after heavy rain"],
+    "seoKeywords": ["outdoor activities Austin", "things to do outside Austin", "Austin outdoor recreation"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-hiking-trails", "best-swimming-holes"]
+  },
+  {
+    "slug": "best-date-night",
+    "title": "Best Date Night Spots in Austin",
+    "category": "experiences",
+    "description": "Romantic restaurants, cocktail bars, and experiences for couples in Austin.",
+    "intro": "Austin is a great city for date nights. Whether you prefer an intimate dinner, rooftop cocktails with a skyline view, or a unique experience like a sunset paddleboard session, the city delivers romance in its own creative style.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Uchi",
+        "slug": "uchi-austin",
+        "description": "James Beard Award-winning Japanese restaurant perfect for special evenings.",
+        "highlights": ["Award-winning cuisine", "Intimate atmosphere", "Exceptional sake list"],
+        "priceRange": "$$$$",
+        "bestFor": "Special occasion dinner"
+      },
+      {
+        "rank": 2,
+        "name": "Moonshine Patio Bar & Grill",
+        "slug": "moonshine-patio",
+        "description": "Historic building with romantic patio dining in downtown Austin.",
+        "highlights": ["Beautiful patio", "Comfort food elevated", "Historic setting"],
+        "priceRange": "$$$",
+        "bestFor": "Relaxed romantic dinner"
+      },
+      {
+        "rank": 3,
+        "name": "Roosevelt Room",
+        "slug": "roosevelt-room",
+        "description": "Craft cocktail bar with speakeasy atmosphere and expert mixologists.",
+        "highlights": ["World-class cocktails", "Speakeasy vibe", "Downtown location"],
+        "bestFor": "Cocktail connoisseurs"
+      }
+    ],
+    "tips": ["Make reservations 2+ weeks ahead for popular spots", "Sunset kayak on Lady Bird Lake is a unique date option", "Live music at Continental Club is a classic Austin date"],
+    "seoKeywords": ["date night Austin", "romantic restaurants Austin", "couples activities Austin"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-restaurants", "best-bars"]
+  },
+  {
+    "slug": "best-family-activities",
+    "title": "Best Family Activities in Austin",
+    "category": "activities",
+    "description": "Kid-friendly fun for the whole family, from outdoor adventures to rainy-day museums.",
+    "intro": "Austin is one of the best family cities in Texas, with activities that keep kids entertained and parents happy. From natural swimming holes to interactive museums, here's how to have the best family day in Austin.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Zilker Park & Barton Springs",
+        "description": "Austin's central park with swimming, trains, gardens, and room to run.",
+        "highlights": ["Barton Springs Pool", "Zilker Zephyr train", "Botanical gardens"],
+        "bestFor": "All ages"
+      },
+      {
+        "rank": 2,
+        "name": "Thinkery Children's Museum",
+        "description": "Interactive science and creativity museum designed for kids.",
+        "highlights": ["Hands-on exhibits", "Outdoor water play", "Mueller location"],
+        "bestFor": "Kids ages 2-10"
+      },
+      {
+        "rank": 3,
+        "name": "Congress Bridge Bat Watching",
+        "description": "Watch 1.5 million bats emerge at sunset—free and unforgettable.",
+        "highlights": ["Free", "Unforgettable spectacle", "Educational"],
+        "bestFor": "All ages"
+      },
+      {
+        "rank": 4,
+        "name": "McKinney Falls State Park",
+        "description": "Waterfalls, swimming, and easy trails minutes from the city.",
+        "highlights": ["Two waterfalls", "Easy hikes", "Swimming when water permits"],
+        "bestFor": "Nature-loving families"
+      }
+    ],
+    "tips": ["Zilker can get crowded weekends—arrive early", "Thinkery is free the first Tuesday evening of each month", "Bat watching is best March through October"],
+    "seoKeywords": ["family activities Austin", "things to do with kids Austin", "family fun Austin TX"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-outdoor-activities", "best-neighborhoods-to-live"]
+  },
+  {
+    "slug": "best-coffee-shops",
+    "title": "Best Coffee Shops in Austin",
+    "category": "dining",
+    "description": "Where to find quality coffee, great vibes, and productive workspace in Austin.",
+    "intro": "Austin's coffee culture goes well beyond chains. The city is home to talented roasters, creative baristas, and coffee shops that double as community gathering spots. Whether you need a morning espresso or a full-day workspace, here are the best coffee shops in Austin.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Houndstooth Coffee",
+        "slug": "houndstooth-coffee",
+        "description": "Specialty coffee with meticulous preparation and sleek design.",
+        "highlights": ["Specialty roasts", "Modern aesthetic", "Multiple locations"],
+        "priceRange": "$$",
+        "bestFor": "Serious coffee lovers"
+      },
+      {
+        "rank": 2,
+        "name": "Flitch Coffee",
+        "slug": "flitch-coffee",
+        "description": "East Austin trailer with some of the best espresso in the city.",
+        "highlights": ["Exceptional espresso", "East Austin vibe", "Outdoor seating"],
+        "priceRange": "$",
+        "bestFor": "Pure coffee quality"
+      },
+      {
+        "rank": 3,
+        "name": "Mozart's Coffee Roasters",
+        "slug": "mozarts-coffee",
+        "description": "Lakefront coffee house with Lake Austin views and house-roasted beans.",
+        "highlights": ["Lake Austin views", "House-roasted", "Outdoor deck"],
+        "priceRange": "$$",
+        "bestFor": "Coffee with a view"
+      }
+    ],
+    "tips": ["Most coffee shops have good WiFi for remote work", "Weekend mornings are busiest", "South Congress has multiple walkable options"],
+    "seoKeywords": ["best coffee Austin", "coffee shops Austin TX", "Austin cafes"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-breakfast-tacos", "best-brunch"]
+  },
+  {
+    "slug": "best-bars",
+    "title": "Best Bars in Austin",
+    "category": "nightlife",
+    "description": "From Rainey Street bungalows to rooftop lounges—the best places to drink in Austin.",
+    "intro": "Austin's bar scene is as diverse as the city itself. You can sip craft cocktails in a converted Rainey Street bungalow, drink cheap beer on a Sixth Street patio, or enjoy a glass of wine on a Hill Country terrace. Here are the bars that define Austin nightlife.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Rainey Street District",
+        "description": "Converted bungalow bars with patios, food trucks, and a unique atmosphere.",
+        "highlights": ["Bungalow bars with patios", "Food trucks", "Walkable district"],
+        "priceRange": "$$",
+        "bestFor": "Quintessential Austin bar experience"
+      },
+      {
+        "rank": 2,
+        "name": "Roosevelt Room",
+        "slug": "roosevelt-room",
+        "description": "Craft cocktails made by award-winning mixologists in a refined setting.",
+        "highlights": ["World-class cocktails", "Elegant atmosphere", "Downtown"],
+        "priceRange": "$$$",
+        "bestFor": "Cocktail enthusiasts"
+      },
+      {
+        "rank": 3,
+        "name": "White Horse",
+        "slug": "white-horse",
+        "description": "East Austin honky-tonk with two-stepping, live country music, and cold beer.",
+        "highlights": ["Live country music", "Two-step dancing", "East Austin character"],
+        "priceRange": "$",
+        "bestFor": "Authentic Texas honky-tonk"
+      },
+      {
+        "rank": 4,
+        "name": "Whisler's",
+        "slug": "whislers",
+        "description": "East Austin cocktail bar with a mezcal-focused upstairs lounge.",
+        "highlights": ["Craft cocktails", "Mezcaleria upstairs", "Cool atmosphere"],
+        "priceRange": "$$",
+        "bestFor": "Creative cocktails"
+      }
+    ],
+    "tips": ["Rainey Street is best Thursday-Saturday", "Sixth Street gets rowdy late—go early for a better experience", "Many bars have great happy hour specials 4-6 PM"],
+    "seoKeywords": ["best bars Austin", "Austin nightlife", "Rainey Street bars", "Austin cocktails"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-happy-hour", "best-live-music-venues"]
+  },
+  {
+    "slug": "best-pet-friendly",
+    "title": "Best Pet-Friendly Spots in Austin",
+    "category": "lifestyle",
+    "description": "Dog-friendly parks, patios, and activities for pet parents in Austin.",
+    "intro": "Austin is one of the most dog-friendly cities in America. Off-leash parks, restaurant patios that welcome four-legged friends, and even a dog-friendly lake make this city a paradise for pet owners. Here's where to take your pup.",
+    "items": [
+      {
+        "rank": 1,
+        "name": "Red Bud Isle",
+        "description": "Off-leash island park on Lady Bird Lake—a dog paradise.",
+        "highlights": ["Off-leash", "Water access", "Shaded trails"],
+        "bestFor": "Water-loving dogs"
+      },
+      {
+        "rank": 2,
+        "name": "Yard Bar",
+        "slug": "yard-bar",
+        "description": "Dog park and bar combo—your dog plays while you drink craft beer.",
+        "highlights": ["Dog park inside bar", "Craft beer", "Events"],
+        "bestFor": "Social dogs and owners"
+      },
+      {
+        "rank": 3,
+        "name": "Auditorium Shores",
+        "description": "Off-leash area along Lady Bird Lake with downtown views.",
+        "highlights": ["Lake access", "Downtown views", "Trail connection"],
+        "bestFor": "Active dogs"
+      }
+    ],
+    "tips": ["Most restaurant patios welcome dogs", "Keep dogs leashed on trails unless in designated off-leash areas", "Bring water—Austin heat affects dogs too"],
+    "seoKeywords": ["dog friendly Austin", "pet friendly Austin", "dog parks Austin TX"],
+    "lastUpdated": "2025-01",
+    "relatedLists": ["best-outdoor-activities", "best-bars"]
+  }
+]

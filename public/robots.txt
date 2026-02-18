@@ -1,0 +1,13 @@
+# Birdsong Realty Team - robots.txt
+# https://birdsongrealtyteam.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://birdsongrealtyteam.com/sitemap.xml

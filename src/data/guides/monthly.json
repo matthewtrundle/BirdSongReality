@@ -1,0 +1,586 @@
+[
+  {
+    "slug": "january",
+    "month": "January",
+    "monthNumber": 1,
+    "title": "January in Austin: New Year, Mild Winters & Fresh Starts",
+    "description": "Start the year in Austin with mild winter weather, quieter attractions, and great deals on dining and entertainment.",
+    "intro": "January in Austin is a pleasant surprise for newcomers. While much of the country shivers, Austin enjoys mild days that still allow outdoor activities. The holiday crowds have departed, and the city settles into a quieter rhythm. It's a great time for house hunting, exploring neighborhoods, and enjoying the city without the peak-season energy.",
+    "weather": {
+      "avgHigh": 62,
+      "avgLow": 41,
+      "waterTemp": 55,
+      "rainfall": 2.5,
+      "description": "Mild days with occasional cold fronts. Light jacket weather during the day, heavier layers at night. A few freezing nights possible."
+    },
+    "crowdLevel": "low",
+    "events": ["new-years-day"],
+    "activities": [
+      {
+        "name": "Trail Hiking",
+        "description": "Cool temperatures make January ideal for Barton Creek Greenbelt and Hill Country trails.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Museum Visits",
+        "description": "Blanton Museum, Bullock Texas State History Museum, and HOPE Gallery are uncrowded.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Restaurant Week",
+        "description": "Many Austin restaurants offer prix-fixe deals in January.",
+        "rating": "good"
+      }
+    ],
+    "tips": [
+      "Cold fronts can drop temps 30 degrees in a day—pack layers",
+      "Great month for neighborhood exploration and house hunting",
+      "Many restaurants and attractions are less crowded",
+      "Lady Bird Lake trail is comfortable for midday walks"
+    ],
+    "packing": ["Layers", "Light jacket", "Comfortable walking shoes", "Rain gear"],
+    "pricing": {
+      "level": "budget",
+      "description": "Post-holiday rates. Great hotel deals and restaurant specials."
+    },
+    "seoKeywords": ["Austin January", "winter Austin Texas", "January things to do Austin"],
+    "highlights": ["Mild hiking weather", "Uncrowded attractions", "Restaurant specials", "Great house hunting month"]
+  },
+  {
+    "slug": "february",
+    "month": "February",
+    "monthNumber": 2,
+    "title": "February in Austin: Valentine's & Early Wildflowers",
+    "description": "Romance is in the air with Valentine's dining and the first signs of spring along Austin trails.",
+    "intro": "February brings longer days and the first hints of spring to Austin. Early wildflowers begin appearing along roadsides, Valentine's Day offers romantic dining opportunities across the city, and the weather continues to improve. It's still off-peak, making it a great time to explore and make real estate decisions without rush.",
+    "weather": {
+      "avgHigh": 66,
+      "avgLow": 44,
+      "waterTemp": 55,
+      "rainfall": 2.0,
+      "description": "Warming trend with occasional cold snaps. Bluebonnets begin emerging. Pleasant afternoons."
+    },
+    "crowdLevel": "low",
+    "events": ["valentines-day"],
+    "activities": [
+      {
+        "name": "Early Wildflower Spotting",
+        "description": "First bluebonnets and paintbrush appear along highways and in parks.",
+        "rating": "good"
+      },
+      {
+        "name": "Valentine's Dining",
+        "description": "Austin's romantic restaurants shine with special Valentine's menus.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Outdoor Activities",
+        "description": "Temperatures perfect for hiking, biking, and lake activities.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "Book Valentine's dinner reservations well in advance",
+      "Early wildflowers start appearing along Highway 290 West",
+      "Weather is unpredictable—check forecasts before outdoor plans",
+      "Real estate inventory starts increasing for spring market"
+    ],
+    "packing": ["Layers", "Light jacket", "Camera for wildflowers", "Sunscreen"],
+    "pricing": {
+      "level": "budget",
+      "description": "Still low-season pricing. Valentine's weekend slightly higher at restaurants."
+    },
+    "seoKeywords": ["Austin February", "Valentine's Austin", "early wildflowers Austin"],
+    "highlights": ["Early wildflowers", "Valentine's dining", "Pleasant weather", "Off-peak pricing"]
+  },
+  {
+    "slug": "march",
+    "month": "March",
+    "monthNumber": 3,
+    "title": "March in Austin: SXSW, Spring Break & Peak Wildflowers",
+    "description": "Austin's biggest month: South by Southwest transforms the city, wildflowers peak, and spring energy is everywhere.",
+    "intro": "March is Austin at its most dynamic. South by Southwest (SXSW) takes over downtown with music, film, and technology showcases that draw global attention. Wildflower season hits its stride with bluebonnets blanketing the Hill Country. Spring break brings visitors, and the weather is close to perfect. This is when Austin shows the world why it's special.",
+    "weather": {
+      "avgHigh": 74,
+      "avgLow": 52,
+      "waterTemp": 62,
+      "rainfall": 2.8,
+      "description": "Spring arrives in earnest. Warm days, cool evenings. Occasional storms bring wildflower-feeding rain."
+    },
+    "crowdLevel": "peak",
+    "events": ["sxsw", "spring-break"],
+    "activities": [
+      {
+        "name": "South by Southwest (SXSW)",
+        "description": "World-renowned festival of music, film, and technology taking over downtown.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Wildflower Viewing",
+        "description": "Peak bluebonnet season along Highway 290 and throughout the Hill Country.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Outdoor Dining",
+        "description": "Perfect patio weather across the city's restaurant patios.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Trail Activities",
+        "description": "Ideal temperatures for hiking, biking, and running the greenbelt.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "SXSW week (usually mid-March) means higher prices and massive crowds downtown",
+      "Book hotels and restaurants well in advance for SXSW week",
+      "Wildflower fields are best along Highway 290 toward Fredericksburg",
+      "Spring real estate market heats up—be ready to act on homes"
+    ],
+    "packing": ["Light layers", "Comfortable walking shoes", "Sunscreen", "Camera", "Umbrella"],
+    "pricing": {
+      "level": "premium",
+      "description": "SXSW week is most expensive time of year for lodging. Other March weeks are moderate."
+    },
+    "seoKeywords": ["SXSW Austin", "March Austin Texas", "Austin wildflowers", "spring break Austin"],
+    "highlights": ["SXSW festival", "Peak wildflower season", "Perfect weather", "Spring energy"]
+  },
+  {
+    "slug": "april",
+    "month": "April",
+    "monthNumber": 4,
+    "title": "April in Austin: Perfect Weather, Festivals & Outdoor Living",
+    "description": "Arguably Austin's best month—ideal weather, Eeyore's Birthday Party, and peak outdoor conditions.",
+    "intro": "April may be Austin's finest month. SXSW crowds have departed but spring energy remains. The weather is near perfect—warm days, cool evenings, low humidity. Wildflowers are still blooming, outdoor festivals pop up every weekend, and the city's patios, pools, and trails are at their best. If you're visiting to explore neighborhoods, April is the time.",
+    "weather": {
+      "avgHigh": 80,
+      "avgLow": 58,
+      "waterTemp": 68,
+      "rainfall": 2.5,
+      "description": "Near-perfect conditions. Warm but not hot. Low humidity. Occasional spring storms."
+    },
+    "crowdLevel": "moderate",
+    "events": ["eeyores-birthday-party", "old-settlers-music-festival"],
+    "activities": [
+      {
+        "name": "All Outdoor Activities",
+        "description": "Perfect conditions for everything—hiking, biking, kayaking, swimming.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Patio Dining",
+        "description": "Every patio in the city is at its best. Book outdoor tables.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Late Wildflowers",
+        "description": "Bluebonnets fading but Indian paintbrush and other species continue.",
+        "rating": "good"
+      },
+      {
+        "name": "Barton Springs",
+        "description": "Water temperature feels refreshing, not shocking. Ideal swimming.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "Eeyore's Birthday Party in Pease Park is a beloved Austin tradition",
+      "Book patio dining in advance—everyone wants to eat outside",
+      "Spring real estate market is in full swing",
+      "Perfect time for neighborhood tours before summer heat"
+    ],
+    "packing": ["Light clothing", "Swimsuit", "Sunscreen", "Comfortable shoes", "Camera"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Post-SXSW pricing but demand increases for peak spring conditions."
+    },
+    "seoKeywords": ["April Austin Texas", "spring Austin", "best time to visit Austin"],
+    "highlights": ["Perfect weather", "Peak outdoor conditions", "Festival weekends", "Ideal for home tours"]
+  },
+  {
+    "slug": "may",
+    "month": "May",
+    "monthNumber": 5,
+    "title": "May in Austin: Summer Preview & Memorial Day",
+    "description": "Summer begins with pool openings, lake season, and Memorial Day celebrations.",
+    "intro": "May transitions Austin into summer mode. Pool season officially opens, lake activities ramp up, and the city's outdoor lifestyle shifts into high gear. Memorial Day weekend is the unofficial start of summer, with lake parties and backyard cookouts. Temperatures are warm but not yet brutal, making May a sweet spot for outdoor enjoyment.",
+    "weather": {
+      "avgHigh": 87,
+      "avgLow": 66,
+      "waterTemp": 74,
+      "rainfall": 4.5,
+      "description": "Warm and increasingly humid. Barton Springs feels great. Afternoon thunderstorms common."
+    },
+    "crowdLevel": "moderate",
+    "events": ["memorial-day", "pecan-street-festival"],
+    "activities": [
+      {
+        "name": "Lake Activities",
+        "description": "Lake Travis and Lady Bird Lake are ideal for boating, kayaking, and paddleboarding.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Barton Springs & Swimming",
+        "description": "Pool season opens. Barton Springs is refreshingly perfect.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Evening Dining",
+        "description": "Long daylight hours make evening patio dining magical.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "Memorial Day weekend brings crowds to Lake Travis",
+      "Afternoon thunderstorms are common but usually brief",
+      "Barton Springs becomes essential for beating the heat",
+      "Real estate market remains active before summer slowdown"
+    ],
+    "packing": ["Swimsuit", "Sunscreen SPF 50", "Light clothing", "Rain jacket", "Hat"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Memorial Day weekend premium. Otherwise reasonable pre-summer rates."
+    },
+    "seoKeywords": ["May Austin Texas", "Memorial Day Austin", "summer Austin"],
+    "highlights": ["Pool season opens", "Lake activities", "Memorial Day", "Long sunny evenings"]
+  },
+  {
+    "slug": "june",
+    "month": "June",
+    "monthNumber": 6,
+    "title": "June in Austin: Full Summer & ATX Pool Season",
+    "description": "Austin embraces summer with pool parties, live music, and long evenings on patios.",
+    "intro": "June is full summer in Austin. Schools are out, pools are packed, and the city pulses with warm-weather energy. It's hot, but Austinites embrace it—Barton Springs, Lady Bird Lake, and backyard pools become daily rituals. The long summer evenings are perfect for patio dining, live music, and bat watching at Congress Bridge.",
+    "weather": {
+      "avgHigh": 94,
+      "avgLow": 73,
+      "waterTemp": 80,
+      "rainfall": 3.5,
+      "description": "Hot and getting hotter. High humidity. Afternoon storms provide brief relief. Lady Bird Lake and Barton Springs essential."
+    },
+    "crowdLevel": "high",
+    "events": ["atx-television-festival"],
+    "activities": [
+      {
+        "name": "Swimming & Water Activities",
+        "description": "Barton Springs, Deep Eddy, and lake activities are daily necessities.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Bat Watching",
+        "description": "Congress Bridge bat colony is spectacular. Pup season begins.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Evening Activities",
+        "description": "Beat the heat with evening dining, music, and outdoor events.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "Plan outdoor activities for early morning or evening",
+      "Stay hydrated—the heat is real",
+      "Bat watching is excellent and free at Congress Bridge",
+      "Real estate market has summer inventory—good time to buy"
+    ],
+    "packing": ["Swimsuits", "Sunscreen SPF 50+", "Hat", "Light breathable clothing", "Water bottle"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Standard summer pricing. Not as premium as SXSW or ACL seasons."
+    },
+    "seoKeywords": ["June Austin Texas", "summer Austin", "things to do Austin summer"],
+    "highlights": ["Pool season peak", "Bat watching begins", "Long summer evenings", "Active real estate market"]
+  },
+  {
+    "slug": "july",
+    "month": "July",
+    "monthNumber": 7,
+    "title": "July in Austin: Fourth of July, Lake Days & Peak Summer",
+    "description": "Austin's hottest month features Independence Day celebrations, lake parties, and water-centric living.",
+    "intro": "July is Austin at its hottest—both temperature and activity-wise. The Fourth of July brings fireworks at Auditorium Shores and lake parties across Lake Travis. Life revolves around water: pools, springs, lakes, and splash pads. Mornings are for running or hiking before the heat. Evenings are for patios, live music, and bat watching. It's quintessential Texas summer.",
+    "weather": {
+      "avgHigh": 97,
+      "avgLow": 75,
+      "waterTemp": 83,
+      "rainfall": 2.0,
+      "description": "Peak heat. Triple digits common. Very humid. Plan water activities and air-conditioned relief."
+    },
+    "crowdLevel": "high",
+    "events": ["july-fourth", "willie-nelson-picnic"],
+    "activities": [
+      {
+        "name": "Fourth of July Celebrations",
+        "description": "Fireworks at Auditorium Shores, lake parties, cookouts.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Lake Travis",
+        "description": "Peak lake season with boating, swimming, and waterside dining.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Indoor Escapes",
+        "description": "Museums, movies, and indoor activities for peak heat hours.",
+        "rating": "good"
+      }
+    ],
+    "tips": [
+      "July 4th at Auditorium Shores is Austin's biggest gathering—arrive early",
+      "Plan outdoor activities before 10 AM or after 6 PM",
+      "Hydrate constantly—heat exhaustion is a real risk",
+      "Barton Springs' 68°F water is heavenly in triple-digit heat"
+    ],
+    "packing": ["Swimsuits", "Sunscreen SPF 50+", "Cooling towels", "UV protective clothing", "Insulated water bottle"],
+    "pricing": {
+      "level": "moderate",
+      "description": "July 4th weekend premium. Otherwise standard summer rates."
+    },
+    "seoKeywords": ["July Austin Texas", "Fourth of July Austin", "summer activities Austin"],
+    "highlights": ["Fourth of July fireworks", "Peak lake season", "Bat watching peak", "Texas summer experience"]
+  },
+  {
+    "slug": "august",
+    "month": "August",
+    "monthNumber": 8,
+    "title": "August in Austin: Late Summer, Back to School & Bat Peak",
+    "description": "Summer's final push with peak bat colony season and back-to-school energy.",
+    "intro": "August is summer's last stand in Austin. The heat is intense, but the bat colony reaches peak size as pups join the nightly flight—it's the best month for bat watching. As schools restart, summer crowds thin and the city begins its transition toward fall. For home buyers, August often brings motivated sellers who want to close before the school year.",
+    "weather": {
+      "avgHigh": 98,
+      "avgLow": 75,
+      "waterTemp": 84,
+      "rainfall": 2.5,
+      "description": "Hottest month overall. Triple digits common. Minimal rain. Everything revolves around water and AC."
+    },
+    "crowdLevel": "moderate",
+    "events": ["back-to-school"],
+    "activities": [
+      {
+        "name": "Peak Bat Watching",
+        "description": "Bat colony at maximum size—most spectacular emergence of the year.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Water Activities",
+        "description": "Lakes, springs, and pools are essential daily activities.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Evening Entertainment",
+        "description": "Live music and dining al fresco once temperatures drop after sunset.",
+        "rating": "good"
+      }
+    ],
+    "tips": [
+      "Peak bat watching month—colony is at maximum size",
+      "Back-to-school shopping and neighborhood selection is in full swing",
+      "Real estate deals can be found as motivated sellers negotiate",
+      "Barton Springs is the most pleasant place in Austin in August"
+    ],
+    "packing": ["Swimsuits", "Sunscreen", "Cooling gear", "Light clothing", "Insulated water bottle"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Rates begin dropping as summer winds down. Good value month."
+    },
+    "seoKeywords": ["August Austin Texas", "bat watching Austin", "late summer Austin"],
+    "highlights": ["Peak bat colony", "Back-to-school energy", "Motivated home sellers", "Late summer value"]
+  },
+  {
+    "slug": "september",
+    "month": "September",
+    "monthNumber": 9,
+    "title": "September in Austin: Fall Transition & Football Season",
+    "description": "Football returns, temperatures begin moderating, and fall festival season starts.",
+    "intro": "September marks Austin's welcome transition from summer heat to fall comfort. UT Longhorn football kicks off, bringing game-day energy to campus and the surrounding neighborhoods. Temperatures begin their descent from triple digits, and the city starts looking ahead to the ACL Festival in October. It's a great time for real estate activity as the fall market picks up.",
+    "weather": {
+      "avgHigh": 92,
+      "avgLow": 70,
+      "waterTemp": 80,
+      "rainfall": 3.5,
+      "description": "Gradually cooling from summer peak. Still hot but improving. September can bring significant rain events."
+    },
+    "crowdLevel": "moderate",
+    "events": ["ut-football-season", "fantastic-fest"],
+    "activities": [
+      {
+        "name": "UT Football",
+        "description": "Longhorn game days electrify the campus area and downtown bars.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Outdoor Activities",
+        "description": "Conditions improving for hiking and biking as heat moderates.",
+        "rating": "good"
+      },
+      {
+        "name": "Bat Watching",
+        "description": "Colony still active through early October.",
+        "rating": "good"
+      }
+    ],
+    "tips": [
+      "UT game weekends mean traffic and higher hotel prices near campus",
+      "Fall real estate market is strong—inventory typically good",
+      "Outdoor activities become more pleasant through the month",
+      "Watch for flash flood events during heavy September rains"
+    ],
+    "packing": ["Light layers", "Comfortable shoes", "Burnt orange for game day", "Rain gear"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Game-day weekends slightly higher. Otherwise moderate fall pricing."
+    },
+    "seoKeywords": ["September Austin", "UT football Austin", "fall Austin Texas"],
+    "highlights": ["Football season", "Cooling temperatures", "Fall real estate market", "Pre-ACL energy"]
+  },
+  {
+    "slug": "october",
+    "month": "October",
+    "monthNumber": 10,
+    "title": "October in Austin: ACL Festival, Perfect Weather & Fall Peak",
+    "description": "Austin's most popular month with ACL Music Festival, ideal temperatures, and Halloween celebrations.",
+    "intro": "October is Austin at its absolute best. The Austin City Limits Music Festival draws 450,000 attendees over two weekends. Temperatures are finally comfortable—warm days, cool nights, low humidity. Every patio, trail, and park is at its peak. For real estate, October often brings serious buyers and sellers who want to close before the holidays.",
+    "weather": {
+      "avgHigh": 82,
+      "avgLow": 60,
+      "waterTemp": 74,
+      "rainfall": 4.0,
+      "description": "Perfect fall weather. Warm days, cool evenings. Low humidity. Best weather month in Austin."
+    },
+    "crowdLevel": "peak",
+    "events": ["acl-music-festival", "halloween", "formula-1"],
+    "activities": [
+      {
+        "name": "ACL Music Festival",
+        "description": "Two weekends of world-class music in Zilker Park.",
+        "rating": "excellent"
+      },
+      {
+        "name": "All Outdoor Activities",
+        "description": "Perfect conditions for hiking, biking, paddling—everything.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Formula 1 US Grand Prix",
+        "description": "COTA hosts the US Grand Prix with world-class racing and concerts.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Halloween Events",
+        "description": "Sixth Street Halloween is legendary. Themed events city-wide.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "ACL weekends and F1 weekend require far-advance hotel bookings",
+      "Non-event weekends in October are perfect for house hunting",
+      "Best weather of the year—take advantage of every outdoor activity",
+      "Halloween on Sixth Street is a massive Austin tradition"
+    ],
+    "packing": ["Light layers", "Comfortable shoes", "Sunscreen", "Light jacket for evenings"],
+    "pricing": {
+      "level": "premium",
+      "description": "ACL and F1 weekends are premium pricing. Other weeks are moderate with peak conditions."
+    },
+    "seoKeywords": ["October Austin", "ACL festival Austin", "best time visit Austin", "fall Austin Texas"],
+    "highlights": ["ACL Music Festival", "Perfect weather", "F1 Grand Prix", "Halloween on Sixth Street"]
+  },
+  {
+    "slug": "november",
+    "month": "November",
+    "monthNumber": 11,
+    "title": "November in Austin: Thanksgiving, Fall Beauty & Football Climax",
+    "description": "Thanksgiving festivities, fall foliage along the rivers, and the UT football season finale.",
+    "intro": "November in Austin offers fall beauty without harsh cold. Bald cypress trees along Lady Bird Lake turn brilliant orange and red. Thanksgiving brings family gatherings and the competitive UT football season reaches its climax. The real estate market sees end-of-year activity as buyers and sellers aim to close before the holidays.",
+    "weather": {
+      "avgHigh": 70,
+      "avgLow": 49,
+      "waterTemp": 65,
+      "rainfall": 3.0,
+      "description": "Mild fall weather. Cool mornings and evenings. First frost possible late in month. Beautiful clear days."
+    },
+    "crowdLevel": "moderate",
+    "events": ["thanksgiving", "ut-football-rivalry-week"],
+    "activities": [
+      {
+        "name": "Fall Foliage",
+        "description": "Cypress trees along Lady Bird Lake and Hill Country roads turn golden.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Thanksgiving Dining",
+        "description": "Austin restaurants offer Thanksgiving specials and prix-fixe menus.",
+        "rating": "good"
+      },
+      {
+        "name": "Hiking & Trail Running",
+        "description": "Ideal temperatures for greenbelt and Hill Country trails.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "Cypress trees on Lady Bird Lake peak in mid-November",
+      "Thanksgiving week restaurants fill up—book well in advance",
+      "Great month for outdoor home viewings without the heat",
+      "Black Friday shopping at Domain and local boutiques"
+    ],
+    "packing": ["Layers", "Light jacket", "Comfortable walking shoes", "Camera for fall colors"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Thanksgiving week higher. Otherwise pleasant shoulder-season pricing."
+    },
+    "seoKeywords": ["November Austin", "Thanksgiving Austin", "fall foliage Austin Texas"],
+    "highlights": ["Fall foliage", "Thanksgiving dining", "Football season finale", "Perfect hiking weather"]
+  },
+  {
+    "slug": "december",
+    "month": "December",
+    "monthNumber": 12,
+    "title": "December in Austin: Trail of Lights, Holiday Cheer & Year-End",
+    "description": "Austin's holiday season features the Trail of Lights, festive events, and mild December weather.",
+    "intro": "December brings holiday magic to Austin in a uniquely Austin way. The Trail of Lights at Zilker Park is the city's signature holiday event, drawing hundreds of thousands of visitors. Festive events, holiday markets, and New Year's Eve celebrations round out the month. The mild weather—often 50s and 60s—means you can enjoy outdoor holiday activities without heavy winter gear.",
+    "weather": {
+      "avgHigh": 62,
+      "avgLow": 42,
+      "waterTemp": 57,
+      "rainfall": 2.5,
+      "description": "Mild winter weather. Cool but comfortable most days. Occasional cold fronts bring brief freezes. Rain possible."
+    },
+    "crowdLevel": "moderate",
+    "events": ["trail-of-lights", "christmas-events", "new-years-eve"],
+    "activities": [
+      {
+        "name": "Trail of Lights",
+        "description": "Zilker Park transforms into a spectacular holiday light display.",
+        "rating": "excellent"
+      },
+      {
+        "name": "Holiday Markets",
+        "description": "Artisan markets at Blue Genie Art Bazaar, Armadillo Christmas Bazaar, and more.",
+        "rating": "excellent"
+      },
+      {
+        "name": "New Year's Eve",
+        "description": "Downtown celebrations, Auditorium Shores fireworks, and venue parties.",
+        "rating": "good"
+      },
+      {
+        "name": "Winter Hiking",
+        "description": "Cool temps make December ideal for trail exploration.",
+        "rating": "excellent"
+      }
+    ],
+    "tips": [
+      "Trail of Lights tickets sell out—buy early",
+      "Blue Genie Art Bazaar is the best local gift shopping",
+      "New Year's Eve downtown is festive but crowded",
+      "Year-end real estate deals possible as sellers want to close before January"
+    ],
+    "packing": ["Warm layers", "Jacket", "Comfortable shoes", "Festive outfit for events"],
+    "pricing": {
+      "level": "moderate",
+      "description": "Holiday weeks slightly higher. Good year-end real estate opportunities."
+    },
+    "seoKeywords": ["December Austin", "Trail of Lights Austin", "Christmas Austin Texas", "New Years Eve Austin"],
+    "highlights": ["Trail of Lights", "Holiday markets", "New Year's Eve", "Year-end real estate deals"]
+  }
+]

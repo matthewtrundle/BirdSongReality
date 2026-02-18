@@ -1,0 +1,243 @@
+[
+  {
+    "slug": "sxsw",
+    "name": "South by Southwest (SXSW)",
+    "category": "festival",
+    "description": "Massive annual convergence of film, music, and interactive technology that transforms Austin every March.",
+    "longDescription": "South by Southwest is Austin's most significant cultural event—a multi-week festival that began as a music showcase in 1987 and has grown into a global convergence of film, music, interactive technology, and culture. SXSW draws hundreds of thousands of visitors, fills every venue in the city with performances, and turns Austin into the center of the creative and tech universe. The Interactive portion launches products and ideas, the Film Festival premieres major movies, and the Music Festival showcases thousands of artists across hundreds of venues. For Austin residents, SXSW is both a source of pride and a beloved disruption.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "March"
+    },
+    "location": "Throughout Austin",
+    "duration": "10+ days",
+    "cost": "Badge packages from $895+; many free events",
+    "website": "https://www.sxsw.com",
+    "highlights": ["Thousands of musical performances", "Film premieres", "Tech industry convergence", "Celebrity sightings", "Free outdoor shows"],
+    "whatToExpect": ["Crowded city center", "Music everywhere", "Tech industry buzz", "Film screenings", "Incredible networking"],
+    "tips": ["Many free events without a badge", "Book lodging months in advance", "Use public transit—parking is impossible", "Explore unofficial showcases"],
+    "history": "SXSW began in 1987 as a music festival and has grown into one of the world's most important creative industry events, helping launch careers from Twitter to Billie Eilish.",
+    "seoKeywords": ["sxsw austin", "south by southwest", "austin music festival march", "austin tech conference"],
+    "relatedEvents": ["acl-music-festival"],
+    "nearbyPlaces": ["sixth-street-entertainment", "acl-live-moody-theater"]
+  },
+  {
+    "slug": "acl-music-festival",
+    "name": "Austin City Limits Music Festival",
+    "category": "festival",
+    "description": "Two-weekend music festival in Zilker Park featuring 130+ acts across 8 stages, Austin's biggest musical event.",
+    "longDescription": "Austin City Limits Music Festival is one of America's premier music festivals, held across two consecutive three-day weekends in October at Zilker Park. Over 130 musical acts perform across 8 stages, ranging from headlining superstars to emerging local talent. The festival draws over 75,000 daily attendees who enjoy not just music but Austin's famous food trucks, local artisans, and the stunning Zilker Park setting. ACL Fest captures Austin's music culture at its most concentrated and celebrates the city's identity as the Live Music Capital of the World.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "October"
+    },
+    "location": "Zilker Park",
+    "duration": "Two weekends (6 days total)",
+    "cost": "Three-day passes from $300+; VIP available",
+    "website": "https://www.aclfestival.com",
+    "highlights": ["130+ acts across 8 stages", "Zilker Park setting", "Austin food and artisan vendors", "Two weekends of music", "Local and international acts"],
+    "whatToExpect": ["Massive crowds", "Multiple stages with overlapping acts", "Austin food trucks", "October heat possible", "Incredible music lineup"],
+    "tips": ["Buy tickets early—they sell out", "Wear comfortable shoes", "Bring sunscreen and water", "Plan your schedule with the app"],
+    "history": "Named after the legendary Austin City Limits TV show, the festival began in 2002 and expanded to two weekends in 2013.",
+    "seoKeywords": ["acl fest austin", "austin city limits festival", "music festival austin october", "zilker park festival"],
+    "relatedEvents": ["sxsw", "trail-of-lights"],
+    "nearbyPlaces": ["zilker-park-attraction", "barton-springs-pool"]
+  },
+  {
+    "slug": "trail-of-lights",
+    "name": "Austin Trail of Lights",
+    "category": "holiday",
+    "description": "Beloved annual holiday light display in Zilker Park with millions of lights, food vendors, and festive atmosphere.",
+    "longDescription": "The Austin Trail of Lights is Central Texas's most cherished holiday tradition. Each December, Zilker Park transforms into a magical wonderland of light with over 2 million lights arranged in elaborate displays along a walking trail. Food vendors, live music, and activities create a festive atmosphere. The iconic Zilker Tree—a spiral of lights on the park's moonlight tower—is visible from across the city and has been an Austin tradition since 1967. The event draws hundreds of thousands of visitors and marks the official start of Austin's holiday season.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "December"
+    },
+    "location": "Zilker Park",
+    "duration": "17 nights in December",
+    "cost": "Free general admission nights; premium nights available",
+    "website": "https://austintrailoflights.org",
+    "highlights": ["2 million+ lights", "Iconic Zilker Tree", "Food vendors", "Live entertainment", "Family tradition"],
+    "whatToExpect": ["Walking trail through light displays", "Food and drink vendors", "Live performances", "Holiday atmosphere", "Large crowds"],
+    "tips": ["Free nights available—check schedule", "Go on weeknight for smaller crowds", "The Zilker Tree is a must-see", "Dress warmly for evening temperatures"],
+    "history": "The Trail of Lights began in 1965 and has grown into one of the largest holiday events in Texas, with the Zilker Tree tradition dating to 1967.",
+    "seoKeywords": ["trail of lights austin", "zilker tree austin", "christmas lights austin", "holiday events austin"],
+    "relatedEvents": ["acl-music-festival"],
+    "nearbyPlaces": ["zilker-park-attraction"]
+  },
+  {
+    "slug": "pecan-street-festival",
+    "name": "Pecan Street Festival",
+    "category": "arts",
+    "description": "Huge biannual arts and crafts festival on historic 6th Street with hundreds of vendors and live music.",
+    "longDescription": "The Pecan Street Festival is one of the largest arts and crafts festivals in the United States, held biannually on historic 6th Street (originally named Pecan Street). Hundreds of artisan vendors display and sell original works including painting, sculpture, jewelry, pottery, and photography. Three stages feature live music throughout the day, and food vendors serve Austin favorites. The spring and fall events each draw over 200,000 visitors to the historic entertainment district, creating a street-festival atmosphere that celebrates Austin's creative community.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "May"
+    },
+    "location": "Historic 6th Street, Downtown Austin",
+    "duration": "2 days (also held in September)",
+    "cost": "Free admission",
+    "highlights": ["Hundreds of art vendors", "Live music on 3 stages", "Food vendors", "Free admission", "Historic 6th Street setting"],
+    "whatToExpect": ["Huge crowds", "Arts and crafts for sale", "Live music", "Street festival atmosphere", "Austin food vendors"],
+    "tips": ["Go early for best art selection", "Free admission", "Also held in September", "Wear comfortable walking shoes"],
+    "seoKeywords": ["pecan street festival austin", "arts crafts festival austin", "6th street festival", "free events austin"],
+    "relatedEvents": ["sxsw"]
+  },
+  {
+    "slug": "austin-food-wine-festival",
+    "name": "Austin Food + Wine Festival",
+    "category": "food-and-drink",
+    "description": "Three-day celebration of Austin's culinary scene with celebrity chef demos, tastings, and exclusive dinners.",
+    "longDescription": "The Austin Food + Wine Festival is a three-day celebration of Austin's extraordinary culinary scene, bringing together the city's best chefs, restaurants, and food artisans alongside national culinary stars. The festival features live cooking demonstrations, wine and spirits tastings, exclusive multi-course dinners, and a grand tasting event along Auditorium Shores. It's the best way to experience the breadth and depth of Austin's food culture in a concentrated, festive format. The festival has helped establish Austin as one of America's premier food cities.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "April"
+    },
+    "location": "Auditorium Shores and various Austin restaurants",
+    "duration": "3 days",
+    "cost": "Tickets from $175+",
+    "website": "https://austinfoodandwinefestival.com",
+    "highlights": ["Celebrity chef demonstrations", "Grand tasting event", "Exclusive dinners", "Wine and spirits tastings", "Austin's best restaurants"],
+    "whatToExpect": ["Cooking demonstrations", "Food and wine tastings", "Special ticketed dinners", "Waterfront setting", "Culinary celebrity encounters"],
+    "tips": ["Book early—events sell out", "Exclusive dinners are special", "Grand tasting is the main event", "Pace yourself with tastings"],
+    "seoKeywords": ["austin food wine festival", "food festival austin", "culinary events austin", "austin chef events"],
+    "relatedEvents": ["pecan-street-festival"]
+  },
+  {
+    "slug": "formula-1-us-grand-prix",
+    "name": "Formula 1 US Grand Prix",
+    "category": "sports",
+    "description": "Formula 1 racing at Circuit of the Americas with world-class racing, concerts, and international spectacle.",
+    "longDescription": "The Formula 1 United States Grand Prix brings the world's premier motorsport to Austin's Circuit of the Americas (COTA) every October. The state-of-the-art circuit, designed by Hermann Tilke, features challenging elevation changes unique among F1 tracks. Race weekend includes practice sessions, qualifying, support races, and the main event on Sunday. Major musical acts perform post-race concerts. The event draws an international crowd and generates massive economic impact. For Austin residents, the F1 weekend is a world-class sporting event in their backyard.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "October"
+    },
+    "location": "Circuit of the Americas, 9201 Circuit of the Americas Blvd",
+    "duration": "3 days (Friday-Sunday)",
+    "cost": "General admission from $150+; grandstand seats higher",
+    "website": "https://www.circuitoftheamericas.com",
+    "highlights": ["F1 racing action", "World-class circuit", "Post-race concerts", "International atmosphere", "Elevation changes unique to COTA"],
+    "whatToExpect": ["Incredible speed and noise", "Massive crowds", "International fans", "Concert after the race", "Premium food and beverage"],
+    "tips": ["Buy tickets early", "Turn 1 has best views", "Post-race concerts included in ticket", "Traffic is intense—plan transport"],
+    "seoKeywords": ["formula 1 austin", "us grand prix", "cota austin", "f1 texas"],
+    "relatedEvents": ["acl-music-festival"]
+  },
+  {
+    "slug": "bat-fest",
+    "name": "Bat Fest",
+    "category": "festival",
+    "description": "Annual celebration of Austin's famous Congress Avenue Bridge bat colony with live music, food, and bat watching.",
+    "longDescription": "Bat Fest celebrates Austin's most unusual claim to fame—the 1.5 million Mexican free-tailed bats that live under the Congress Avenue Bridge. This annual August street festival features live music on two stages, over 50 arts and crafts vendors, a bat costume contest, and food from Austin's best vendors. The highlight is the mass bat emergence at dusk, when the colony streams out in a spectacular natural display viewed by thousands of festival attendees lining the bridge and lakefront.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "August"
+    },
+    "location": "Congress Avenue Bridge",
+    "duration": "1 day",
+    "cost": "Tickets from $15+",
+    "highlights": ["Mass bat emergence", "Live music", "Bat costume contest", "50+ vendors", "Lakeside setting"],
+    "whatToExpect": ["Hot August evening", "Massive bat flight at dusk", "Live music all day", "Food and craft vendors", "Festive atmosphere"],
+    "tips": ["Arrive early for good bat-watching spot", "Stay hydrated—August is hot", "Bat costume contest is fun", "Emergence happens around sunset"],
+    "seoKeywords": ["bat fest austin", "bat festival congress bridge", "austin bat watching event", "bat celebration austin"],
+    "relatedEvents": ["pecan-street-festival"],
+    "nearbyPlaces": ["congress-avenue-bridge-bats"]
+  },
+  {
+    "slug": "old-settlers-music-festival",
+    "name": "Old Settler's Music Festival",
+    "category": "music",
+    "description": "Four-day Americana and roots music festival in the Hill Country near Austin with camping and community.",
+    "longDescription": "Old Settler's Music Festival is a four-day celebration of Americana, roots, folk, and bluegrass music held at the Salt Lick Pavilion in Tilmon, just outside Austin in the Hill Country. The festival features multiple stages, workshops, a children's area, and camping that creates a genuine community atmosphere. Unlike the massive commercial festivals, Old Settler's maintains an intimate, family-friendly vibe that celebrates musical traditions. It's a beloved annual pilgrimage for Austin's roots music community.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "April"
+    },
+    "location": "Salt Lick Pavilion, Tilmon TX (near Austin)",
+    "duration": "4 days",
+    "cost": "Day tickets from $55; camping passes available",
+    "highlights": ["Americana and roots music", "Camping atmosphere", "Hill Country setting", "Family friendly", "Musical workshops"],
+    "whatToExpect": ["Multiple stages", "Camping community", "Hill Country beauty", "Workshops and jams", "Intimate festival vibe"],
+    "tips": ["Camping enhances the experience", "Bring instruments for campfire jams", "Family-friendly atmosphere", "Near the famous Salt Lick BBQ"],
+    "seoKeywords": ["old settlers music festival", "americana festival austin", "roots music texas", "hill country music festival"],
+    "relatedEvents": ["sxsw"]
+  },
+  {
+    "slug": "austin-pride",
+    "name": "Austin Pride",
+    "category": "community",
+    "description": "Annual LGBTQ+ pride celebration with parade, festival, and events throughout the city.",
+    "longDescription": "Austin Pride is the city's annual celebration of its vibrant LGBTQ+ community, featuring a colorful parade through downtown, a festival with music and entertainment, and events throughout the week. Austin's reputation as one of the most LGBTQ+-friendly cities in the South makes Pride a significant cultural moment. The parade route winds through downtown, past the Capitol, and draws enthusiastic crowds of supporters. The festival features live music, dancing, vendor markets, and community resources.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "August"
+    },
+    "location": "Downtown Austin",
+    "duration": "Multiple days of events",
+    "cost": "Parade free; festival tickets vary",
+    "highlights": ["Colorful downtown parade", "Festival with music", "Community celebration", "Vendor marketplace", "Inclusive atmosphere"],
+    "whatToExpect": ["Colorful parade", "Live music and entertainment", "Community solidarity", "Vendor marketplace", "Celebratory atmosphere"],
+    "tips": ["Parade is free to watch", "Arrive early for good parade spots", "Stay hydrated—August heat", "Celebrate and be an ally"],
+    "seoKeywords": ["austin pride", "pride parade austin", "lgbtq austin", "pride festival austin"],
+    "relatedEvents": ["bat-fest"]
+  },
+  {
+    "slug": "republic-of-texas-biker-rally",
+    "name": "Republic of Texas Biker Rally (ROT Rally)",
+    "category": "festival",
+    "description": "One of the largest motorcycle rallies in the US with concerts, vendors, and thousands of bikers in Austin.",
+    "longDescription": "The Republic of Texas (ROT) Biker Rally is one of the largest motorcycle rallies in the United States, bringing hundreds of thousands of motorcycle enthusiasts to Austin each June. The rally features a massive parade of motorcycles through downtown Austin, live concerts by major rock and country acts at Circuit of the Americas, a vendor marketplace with motorcycle gear and accessories, and organized group rides through the scenic Hill Country. The rally is a Texas tradition that celebrates motorcycle culture and freedom.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "June"
+    },
+    "location": "Circuit of the Americas and Downtown Austin",
+    "duration": "4 days",
+    "cost": "Varies by event",
+    "website": "https://www.rotrally.com",
+    "highlights": ["Massive motorcycle parade", "Major concert headliners", "Hill Country rides", "Vendor marketplace", "Motorcycle culture celebration"],
+    "whatToExpect": ["Thousands of motorcycles", "Downtown parade", "Live concerts at COTA", "Vendor marketplace", "Loud and energetic"],
+    "tips": ["Downtown parade is free to watch", "Concert tickets separate", "Hill Country rides are scenic", "Embrace the energy"],
+    "seoKeywords": ["rot rally austin", "motorcycle rally austin", "republic of texas biker rally", "biker events austin"],
+    "relatedEvents": ["formula-1-us-grand-prix"]
+  },
+  {
+    "slug": "zilker-kite-festival",
+    "name": "Zilker Kite Festival",
+    "category": "community",
+    "description": "Free annual kite festival in Zilker Park with kite contests, demonstrations, and family fun since 1929.",
+    "longDescription": "The Zilker Kite Festival is one of Austin's oldest and most charming traditions, dating back to 1929. Each spring, Zilker Park fills with kites of every shape, size, and color in a free, family-friendly celebration that embodies Austin's community spirit. Contests for homemade kites, stunt kite demonstrations, and organized activities make it a full day of entertainment. The open fields of Zilker provide perfect conditions, and the sight of hundreds of kites filling the sky is pure Austin magic.",
+    "recurring": {
+      "frequency": "annual",
+      "month": "March"
+    },
+    "location": "Zilker Park",
+    "duration": "1 day",
+    "cost": "Free",
+    "highlights": ["Free admission", "Kite contests", "Stunt demonstrations", "Family tradition since 1929", "Beautiful Zilker setting"],
+    "whatToExpect": ["Hundreds of kites", "Family atmosphere", "Contests and prizes", "Food vendors", "Austin community spirit"],
+    "tips": ["Bring your own kite or buy one there", "Arrive early for parking", "Free event", "Perfect for families"],
+    "seoKeywords": ["zilker kite festival", "kite festival austin", "free events austin", "family events austin"],
+    "relatedEvents": ["trail-of-lights"],
+    "nearbyPlaces": ["zilker-park-attraction"]
+  },
+  {
+    "slug": "austin-farmers-market",
+    "name": "SFC Farmers' Market at the Triangle",
+    "category": "community",
+    "description": "Year-round weekly farmers market with local produce, artisan goods, and community gathering.",
+    "longDescription": "The Sustainable Food Center's Farmers' Market at the Triangle is Austin's premier farmers market, operating year-round every Wednesday and Saturday. Local farmers bring fresh produce, grass-fed meats, artisan cheeses, and baked goods. Artisan vendors sell handmade crafts, prepared foods, and specialty items. The market serves as a community gathering place where Austin's farm-to-table values come to life. The SFC also operates a downtown market on Saturdays at Republic Square.",
+    "recurring": {
+      "frequency": "weekly",
+      "dayOfWeek": "Saturday"
+    },
+    "location": "The Triangle, 4600 Guadalupe St",
+    "duration": "Morning hours",
+    "cost": "Free admission",
+    "highlights": ["Local produce", "Artisan goods", "Year-round operation", "Community gathering", "Farm-to-table values"],
+    "whatToExpect": ["Fresh local produce", "Artisan vendors", "Prepared foods", "Community atmosphere", "Friendly farmers"],
+    "tips": ["Arrive early for best selection", "Bring reusable bags", "Year-round rain or shine", "Also on Wednesdays"],
+    "seoKeywords": ["farmers market austin", "local produce austin", "sfc farmers market", "saturday market austin"]
+  }
+]

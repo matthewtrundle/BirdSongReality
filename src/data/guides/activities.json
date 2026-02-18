@@ -1,0 +1,335 @@
+[
+  {
+    "slug": "live-music-scene",
+    "name": "Live Music Scene",
+    "category": "entertainment",
+    "description": "Experience Austin's legendary live music scene, from intimate clubs to world-class festivals.",
+    "longDescription": "Austin earned the title 'Live Music Capital of the World' honestly. On any given night, you can find hundreds of live performances across the city, spanning every genre from Texas blues and country to indie rock, jazz, hip-hop, and electronic music. The Red River Cultural District downtown hosts iconic venues like Mohawk, Stubb's, and Cheer Up Charlies. Sixth Street offers a rowdy bar-hopping experience with live bands in every doorway. South Congress and East Austin feature more intimate listening rooms. Major festivals like South by Southwest and Austin City Limits bring global talent, while local musicians provide the soundtrack to everyday life.",
+    "difficulty": "easy",
+    "duration": "2-6 hours",
+    "bestSeason": ["Year-round"],
+    "bestTime": "Evening, typically 8 PM onwards",
+    "cost": "Free to $50+ depending on venue and artist",
+    "requirements": ["21+ for most bars", "Valid ID"],
+    "whatToBring": ["Comfortable shoes", "Cash for tips", "Light jacket for outdoor venues", "Earplugs for loud shows"],
+    "tips": ["Many venues have no cover charge on weeknights", "Red River District has the best concentration of venues", "Check Do512.com for daily event listings", "Continental Club on South Congress is a must-visit", "SXSW week in March transforms the entire city"],
+    "locations": ["Red River Cultural District", "Sixth Street", "South Congress", "Rainey Street", "East Austin"],
+    "operators": [
+      {
+        "name": "Continental Club",
+        "phone": "(512) 441-2444",
+        "website": "https://continentalclub.com",
+        "description": "Legendary South Congress venue since 1955, hosting blues, rockabilly, and country acts nightly"
+      },
+      {
+        "name": "Stubb's BBQ",
+        "phone": "(512) 480-8341",
+        "website": "https://stubbsaustin.com",
+        "description": "Iconic outdoor amphitheater and indoor stage with world-class BBQ"
+      }
+    ],
+    "seoKeywords": ["Austin live music", "music venues Austin", "live music capital", "Austin nightlife"],
+    "relatedActivities": ["food-tours", "bar-hopping", "festivals"],
+    "faqs": [
+      {
+        "question": "Is there live music every night in Austin?",
+        "answer": "Yes, there are live performances every single night of the week across hundreds of venues. Even Monday nights have great options."
+      },
+      {
+        "question": "Do I need tickets in advance?",
+        "answer": "Most smaller venues and bars are walk-in with a cover charge. Larger concerts at venues like Moody Center or ACL Live require advance tickets."
+      }
+    ]
+  },
+  {
+    "slug": "hiking-and-trails",
+    "name": "Hiking & Trail Running",
+    "category": "outdoor",
+    "description": "Explore Austin's extensive trail system through greenbelt canyons, Hill Country preserves, and urban paths.",
+    "longDescription": "Austin's trail system is one of the city's greatest assets. The Barton Creek Greenbelt offers miles of rugged trails winding through limestone canyons with swimming holes along the way. The Ann and Roy Butler Hike-and-Bike Trail loops around Lady Bird Lake in the heart of downtown, providing a scenic 10-mile path for walkers, runners, and cyclists. Further out, preserves like Wild Basin, St. Edwards Park, and the Balcones Canyonlands offer more challenging terrain with Hill Country views. McKinney Falls State Park provides waterfall hikes minutes from the city center.",
+    "difficulty": "easy",
+    "duration": "1-4 hours",
+    "bestSeason": ["October", "November", "March", "April", "May"],
+    "bestTime": "Early morning to avoid heat, especially in summer",
+    "cost": "Free for most trails; state parks require entry fee ($6-8)",
+    "requirements": ["Sturdy shoes", "Water", "Basic fitness for greenbelt trails"],
+    "whatToBring": ["Water (more than you think)", "Sunscreen", "Hat", "Trail shoes", "Snacks", "Phone for trail maps"],
+    "tips": ["Barton Creek Greenbelt can be slippery—wear proper footwear", "Lady Bird Lake trail is paved and beginner-friendly", "Avoid greenbelt trails after heavy rain", "Early morning hikes in summer beat the heat", "AllTrails app has detailed Austin trail maps"],
+    "locations": ["Barton Creek Greenbelt", "Lady Bird Lake Trail", "Wild Basin Wilderness Preserve", "McKinney Falls State Park", "St. Edwards Park"],
+    "operators": [
+      {
+        "name": "Austin Parks and Recreation",
+        "website": "https://austintexas.gov/parks",
+        "description": "City department managing trails and parks"
+      }
+    ],
+    "seoKeywords": ["Austin hiking", "Barton Creek Greenbelt", "Austin trails", "hiking near Austin"],
+    "relatedActivities": ["mountain-biking", "swimming-holes", "nature-photography"],
+    "faqs": [
+      {
+        "question": "What's the best trail for beginners?",
+        "answer": "The Lady Bird Lake Hike-and-Bike Trail is flat, paved, and scenic. For a nature hike, the Violet Crown Trail from Zilker is well-maintained."
+      },
+      {
+        "question": "Can I hike year-round in Austin?",
+        "answer": "Yes, but summer requires early starts due to heat. Spring and fall offer the most comfortable conditions, with wildflowers in March-April."
+      }
+    ]
+  },
+  {
+    "slug": "food-tours",
+    "name": "Food Tours & Culinary Experiences",
+    "category": "food-and-drink",
+    "description": "Discover Austin's world-class food scene, from legendary BBQ to innovative Tex-Mex and food truck culture.",
+    "longDescription": "Austin's food scene is one of the best in the country, anchored by legendary barbecue and expanded by a diverse, creative culinary community. Franklin Barbecue and la Barbecue draw lines for their famous brisket. Tex-Mex is a way of life, with breakfast tacos served at hundreds of spots across the city. Food trucks and trailers are an Austin institution, with entire food truck parks offering cuisines from around the world. Guided food tours take you through neighborhoods like East Austin, South Congress, and the Rainey Street District, sampling the best bites and learning the stories behind them.",
+    "difficulty": "easy",
+    "duration": "2-4 hours",
+    "bestSeason": ["Year-round"],
+    "bestTime": "Lunch tours 11 AM-2 PM; dinner tours 5-8 PM",
+    "cost": "$50-100 per person for guided tours; self-guided is cost of food",
+    "requirements": ["Appetite", "Comfortable walking shoes"],
+    "whatToBring": ["Comfortable shoes", "Water", "Camera", "Empty stomach"],
+    "tips": ["Franklin BBQ line starts at 7 AM for 11 AM opening—or order online", "Breakfast tacos are a must—try Veracruz All Natural or Valentina's", "Food truck parks on South First and East Austin are great for groups", "Book guided tours in advance, especially weekends", "Don't skip the kolaches at Czech Stop if you road-trip to Austin"],
+    "locations": ["South Congress", "East Austin", "Rainey Street", "South First Street", "North Loop"],
+    "operators": [
+      {
+        "name": "Austin Eats Food Tours",
+        "phone": "(512) 963-4545",
+        "website": "https://austineatsfoodtours.com",
+        "description": "Walking food tours through Austin's best neighborhoods"
+      },
+      {
+        "name": "Secret Food Tours Austin",
+        "website": "https://secretfoodtours.com/austin",
+        "description": "Guided culinary experiences with local history and culture"
+      }
+    ],
+    "seoKeywords": ["Austin food tours", "Austin BBQ", "food trucks Austin", "Tex-Mex Austin"],
+    "relatedActivities": ["live-music-scene", "bar-hopping", "brewery-tours"],
+    "faqs": [
+      {
+        "question": "Is Franklin Barbecue worth the wait?",
+        "answer": "Many say yes—the brisket is legendary. But if you don't want to wait, la Barbecue, Micklethwait, and Interstellar BBQ are excellent alternatives with shorter lines."
+      },
+      {
+        "question": "Where are the best breakfast tacos?",
+        "answer": "Veracruz All Natural, Valentina's Tex Mex BBQ, Tacodeli, and Joe's Bakery are local favorites. Every Austinite has their own pick—part of the fun is debating it."
+      }
+    ]
+  },
+  {
+    "slug": "swimming-holes",
+    "name": "Swimming Holes & Springs",
+    "category": "outdoor",
+    "description": "Cool off in Austin's famous natural swimming holes and spring-fed pools.",
+    "longDescription": "Austin is blessed with natural swimming spots that provide relief from Texas heat. Barton Springs Pool, a three-acre spring-fed pool in Zilker Park, maintains a refreshing 68-70 degrees year-round and is considered the soul of Austin. Hamilton Pool Preserve features a stunning 50-foot waterfall cascading into a grotto swimming hole. Deep Eddy Pool is the oldest swimming pool in Texas, fed by natural springs. The Barton Creek Greenbelt has swimming holes like Sculpture Falls and Twin Falls accessible by hiking trails. These natural water features are central to Austin's outdoor culture.",
+    "difficulty": "easy",
+    "duration": "2-5 hours",
+    "bestSeason": ["May", "June", "July", "August", "September"],
+    "bestTime": "Midday during summer; morning for fewer crowds",
+    "cost": "Free to $10 entry",
+    "requirements": ["Swimming ability for natural spots", "Reservations required for Hamilton Pool"],
+    "whatToBring": ["Swimsuit", "Towel", "Sunscreen", "Water shoes for greenbelt pools", "Snacks", "Cash for entry fees"],
+    "tips": ["Barton Springs is cold—expect a shock but you'll love it", "Hamilton Pool requires advance reservations in summer", "Greenbelt swimming holes depend on recent rainfall", "Deep Eddy offers lap swimming and a shallow wading area", "Arrive early on weekends for parking at Zilker"],
+    "locations": ["Barton Springs Pool", "Hamilton Pool Preserve", "Deep Eddy Pool", "Sculpture Falls", "Twin Falls"],
+    "seoKeywords": ["Austin swimming holes", "Barton Springs Pool", "Hamilton Pool Austin", "natural swimming Austin"],
+    "relatedActivities": ["hiking-and-trails", "kayaking-paddleboarding", "outdoor-recreation"],
+    "faqs": [
+      {
+        "question": "Is Barton Springs really 68 degrees year-round?",
+        "answer": "Yes—the springs maintain a constant temperature. It feels cold on a hot day but incredibly refreshing. Many locals swim there even in winter."
+      },
+      {
+        "question": "Do I need reservations for Hamilton Pool?",
+        "answer": "Yes, during peak season (May-September) you must reserve a time slot in advance through the Travis County Parks website. Spots fill up fast."
+      }
+    ]
+  },
+  {
+    "slug": "kayaking-paddleboarding",
+    "name": "Kayaking & Paddleboarding",
+    "category": "water-sports",
+    "description": "Paddle Lady Bird Lake, Lake Austin, and Lake Travis for stunning on-the-water views of the city and Hill Country.",
+    "longDescription": "Austin's lakes and waterways offer excellent kayaking and stand-up paddleboarding opportunities. Lady Bird Lake, running through the heart of downtown, is the most popular spot—motorized boats are prohibited, making it perfect for paddling. You'll glide past the downtown skyline, under Congress Avenue Bridge (home to 1.5 million bats), and through peaceful stretches lined with cypress trees. Lake Austin and Lake Travis offer more open-water paddling with Hill Country scenery. Rentals are available at multiple locations along the waterfront.",
+    "difficulty": "easy",
+    "duration": "1-3 hours",
+    "bestSeason": ["March", "April", "May", "June", "September", "October"],
+    "bestTime": "Early morning for calm water and wildlife; sunset for views",
+    "cost": "$15-40 per hour for rentals; $50-80 for guided tours",
+    "requirements": ["Basic swimming ability", "Comfort on water"],
+    "whatToBring": ["Sunscreen", "Hat with strap", "Water bottle", "Dry bag for phone", "Sunglasses with strap"],
+    "tips": ["Lady Bird Lake is beginner-friendly with no motorized boat traffic", "Sunset paddles offer views of the Congress Avenue Bridge bat colony", "Morning is calmest for paddleboarding", "Multiple rental locations along the south shore of Lady Bird Lake", "Lake Travis is better for experienced paddlers due to boat traffic"],
+    "locations": ["Lady Bird Lake", "Lake Austin", "Lake Travis"],
+    "operators": [
+      {
+        "name": "Congress Avenue Kayaks",
+        "phone": "(512) 809-8916",
+        "description": "Kayak and SUP rentals on Lady Bird Lake near Congress Bridge"
+      },
+      {
+        "name": "Texas Rowing Center",
+        "phone": "(512) 467-7799",
+        "description": "Kayak, canoe, and SUP rentals on Lady Bird Lake"
+      }
+    ],
+    "seoKeywords": ["kayaking Austin", "paddleboarding Lady Bird Lake", "SUP Austin", "water activities Austin"],
+    "relatedActivities": ["swimming-holes", "bat-watching", "outdoor-recreation"],
+    "faqs": [
+      {
+        "question": "Can I see the bats from a kayak?",
+        "answer": "Yes! Paddling near Congress Avenue Bridge at sunset is one of the best ways to watch the bat colony emerge. Keep a safe distance from the bridge."
+      },
+      {
+        "question": "Is paddleboarding hard to learn?",
+        "answer": "Most people stand within minutes on Lady Bird Lake's calm water. Start on your knees and work up to standing. Falling in is part of the fun."
+      }
+    ]
+  },
+  {
+    "slug": "bat-watching",
+    "name": "Congress Bridge Bat Colony",
+    "category": "wildlife",
+    "description": "Watch 1.5 million Mexican free-tailed bats emerge from the Congress Avenue Bridge at sunset.",
+    "longDescription": "One of Austin's most unique attractions is the world's largest urban bat colony living under the Congress Avenue Bridge. From March through November, approximately 1.5 million Mexican free-tailed bats emerge at dusk in a spectacular swirling cloud that darkens the sky. The nightly emergence takes about 20-45 minutes and is one of the most memorable wildlife experiences in any American city. Viewing is free from the bridge, the trail below, or from kayaks on the water. Bat boat cruises offer an on-the-water perspective with educational narration.",
+    "difficulty": "easy",
+    "duration": "1-2 hours",
+    "bestSeason": ["April", "May", "June", "July", "August", "September", "October"],
+    "bestTime": "Arrive 30 minutes before sunset",
+    "cost": "Free from bridge; $12-15 for boat tours",
+    "requirements": ["None"],
+    "whatToBring": ["Camera", "Light jacket", "Patience"],
+    "tips": ["Peak bat season is August when pups are flying", "Stand on the east side of the bridge for best viewing angle", "Boat tours offer unique perspective from the water", "Don't stand directly under the bridge—for obvious reasons", "Bats depart north, so position yourself accordingly"],
+    "locations": ["Congress Avenue Bridge", "Lady Bird Lake south shore"],
+    "operators": [
+      {
+        "name": "Capital Cruises",
+        "phone": "(512) 480-9264",
+        "description": "Bat watching boat tours on Lady Bird Lake"
+      }
+    ],
+    "seoKeywords": ["Austin bats", "Congress Bridge bats", "bat watching Austin", "Mexican free-tailed bats"],
+    "relatedActivities": ["kayaking-paddleboarding", "sunset-viewing", "nature-photography"],
+    "faqs": [
+      {
+        "question": "When is the best time to see the bats?",
+        "answer": "The bats are present from March through early November. August is peak season when baby bats join the nightly flight, nearly doubling the colony size."
+      },
+      {
+        "question": "What time do they come out?",
+        "answer": "Bats emerge around sunset, typically between 7:30-8:30 PM depending on the time of year. Arrive 30 minutes early for a good spot."
+      }
+    ]
+  },
+  {
+    "slug": "brewery-tours",
+    "name": "Craft Brewery Tours",
+    "category": "food-and-drink",
+    "description": "Tour Austin's thriving craft brewery scene with taprooms, beer gardens, and brewery trails.",
+    "longDescription": "Austin's craft beer scene has exploded, with dozens of breweries scattered across the city offering taprooms, tours, and unique experiences. Jester King Brewery in the Hill Country combines farmhouse ales with a stunning outdoor setting. Live Oak Brewing offers classic German-style lagers in East Austin. Zilker Brewing, Pinthouse Pizza, and Meanwhile Brewing provide neighborhood gathering spots with excellent beer and food. Many breweries welcome dogs, kids, and food trucks, making them social hubs for the community.",
+    "difficulty": "easy",
+    "duration": "2-5 hours",
+    "bestSeason": ["Year-round"],
+    "bestTime": "Afternoon into evening",
+    "cost": "$0-20 for tastings; designated driver recommended",
+    "requirements": ["21+ for alcohol service", "Valid ID"],
+    "whatToBring": ["ID", "Cash for tips", "Designated driver plan", "Sunscreen for outdoor taprooms"],
+    "tips": ["Jester King is worth the drive to the Hill Country for the setting alone", "Many breweries are dog-friendly and kid-friendly", "Saturday afternoons are busiest", "Designate a driver or use rideshare", "Follow breweries on social media for special releases"],
+    "locations": ["East Austin", "South Austin", "Hill Country", "North Austin"],
+    "seoKeywords": ["Austin breweries", "craft beer Austin", "brewery tours Austin", "taprooms Austin"],
+    "relatedActivities": ["food-tours", "live-music-scene", "distillery-tours"],
+    "faqs": [
+      {
+        "question": "Which Austin brewery should I visit first?",
+        "answer": "Jester King for the experience and Hill Country setting, Live Oak for classic German-style beers, or Zilker Brewing for a great neighborhood vibe."
+      },
+      {
+        "question": "Are Austin breweries family-friendly?",
+        "answer": "Many are, especially those with outdoor spaces. Jester King, Meanwhile, and several others welcome families with kids and dogs."
+      }
+    ]
+  },
+  {
+    "slug": "mountain-biking",
+    "name": "Mountain Biking",
+    "category": "outdoor",
+    "description": "Ride Austin's extensive mountain bike trail network through greenbelt canyons and Hill Country terrain.",
+    "longDescription": "Austin is one of the best mountain biking cities in the country, with an extensive network of trails maintained by the Austin Ridge Riders. The Barton Creek Greenbelt offers technical singletrack through limestone canyons. Walnut Creek Metropolitan Park in North Austin has beginner-to-intermediate flow trails. Emma Long Metropolitan Park provides challenging Hill Country riding. Further out, Pace Bend Park on Lake Travis and Spider Mountain bike park offer additional options. The trails stay rideable year-round thanks to Austin's mild winters, though summer riding requires early starts.",
+    "difficulty": "moderate",
+    "duration": "1-4 hours",
+    "bestSeason": ["October", "November", "December", "March", "April"],
+    "bestTime": "Early morning, especially in summer",
+    "cost": "Free for most trails; bike rental $40-80 per day",
+    "requirements": ["Mountain bike", "Helmet", "Basic fitness"],
+    "whatToBring": ["Helmet", "Water (lots)", "Repair kit", "Gloves", "Sunscreen"],
+    "tips": ["Check trail conditions at austinridgeriders.com before riding", "Walnut Creek is best for beginners", "Greenbelt trails close after heavy rain to prevent erosion", "Spider Mountain offers lift-served downhill for a unique experience", "Early morning rides in summer are essential"],
+    "locations": ["Barton Creek Greenbelt", "Walnut Creek Metro Park", "Emma Long Metro Park", "Pace Bend Park"],
+    "seoKeywords": ["mountain biking Austin", "Austin bike trails", "MTB Austin", "trail riding Austin"],
+    "relatedActivities": ["hiking-and-trails", "outdoor-recreation", "swimming-holes"],
+    "faqs": [
+      {
+        "question": "Where should beginners ride in Austin?",
+        "answer": "Walnut Creek Metropolitan Park has well-marked beginner trails with good flow. The Violet Crown Trail is also beginner-friendly."
+      },
+      {
+        "question": "Can I rent mountain bikes in Austin?",
+        "answer": "Yes, several shops offer daily rentals including Mellow Johnny's downtown and various shops near trail heads. E-bike rentals are also becoming common."
+      }
+    ]
+  },
+  {
+    "slug": "outdoor-recreation",
+    "name": "Parks & Outdoor Recreation",
+    "category": "outdoor",
+    "description": "Enjoy Austin's 300+ parks, from the urban oasis of Zilker Park to the wild Barton Creek Greenbelt.",
+    "longDescription": "Austin's park system is exceptional, offering everything from manicured urban parks to wild natural preserves. Zilker Park is the crown jewel—a 350-acre park bordering Lady Bird Lake and Barton Springs Pool, hosting festivals, sports, and weekend picnics. Pease Park runs through central Austin with shaded trails and playgrounds. Mount Bonnell offers the best panoramic view of the city and Lake Austin from a short but steep climb. The city's commitment to green space means every neighborhood has parks, trails, and outdoor gathering spots.",
+    "difficulty": "easy",
+    "duration": "1-5 hours",
+    "bestSeason": ["Year-round"],
+    "bestTime": "Morning or late afternoon",
+    "cost": "Free",
+    "requirements": ["None"],
+    "whatToBring": ["Sunscreen", "Water", "Blanket for picnics", "Camera"],
+    "tips": ["Zilker Park can be crowded on weekends—go early or on weekdays", "Mount Bonnell sunset is iconic but arrive early for parking", "Pack a picnic for Pease Park", "Dog parks are plentiful—Auditorium Shores and Red Bud Isle are favorites", "Wildflower season (March-April) is magical in the Hill Country parks"],
+    "locations": ["Zilker Park", "Pease Park", "Mount Bonnell", "Auditorium Shores", "Red Bud Isle"],
+    "seoKeywords": ["Austin parks", "Zilker Park", "outdoor activities Austin", "things to do Austin"],
+    "relatedActivities": ["hiking-and-trails", "swimming-holes", "kayaking-paddleboarding"],
+    "faqs": [
+      {
+        "question": "What's the best park for a picnic?",
+        "answer": "Zilker Park has the most space, Pease Park has beautiful shade trees, and Auditorium Shores has Lady Bird Lake views."
+      },
+      {
+        "question": "Are Austin parks dog-friendly?",
+        "answer": "Very. Red Bud Isle, Auditorium Shores, and Zilker all have off-leash areas. Most trails welcome leashed dogs."
+      }
+    ]
+  },
+  {
+    "slug": "day-trips",
+    "name": "Hill Country Day Trips",
+    "category": "exploration",
+    "description": "Explore the Texas Hill Country with day trips to wineries, small towns, and natural wonders within an hour of Austin.",
+    "longDescription": "The Texas Hill Country surrounding Austin offers some of the best day-trip destinations in the state. Fredericksburg is a German-heritage town with Main Street shopping, excellent restaurants, and the heart of Texas wine country. Wimberley features a charming town square, Blue Hole swimming, and artisan galleries. Gruene (New Braunfels) offers the oldest dance hall in Texas, river tubing on the Comal, and the Gruene Historic District. The Enchanted Rock State Natural Area provides dramatic granite dome hiking. Dripping Springs has become a destination for craft distilleries and breweries.",
+    "difficulty": "easy",
+    "duration": "Full day",
+    "bestSeason": ["March", "April", "May", "October", "November"],
+    "bestTime": "Depart early to maximize time",
+    "cost": "Gas plus activity costs ($50-200 per person)",
+    "requirements": ["Car", "Valid driver's license"],
+    "whatToBring": ["Comfortable clothes", "Camera", "Cooler for wine purchases", "Cash for small-town shops"],
+    "tips": ["Fredericksburg is about 90 minutes west—perfect wine country day trip", "Book Enchanted Rock day passes in advance, they sell out", "Gruene Hall hosts live music Thursday through Sunday", "Wildflower season (March-April) along Highway 290 is stunning", "Wimberley market days are first Saturday of each month"],
+    "locations": ["Fredericksburg", "Wimberley", "Gruene/New Braunfels", "Enchanted Rock", "Dripping Springs"],
+    "seoKeywords": ["Austin day trips", "Hill Country Texas", "Fredericksburg from Austin", "things to do near Austin"],
+    "relatedActivities": ["hiking-and-trails", "brewery-tours", "swimming-holes"],
+    "faqs": [
+      {
+        "question": "What's the best Hill Country day trip from Austin?",
+        "answer": "Fredericksburg for wine and German heritage, Enchanted Rock for hiking, or Gruene for history and river tubing. Each takes about 60-90 minutes to reach."
+      },
+      {
+        "question": "Is Texas wine country worth visiting?",
+        "answer": "Absolutely. The Texas Hill Country AVA has over 50 wineries and tasting rooms, particularly concentrated along Highway 290 between Dripping Springs and Fredericksburg."
+      }
+    ]
+  }
+]

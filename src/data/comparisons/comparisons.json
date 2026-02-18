@@ -1,0 +1,722 @@
+[
+  {
+    "slug": "austin-vs-dallas",
+    "title": "Austin vs Dallas: Which Texas Metro is Right for You?",
+    "description": "Comparing Texas's two hottest metros—lifestyle, cost of living, culture, and career opportunities.",
+    "intro": "Austin and Dallas are both booming Texas metros attracting newcomers at remarkable rates, but they offer distinctly different lifestyles. Austin is creative, outdoorsy, and tech-driven; Dallas is corporate, sprawling, and sports-obsessed. Both have no state income tax and strong job markets. Here's an honest comparison to help you choose.",
+    "optionA": {
+      "name": "Austin",
+      "description": "Creative, tech-driven city with live music, outdoor culture, and a fiercely independent spirit.",
+      "pros": [
+        "Unmatched live music and cultural scene",
+        "Exceptional outdoor recreation (swimming holes, trails, lakes)",
+        "Booming tech industry (Apple, Tesla, Google, Meta)",
+        "More walkable urban core",
+        "Unique independent character—'Keep Austin Weird'",
+        "Better food truck and casual dining scene"
+      ],
+      "cons": [
+        "Smaller metro with fewer corporate headquarters",
+        "Rapidly rising cost of living",
+        "Worse traffic for its size",
+        "Fewer professional sports teams",
+        "Summer heat is brutal",
+        "Smaller airport with fewer direct flights"
+      ],
+      "bestFor": [
+        "Tech professionals",
+        "Outdoor enthusiasts",
+        "Music and arts lovers",
+        "Startup entrepreneurs",
+        "Those seeking urban walkability"
+      ],
+      "stats": {
+        "Metro population": "~2.3 million",
+        "Median home price": "$450K",
+        "Major industries": "Tech, government, education",
+        "Airport": "Austin-Bergstrom (AUS)"
+      }
+    },
+    "optionB": {
+      "name": "Dallas",
+      "description": "Major corporate hub with professional sports, diverse economy, and sprawling suburban options.",
+      "pros": [
+        "Larger, more diverse economy",
+        "More Fortune 500 headquarters",
+        "Major professional sports (Cowboys, Mavericks, Stars, Rangers)",
+        "DFW Airport—major international hub",
+        "More affordable housing options",
+        "Larger shopping and dining variety"
+      ],
+      "cons": [
+        "Sprawling with car-dependent design",
+        "Less distinctive cultural identity",
+        "Fewer outdoor recreation options",
+        "Less walkable than Austin",
+        "Music and arts scene not as strong",
+        "Hot summers with less relief (no swimming holes)"
+      ],
+      "bestFor": [
+        "Corporate professionals",
+        "Sports fans",
+        "Frequent travelers needing major airport",
+        "Those wanting more affordable suburbs",
+        "Families seeking established suburban communities"
+      ],
+      "stats": {
+        "Metro population": "~7.7 million",
+        "Median home price": "$380K",
+        "Major industries": "Finance, telecom, defense, healthcare",
+        "Airport": "DFW International"
+      }
+    },
+    "comparisonTable": [
+      {
+        "category": "Culture",
+        "optionA": "Creative, independent, music-driven",
+        "optionB": "Corporate, sports-driven, mainstream"
+      },
+      {
+        "category": "Tech Jobs",
+        "optionA": "Excellent—major tech hub",
+        "optionB": "Good—growing tech presence"
+      },
+      {
+        "category": "Outdoor Recreation",
+        "optionA": "Exceptional (springs, trails, lakes)",
+        "optionB": "Limited (flat terrain, fewer natural features)"
+      },
+      {
+        "category": "Cost of Living",
+        "optionA": "Higher and rising",
+        "optionB": "More affordable overall"
+      },
+      {
+        "category": "Airport",
+        "optionA": "Regional (AUS)",
+        "optionB": "Major international hub (DFW)"
+      },
+      {
+        "category": "Walkability",
+        "optionA": "Better urban core",
+        "optionB": "Very car-dependent"
+      }
+    ],
+    "verdict": {
+      "summary": "Austin wins for culture, outdoor lifestyle, and tech careers. Dallas wins for corporate opportunities, affordability, and sports.",
+      "chooseA": "Choose Austin if you value creative culture, outdoor recreation, tech industry access, and walkable urban living—and can handle the rising costs.",
+      "chooseB": "Choose Dallas if you prioritize corporate career opportunities, affordable housing, professional sports, and need a major international airport."
+    },
+    "seoKeywords": ["austin vs dallas", "best texas city to live", "austin or dallas", "moving to texas comparison"],
+    "faqs": [
+      {
+        "question": "Which has better job opportunities?",
+        "answer": "It depends on your field. Austin dominates tech; Dallas has more Fortune 500 companies and corporate opportunities across industries."
+      },
+      {
+        "question": "Which is more affordable?",
+        "answer": "Dallas is generally more affordable, especially for housing. Austin's rapid growth has driven costs up significantly."
+      }
+    ]
+  },
+  {
+    "slug": "central-austin-vs-suburbs",
+    "title": "Central Austin vs Suburbs: Urban Energy or Suburban Space?",
+    "description": "Weighing the tradeoffs between central Austin's walkable lifestyle and the space and value of Austin's growing suburbs.",
+    "intro": "Austin's real estate market presents a fundamental choice: central Austin's walkable, culture-rich neighborhoods or the suburbs' space, value, and family-friendly amenities. Both have real advantages, and the right choice depends entirely on your lifestyle priorities. Here's an honest look at the tradeoffs.",
+    "optionA": {
+      "name": "Central Austin",
+      "description": "Urban living with walkable access to culture, dining, trails, and entertainment.",
+      "pros": [
+        "Walking distance to restaurants, bars, and music",
+        "Near Lady Bird Lake trail and Barton Springs",
+        "Shorter commutes (if working downtown)",
+        "More vibrant nightlife and cultural scene",
+        "Unique neighborhood character (SoCo, East Austin, Zilker)",
+        "Better appreciation potential for real estate"
+      ],
+      "cons": [
+        "Significantly higher home prices",
+        "Smaller homes and lots for the money",
+        "Parking challenges",
+        "More noise and congestion",
+        "Fewer new construction options",
+        "Austin ISD schools vary in quality"
+      ],
+      "bestFor": [
+        "Young professionals",
+        "Empty nesters wanting walkability",
+        "Music and food enthusiasts",
+        "Those working downtown",
+        "People prioritizing lifestyle over space"
+      ],
+      "stats": {
+        "Median home price": "$550K-$900K",
+        "Typical commute": "10-20 minutes to downtown",
+        "Walkability": "High in many neighborhoods",
+        "School districts": "Austin ISD (varies by campus)"
+      }
+    },
+    "optionB": {
+      "name": "Austin Suburbs",
+      "description": "Spacious homes, top-rated schools, and family-friendly communities in Cedar Park, Round Rock, and beyond.",
+      "pros": [
+        "More home for your money",
+        "Top-rated school districts",
+        "Newer construction available",
+        "More family-friendly amenities",
+        "Lower property taxes in some areas",
+        "Master-planned community features (pools, parks, trails)"
+      ],
+      "cons": [
+        "Car-dependent lifestyle",
+        "Longer commutes to downtown",
+        "Less distinctive neighborhood character",
+        "Further from Austin's cultural scene",
+        "More suburban/chain-restaurant dining",
+        "Less walkable overall"
+      ],
+      "bestFor": [
+        "Families with school-age children",
+        "Those wanting more space",
+        "Budget-conscious buyers",
+        "People working in North Austin tech corridor",
+        "Those preferring newer homes"
+      ],
+      "stats": {
+        "Median home price": "$350K-$550K",
+        "Typical commute": "25-45 minutes to downtown",
+        "Walkability": "Low to moderate",
+        "School districts": "Round Rock ISD, Leander ISD (highly rated)"
+      }
+    },
+    "comparisonTable": [
+      {
+        "category": "Home Size/Value",
+        "optionA": "Smaller homes, higher price/sqft",
+        "optionB": "Larger homes, better value/sqft"
+      },
+      {
+        "category": "Schools",
+        "optionA": "Austin ISD (varies)",
+        "optionB": "Round Rock/Leander ISD (consistently high)"
+      },
+      {
+        "category": "Walkability",
+        "optionA": "High in many areas",
+        "optionB": "Car-dependent"
+      },
+      {
+        "category": "Culture/Nightlife",
+        "optionA": "Steps away",
+        "optionB": "20-40 minute drive"
+      },
+      {
+        "category": "Outdoor Access",
+        "optionA": "Lady Bird Lake, Greenbelt nearby",
+        "optionB": "Parks and trails, but different character"
+      },
+      {
+        "category": "New Construction",
+        "optionA": "Limited",
+        "optionB": "Abundant"
+      }
+    ],
+    "verdict": {
+      "summary": "Central Austin wins for lifestyle, walkability, and culture. Suburbs win for value, schools, and family space.",
+      "chooseA": "Choose central Austin if you prioritize walkable lifestyle, cultural access, and outdoor recreation—and can accept higher prices for less space.",
+      "chooseB": "Choose the suburbs if top schools, more space, newer homes, and better value drive your decision—and you don't mind driving to Austin's cultural core."
+    },
+    "seoKeywords": ["central austin vs suburbs", "best neighborhoods austin", "where to live austin", "austin suburbs comparison"],
+    "faqs": [
+      {
+        "question": "Are Austin suburbs boring?",
+        "answer": "Not at all—Cedar Park, Round Rock, and others have their own restaurants, breweries, and character. But they're different from central Austin's energy."
+      },
+      {
+        "question": "Is central Austin worth the premium?",
+        "answer": "If walkability and culture are your priorities, absolutely. You can't put a price on walking to Barton Springs or biking to dinner on South Congress."
+      }
+    ]
+  },
+  {
+    "slug": "east-austin-vs-west-austin",
+    "title": "East Austin vs West Austin: Two Sides of the City",
+    "description": "Comparing Austin's hippest, most creative neighborhood to its most established and scenic area.",
+    "intro": "I-35 has long been Austin's dividing line—geographically and culturally. East Austin is the city's creative frontier, rapidly evolving with restaurants, bars, and galleries. West Austin is established, scenic, and affluent, with Hill Country beauty and top schools. Both are exceptional places to live, but for very different reasons.",
+    "optionA": {
+      "name": "East Austin",
+      "description": "Austin's creative epicenter with cutting-edge restaurants, galleries, live music, and rapid development.",
+      "pros": [
+        "Most exciting food and bar scene in Austin",
+        "Creative, diverse, energetic atmosphere",
+        "More affordable entry points than West Austin",
+        "Walking/biking-friendly in many areas",
+        "Near downtown",
+        "Rapidly appreciating property values"
+      ],
+      "cons": [
+        "Gentrification concerns and community displacement",
+        "Some areas still developing infrastructure",
+        "Noise from venues in some blocks",
+        "Schools generally not as strong as West",
+        "Smaller lot sizes typically",
+        "Can feel crowded in popular corridors"
+      ],
+      "bestFor": [
+        "Young professionals and creatives",
+        "Food and nightlife enthusiasts",
+        "Investors seeking appreciation",
+        "Those wanting urban energy",
+        "Couples and singles"
+      ],
+      "stats": {
+        "Median home price": "$450K-$700K",
+        "Character": "Creative, diverse, evolving",
+        "Top restaurants nearby": "Suerte, Franklin, Launderette, Justine's",
+        "School district": "Austin ISD"
+      }
+    },
+    "optionB": {
+      "name": "West Austin",
+      "description": "Established neighborhoods with Hill Country beauty, top schools, and scenic natural settings.",
+      "pros": [
+        "Top-rated Eanes ISD (Westlake) schools",
+        "Hill Country beauty and views",
+        "Proximity to Barton Creek Greenbelt",
+        "Established, mature neighborhoods",
+        "Lower density and more green space",
+        "Lake Austin access"
+      ],
+      "cons": [
+        "Significantly higher home prices",
+        "Less walkable (car-dependent)",
+        "Fewer restaurant and bar options",
+        "Less diverse and less urban energy",
+        "Can feel suburban despite central location",
+        "Older housing stock in some areas"
+      ],
+      "bestFor": [
+        "Families prioritizing schools",
+        "Outdoor enthusiasts (Greenbelt access)",
+        "Those wanting Hill Country beauty",
+        "Buyers seeking established neighborhoods",
+        "Those wanting more space and privacy"
+      ],
+      "stats": {
+        "Median home price": "$800K-$2M+",
+        "Character": "Established, scenic, family-oriented",
+        "Nearby nature": "Barton Creek Greenbelt, Lake Austin, Mount Bonnell",
+        "School district": "Eanes ISD (top-rated)"
+      }
+    },
+    "comparisonTable": [
+      {
+        "category": "Home Prices",
+        "optionA": "$450K-$700K typical",
+        "optionB": "$800K-$2M+ typical"
+      },
+      {
+        "category": "Schools",
+        "optionA": "Austin ISD (varies)",
+        "optionB": "Eanes ISD (top-rated)"
+      },
+      {
+        "category": "Food/Nightlife",
+        "optionA": "Austin's best and most diverse",
+        "optionB": "Limited but growing"
+      },
+      {
+        "category": "Natural Setting",
+        "optionA": "Urban/developing",
+        "optionB": "Hill Country beauty"
+      },
+      {
+        "category": "Vibe",
+        "optionA": "Creative, energetic, evolving",
+        "optionB": "Established, scenic, family"
+      },
+      {
+        "category": "Walkability",
+        "optionA": "Good in core areas",
+        "optionB": "Car-dependent"
+      }
+    ],
+    "verdict": {
+      "summary": "East Austin wins for food, culture, and energy. West Austin wins for schools, scenery, and established character.",
+      "chooseA": "Choose East Austin if you want to be in the center of Austin's creative and culinary energy, value walkability, and prioritize lifestyle over top-rated schools.",
+      "chooseB": "Choose West Austin if schools, Hill Country beauty, Greenbelt access, and established neighborhoods drive your decision—and you can handle the premium prices."
+    },
+    "seoKeywords": ["east austin vs west austin", "best neighborhoods austin", "east side austin", "westlake austin"],
+    "faqs": [
+      {
+        "question": "Is East Austin safe?",
+        "answer": "East Austin has gentrified significantly and is generally safe, though like any urban area, it varies by specific block. The most popular corridors are well-established."
+      },
+      {
+        "question": "Why is West Austin so expensive?",
+        "answer": "Eanes ISD schools, Hill Country beauty, Greenbelt access, established neighborhoods, and limited supply all contribute to premium pricing."
+      }
+    ]
+  },
+  {
+    "slug": "lake-austin-vs-lake-travis",
+    "title": "Lake Austin vs Lake Travis: Waterfront Living Compared",
+    "description": "Comparing Austin's two premier lake living experiences—character, access, price, and lifestyle.",
+    "intro": "Austin is blessed with two spectacular lakes offering very different waterfront living experiences. Lake Austin runs through the heart of the city, offering intimate, tree-lined luxury. Lake Travis sprawls across the Hill Country with resort-style amenities and more accessible price points. Both provide exceptional lake living, but the character, cost, and lifestyle differ significantly.",
+    "optionA": {
+      "name": "Lake Austin",
+      "description": "Intimate, tree-lined urban lake running through the heart of Austin with exclusive waterfront homes.",
+      "pros": [
+        "Central location—minutes from downtown",
+        "Intimate, scenic setting",
+        "Consistent water levels (it's dammed)",
+        "No motorized boats on parts (Lady Bird Lake portion)",
+        "Established, mature properties",
+        "Premium appreciation history"
+      ],
+      "cons": [
+        "Extremely expensive waterfront property",
+        "Limited inventory",
+        "Smaller lake—less open-water feel",
+        "Some areas have restricted dock/boat access",
+        "Very competitive market",
+        "Private access—few public entry points"
+      ],
+      "bestFor": [
+        "Luxury buyers",
+        "Those wanting proximity to urban Austin",
+        "Kayakers and paddlers",
+        "Investors in premium real estate",
+        "Privacy seekers"
+      ],
+      "stats": {
+        "Waterfront price range": "$1.5M - $10M+",
+        "Distance to downtown": "5-15 minutes",
+        "Lake character": "Narrow, tree-lined, intimate",
+        "Water level": "Consistent (dam-controlled)"
+      }
+    },
+    "optionB": {
+      "name": "Lake Travis",
+      "description": "Sprawling Hill Country lake with marina communities, water sports, and resort-style living.",
+      "pros": [
+        "More affordable waterfront options",
+        "Larger lake with open water for boating",
+        "Marina communities with amenities",
+        "Resort-style lifestyle (restaurants, marinas)",
+        "More inventory and variety",
+        "Hill Country beauty"
+      ],
+      "cons": [
+        "Water levels fluctuate significantly",
+        "30-45 minutes from downtown Austin",
+        "More developed/commercial in parts",
+        "Summer crowds at public areas",
+        "HOA requirements in many communities",
+        "Car-dependent location"
+      ],
+      "bestFor": [
+        "Boating enthusiasts",
+        "Families wanting lake lifestyle",
+        "Those seeking more affordable waterfront",
+        "Water sports lovers",
+        "Those okay with suburban distance"
+      ],
+      "stats": {
+        "Waterfront price range": "$500K - $5M+",
+        "Distance to downtown": "30-45 minutes",
+        "Lake character": "Large, open, Hill Country setting",
+        "Water level": "Fluctuates with rainfall"
+      }
+    },
+    "comparisonTable": [
+      {
+        "category": "Entry Price (waterfront)",
+        "optionA": "$1.5M+",
+        "optionB": "$500K+"
+      },
+      {
+        "category": "Distance to Downtown",
+        "optionA": "5-15 minutes",
+        "optionB": "30-45 minutes"
+      },
+      {
+        "category": "Lake Size",
+        "optionA": "Narrow, intimate",
+        "optionB": "Large, open water"
+      },
+      {
+        "category": "Water Level Consistency",
+        "optionA": "Very consistent",
+        "optionB": "Fluctuates significantly"
+      },
+      {
+        "category": "Boating",
+        "optionA": "Limited (smaller lake)",
+        "optionB": "Excellent (large open water)"
+      },
+      {
+        "category": "Character",
+        "optionA": "Urban luxury",
+        "optionB": "Hill Country resort"
+      }
+    ],
+    "verdict": {
+      "summary": "Lake Austin wins for luxury, proximity, and exclusivity. Lake Travis wins for boating, affordability, and Hill Country lifestyle.",
+      "chooseA": "Choose Lake Austin if you want waterfront luxury minutes from downtown, value consistent water levels, and can invest at premium price points.",
+      "chooseB": "Choose Lake Travis if you love boating on open water, want more affordable waterfront options, and enjoy Hill Country resort-style living."
+    },
+    "seoKeywords": ["lake austin vs lake travis", "waterfront homes austin", "lake living austin", "austin lake houses"],
+    "faqs": [
+      {
+        "question": "Does Lake Travis really drop that much?",
+        "answer": "Yes—Lake Travis can drop 30+ feet in drought years, significantly affecting waterfront access and dock usability. Some properties lose their water access entirely."
+      },
+      {
+        "question": "Can you swim in Lake Austin?",
+        "answer": "Yes, though the Lady Bird Lake portion prohibits swimming for safety. Upper Lake Austin sections allow swimming, boating, and water sports."
+      }
+    ]
+  },
+  {
+    "slug": "cedar-park-vs-round-rock",
+    "title": "Cedar Park vs Round Rock: Austin's Suburban Showdown",
+    "description": "Comparing Austin's two most popular suburban cities—schools, amenities, commutes, and family life.",
+    "intro": "Cedar Park and Round Rock are Austin's two premier suburban cities, both offering excellent schools, family-friendly communities, and good value compared to central Austin. They share many similarities but have distinct personalities and advantages. Here's how they compare for families considering Austin's suburbs.",
+    "optionA": {
+      "name": "Cedar Park",
+      "description": "Growing city northwest of Austin with excellent schools, master-planned communities, and strong community identity.",
+      "pros": [
+        "Leander ISD—rapidly improving and well-funded",
+        "Newer communities and housing stock",
+        "H-E-B Center for entertainment and events",
+        "Growing restaurant and retail scene",
+        "Good access to Lake Travis and Hill Country",
+        "Strong community identity"
+      ],
+      "cons": [
+        "Fewer established dining options than Round Rock",
+        "Less direct highway access to downtown",
+        "Growing pains with rapid development",
+        "Less employment diversity (more residential)",
+        "US 183 congestion during commute",
+        "Some areas feel very new/developing"
+      ],
+      "bestFor": [
+        "Young families wanting newer homes",
+        "Those working in Northwest Austin tech",
+        "Lake Travis/Hill Country access",
+        "Families prioritizing Leander ISD",
+        "Those wanting growing community"
+      ],
+      "stats": {
+        "Population": "~85,000",
+        "Median home price": "$420K",
+        "School district": "Leander ISD",
+        "Commute to downtown": "25-40 minutes"
+      }
+    },
+    "optionB": {
+      "name": "Round Rock",
+      "description": "Established Austin suburb with top-rated schools, Dell headquarters, diverse amenities, and family focus.",
+      "pros": [
+        "Round Rock ISD—consistently top-rated",
+        "More established amenities and dining",
+        "Dell headquarters provides employment",
+        "Round Rock Premium Outlets for shopping",
+        "More diverse economy",
+        "Better I-35 access to Austin"
+      ],
+      "cons": [
+        "I-35 commute can be severe",
+        "Some older neighborhoods need updating",
+        "Less Hill Country character than Cedar Park",
+        "Can feel more generic/suburban",
+        "Further from lake access",
+        "Traffic on I-35 corridor"
+      ],
+      "bestFor": [
+        "Families prioritizing established schools",
+        "Dell and tech corridor employees",
+        "Those wanting mature community amenities",
+        "Shoppers (outlets and retail)",
+        "Those needing I-35 corridor access"
+      ],
+      "stats": {
+        "Population": "~135,000",
+        "Median home price": "$400K",
+        "School district": "Round Rock ISD",
+        "Commute to downtown": "25-40 minutes"
+      }
+    },
+    "comparisonTable": [
+      {
+        "category": "Schools",
+        "optionA": "Leander ISD (strong and improving)",
+        "optionB": "Round Rock ISD (consistently top-rated)"
+      },
+      {
+        "category": "Housing Age",
+        "optionA": "Newer overall",
+        "optionB": "Mix of established and new"
+      },
+      {
+        "category": "Natural Setting",
+        "optionA": "More Hill Country character",
+        "optionB": "More flat/suburban"
+      },
+      {
+        "category": "Employment",
+        "optionA": "More residential focused",
+        "optionB": "Dell HQ and more employers"
+      },
+      {
+        "category": "Dining/Retail",
+        "optionA": "Growing",
+        "optionB": "More established"
+      },
+      {
+        "category": "Home Prices",
+        "optionA": "Slightly higher",
+        "optionB": "Slightly lower"
+      }
+    ],
+    "verdict": {
+      "summary": "Round Rock edges ahead for established schools and amenities. Cedar Park wins for newer homes and Hill Country feel.",
+      "chooseA": "Choose Cedar Park if you want newer homes, Leander ISD, Hill Country proximity, and a community that's still defining its identity.",
+      "chooseB": "Choose Round Rock if established schools, proven amenities, employment options, and a mature community matter most."
+    },
+    "seoKeywords": ["cedar park vs round rock", "austin suburbs comparison", "best austin suburbs families", "round rock or cedar park"],
+    "faqs": [
+      {
+        "question": "Which has better schools?",
+        "answer": "Round Rock ISD has a longer track record of excellence, but Leander ISD has improved dramatically and some of its newer schools are exceptional."
+      },
+      {
+        "question": "Which is growing faster?",
+        "answer": "Cedar Park and its adjacent Leander have experienced faster growth rates, with more new construction and development."
+      }
+    ]
+  },
+  {
+    "slug": "austin-vs-san-antonio",
+    "title": "Austin vs San Antonio: Central Texas Metro Comparison",
+    "description": "Comparing Austin and San Antonio—two neighboring Texas cities with very different character, cost, and lifestyle.",
+    "intro": "Austin and San Antonio are separated by just 80 miles on I-35, but they offer distinctly different living experiences. Austin is tech-driven, expensive, and culturally edgy; San Antonio is historic, affordable, and family-oriented with deep military and Hispanic heritage. Both are growing, and the corridor between them is becoming increasingly connected. Here's how they compare.",
+    "optionA": {
+      "name": "Austin",
+      "description": "Fast-growing tech hub with live music, outdoor culture, and a youthful, creative energy.",
+      "pros": [
+        "Stronger job market, especially tech",
+        "More vibrant cultural and music scene",
+        "Better outdoor recreation options",
+        "Higher education level workforce",
+        "More walkable urban areas",
+        "Stronger overall economic growth"
+      ],
+      "cons": [
+        "Significantly more expensive (housing, dining)",
+        "Worse traffic relative to size",
+        "Can feel less diverse than San Antonio",
+        "Growing too fast for infrastructure",
+        "Less historical depth",
+        "Smaller metro (fewer amenities overall)"
+      ],
+      "bestFor": [
+        "Tech professionals",
+        "Young professionals",
+        "Music and culture seekers",
+        "Outdoor enthusiasts",
+        "Startup entrepreneurs"
+      ],
+      "stats": {
+        "Metro population": "~2.3 million",
+        "Median home price": "$450K",
+        "Major industries": "Tech, government, education",
+        "Cultural identity": "Live music, tech, outdoor lifestyle"
+      }
+    },
+    "optionB": {
+      "name": "San Antonio",
+      "description": "Historic city with deep cultural roots, military presence, family values, and significantly lower cost of living.",
+      "pros": [
+        "Much more affordable housing",
+        "Rich cultural heritage (River Walk, Alamo, missions)",
+        "Strong military presence and employment",
+        "More family-oriented overall",
+        "Professional sports (Spurs)",
+        "Larger metro with more amenities"
+      ],
+      "cons": [
+        "Fewer tech and high-paying jobs",
+        "Less vibrant music and nightlife scene",
+        "More sprawling and car-dependent",
+        "Fewer outdoor recreation options",
+        "Less walkable overall",
+        "Lower educational attainment workforce"
+      ],
+      "bestFor": [
+        "Military-connected families",
+        "Budget-conscious homebuyers",
+        "History and culture enthusiasts",
+        "Healthcare professionals",
+        "Families wanting affordable space"
+      ],
+      "stats": {
+        "Metro population": "~2.6 million",
+        "Median home price": "$280K",
+        "Major industries": "Military, healthcare, tourism",
+        "Cultural identity": "Hispanic heritage, military, history"
+      }
+    },
+    "comparisonTable": [
+      {
+        "category": "Home Prices",
+        "optionA": "Higher (~$450K median)",
+        "optionB": "Lower (~$280K median)"
+      },
+      {
+        "category": "Job Market",
+        "optionA": "Stronger, tech-focused",
+        "optionB": "Military, healthcare, tourism"
+      },
+      {
+        "category": "Cultural Scene",
+        "optionA": "Live music, tech culture, festivals",
+        "optionB": "River Walk, missions, Hispanic heritage"
+      },
+      {
+        "category": "Outdoor Recreation",
+        "optionA": "Exceptional",
+        "optionB": "Limited"
+      },
+      {
+        "category": "Affordability",
+        "optionA": "Expensive and rising",
+        "optionB": "Very affordable"
+      },
+      {
+        "category": "History",
+        "optionA": "Moderate",
+        "optionB": "Rich (Alamo, Spanish missions)"
+      }
+    ],
+    "verdict": {
+      "summary": "Austin wins for careers, culture, and outdoor life. San Antonio wins for affordability, history, and family value.",
+      "chooseA": "Choose Austin if you work in tech, value outdoor recreation and live music, and can handle higher costs for a more dynamic urban lifestyle.",
+      "chooseB": "Choose San Antonio if affordability is important, you appreciate deep cultural heritage, or you have military connections—and don't need Austin's tech scene."
+    },
+    "seoKeywords": ["austin vs san antonio", "texas cities comparison", "austin or san antonio", "best texas city to live"],
+    "faqs": [
+      {
+        "question": "Can I live between Austin and San Antonio?",
+        "answer": "Yes—the I-35 corridor cities of San Marcos, New Braunfels, and Kyle offer lower costs with access to both metros. This area is growing rapidly."
+      },
+      {
+        "question": "How far apart are they?",
+        "answer": "About 80 miles via I-35, typically 1-1.5 hours depending on traffic. Many people commute between the two cities."
+      }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sarah & Michael T.",
+      "location": "Austin, TX",
+      "property": "First-Time Home Buyer",
+      "rating": 5,
+      "text": "Patrick made our first home purchase so much less stressful than we expected. We were relocating from Denver and he spent hours on video calls walking us through Austin neighborhoods before we even visited. He found us a beautiful home in Circle C that checked every box—great schools, community pool, and under budget. We couldn't have done it without him.",
+      "date": "2024-11",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Jennifer & David R.",
+      "location": "San Francisco, CA",
+      "property": "Relocation Buyer",
+      "rating": 5,
+      "text": "Moving from the Bay Area to Austin was a big decision, and Patrick understood exactly what we were looking for. He helped us understand the neighborhoods, school districts, and how Austin property taxes work compared to California. We ended up in Westlake and love it. Patrick's local knowledge saved us from making a costly mistake on a home in a flood zone we would have never known about.",
+      "date": "2024-10",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "The Martinez Family",
+      "location": "Austin, TX",
+      "property": "Move-Up Buyer",
+      "rating": 5,
+      "text": "We outgrew our starter home in Pflugerville and needed more space for our growing family. Patrick helped us sell our home for above asking price and find a beautiful four-bedroom in Avery Ranch in the same school district. He coordinated both transactions so we didn't have to do a temporary move. His attention to detail on the timing was incredible.",
+      "date": "2024-09",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "name": "Robert K.",
+      "location": "Houston, TX",
+      "property": "Investment Property Buyer",
+      "rating": 5,
+      "text": "I've purchased three investment properties through Patrick over the past two years—two long-term rentals in East Austin and a duplex near UT campus. He understands the investor mindset and always runs the numbers before showing me anything. Each property has performed above projections. He's not just my agent, he's a true partner in building my portfolio.",
+      "date": "2024-10",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "name": "Amanda & Chris W.",
+      "location": "Austin, TX",
+      "property": "Home Seller",
+      "rating": 5,
+      "text": "Patrick sold our home in Tarrytown in just 8 days at $45,000 over asking. His marketing was exceptional—the professional photos and drone footage made our home look stunning online. He staged an incredible open house weekend that created urgency, and we had multiple offers by Monday. The whole process was smooth and professional from start to finish.",
+      "date": "2024-08",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "name": "Linda P.",
+      "location": "Austin, TX",
+      "property": "Luxury Home Buyer",
+      "rating": 5,
+      "text": "When we decided to look for a Lake Travis waterfront home, we needed an agent who truly understood the luxury market. Patrick's knowledge of the lake communities—from Lakeway to Rough Hollow to Volente—was impressive. He helped us find a property with a deep-water dock and stunning views that we would have missed because it wasn't listed on any major site. His network and discretion were exactly what we needed.",
+      "date": "2024-09",
+      "featured": true
+    },
+    {
+      "id": "7",
+      "name": "Marcus & Elena J.",
+      "location": "Los Angeles, CA",
+      "property": "Relocation Buyer",
+      "rating": 5,
+      "text": "We moved from LA to Austin for my wife's job at Apple. Patrick met us at the airport on our house-hunting trip and had a perfectly planned itinerary of homes to see based on our wish list. He explained the differences between Round Rock, Cedar Park, and North Austin so clearly. We found our home on day two and Patrick handled everything remotely while we wrapped up in California. Truly first-class service.",
+      "date": "2024-07",
+      "featured": false
+    },
+    {
+      "id": "8",
+      "name": "Tom & Nancy S.",
+      "location": "Austin, TX",
+      "property": "Downsizing Seller & Buyer",
+      "rating": 5,
+      "text": "After 22 years in our family home in Northwest Hills, we were ready to downsize. Patrick was patient and understanding about how emotional the process was for us. He got us a great price on our home and then helped us find the perfect low-maintenance condo downtown. He handled both sides seamlessly and never made us feel rushed. We recommend him to everyone.",
+      "date": "2024-08",
+      "featured": false
+    },
+    {
+      "id": "9",
+      "name": "Jason L.",
+      "location": "Austin, TX",
+      "property": "New Construction Buyer",
+      "rating": 5,
+      "text": "I thought I didn't need an agent for new construction, but a friend convinced me to call Patrick. Best advice I ever took. He negotiated $28,000 in builder incentives I didn't even know were available, caught issues during the build that the builder's own inspector missed, and made sure my contract protected my interests. Having Patrick in my corner saved me real money and real headaches.",
+      "date": "2024-06",
+      "featured": false
+    },
+    {
+      "id": "10",
+      "name": "Priya & Raj M.",
+      "location": "Austin, TX",
+      "property": "First-Time Home Buyer",
+      "rating": 5,
+      "text": "As first-generation home buyers, we had so many questions about the process. Patrick never once made us feel like we were asking too much. He walked us through every step, connected us with a great lender, and found us a home in Mueller that we absolutely love. The neighborhood has everything—parks, restaurants, and a real sense of community. Patrick made our dream of homeownership a reality.",
+      "date": "2024-07",
+      "featured": false
+    }
+  ],
+  "stats": {
+    "propertiesSold": 500,
+    "yearsExperience": 15,
+    "clientSatisfaction": "98%",
+    "averageClosingTime": "38 days"
+  }
+}
