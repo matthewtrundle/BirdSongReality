@@ -1,9 +1,6 @@
-"use client"
-
 import Link from "next/link"
 import { Container } from "./container"
 import { ComplianceBar } from "./compliance-bar"
-import { BrokerageInfo } from "./brokerage-info"
 import { KWLogo } from "@/components/icons/kw-logo"
 import siteConfig from "@/data/site-config.json"
 

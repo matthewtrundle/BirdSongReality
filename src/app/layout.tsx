@@ -79,7 +79,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <head />
+      <head>
+        <link rel="preconnect" href="https://va.vercel-scripts.com" />
+        <link rel="dns-prefetch" href="https://va.vercel-scripts.com" />
+      </head>
       <body className="font-body antialiased">
         <GlobalSchemas />
         <LenisProvider>

@@ -92,7 +92,7 @@ export function Header() {
                 src="/logo.png"
                 alt="Birdsong Realty Team"
                 width={600}
-                height={200}
+                height={400}
                 className={cn(
                   "w-auto transition-all duration-500",
                   isHomepage && !isScrolled
