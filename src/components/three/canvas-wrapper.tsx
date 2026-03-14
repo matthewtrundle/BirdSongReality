@@ -33,12 +33,12 @@ export function CanvasWrapper({
   // Handle WebGL context loss and restoration
   const handleContextLost = useCallback((event: Event) => {
     event.preventDefault()
-    console.warn("WebGL context lost - will attempt recovery")
+    // WebGL context lost - will attempt recovery
     setContextLost(true)
   }, [])
 
   const handleContextRestored = useCallback(() => {
-    console.log("WebGL context restored")
+    // WebGL context restored
     setContextLost(false)
     // Force re-render of Canvas by changing key
     setKey(prev => prev + 1)
@@ -65,7 +65,7 @@ export function CanvasWrapper({
   useEffect(() => {
     if (contextLost) {
       const timeout = setTimeout(() => {
-        console.log("Attempting WebGL recovery...")
+        // Attempting WebGL recovery
         setContextLost(false)
         setKey(prev => prev + 1)
       }, 2000)
@@ -90,11 +90,6 @@ export function CanvasWrapper({
         }}
         dpr={[1, 1.5]} // Limit DPR to reduce GPU memory pressure
         style={{ background: "transparent" }}
-        onCreated={({ gl }) => {
-          // Enable context loss handling
-          gl.domElement.addEventListener("webglcontextlost", handleContextLost)
-          gl.domElement.addEventListener("webglcontextrestored", handleContextRestored)
-        }}
       >
         <PerspectiveCamera
           makeDefault

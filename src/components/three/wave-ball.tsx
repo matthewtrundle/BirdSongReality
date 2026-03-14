@@ -2,19 +2,15 @@
 
 import { useRef, Suspense, useState, useEffect } from "react"
 import { Canvas, useFrame } from "@react-three/fiber"
-import { useGLTF, OrbitControls, Environment, Float } from "@react-three/drei"
-import * as THREE from "three"
+import { OrbitControls, Environment, Float } from "@react-three/drei"
+import { Group } from "three"
 
 interface WaveBallModelProps {
   scale?: number
 }
 
 function WaveBallModel({ scale = 1 }: WaveBallModelProps) {
-  const groupRef = useRef<THREE.Group>(null!)
-  const { scene } = useGLTF("/sea_waves_in_the_ball.glb")
-
-  // Clone the scene to avoid sharing issues
-  const clonedScene = scene.clone()
+  const groupRef = useRef<Group>(null!)
 
   // Gentle rotation animation
   useFrame((state) => {
@@ -31,8 +27,29 @@ function WaveBallModel({ scale = 1 }: WaveBallModelProps) {
       rotationIntensity={0.2}
       floatIntensity={0.3}
     >
-      <group ref={groupRef}>
-        <primitive object={clonedScene} scale={scale} />
+      <group ref={groupRef} scale={scale}>
+        {/* Animated sphere placeholder (GLB asset not available) */}
+        <mesh>
+          <sphereGeometry args={[1, 64, 64]} />
+          <meshStandardMaterial
+            color="#0a4d8c"
+            roughness={0.2}
+            metalness={0.3}
+            transparent
+            opacity={0.85}
+          />
+        </mesh>
+        {/* Inner glow sphere */}
+        <mesh scale={0.92}>
+          <sphereGeometry args={[1, 32, 32]} />
+          <meshStandardMaterial
+            color="#2d8fcc"
+            emissive="#0a4d8c"
+            emissiveIntensity={0.3}
+            transparent
+            opacity={0.4}
+          />
+        </mesh>
       </group>
     </Float>
   )
@@ -97,5 +114,3 @@ export function WaveBallScene({ className = "" }: WaveBallSceneProps) {
     </div>
   )
 }
-
-useGLTF.preload("/sea_waves_in_the_ball.glb")

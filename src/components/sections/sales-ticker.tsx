@@ -46,7 +46,8 @@ export function SalesTicker({ className, variant = "banner" }: SalesTickerProps)
   // Track scroll state
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
+      const scrolled = window.scrollY > 50
+      setIsScrolled(prev => prev === scrolled ? prev : scrolled)
     }
     window.addEventListener("scroll", handleScroll, { passive: true })
     return () => window.removeEventListener("scroll", handleScroll)

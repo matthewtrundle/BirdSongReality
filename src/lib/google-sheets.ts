@@ -1,9 +1,9 @@
 /**
  * Google Sheets API v4 integration using service account
- * Appends lead data rows to configured spreadsheet
+ * Uses direct REST API calls with google-auth-library for JWT auth
+ * (Replaces heavy googleapis package ~194MB with lightweight fetch calls)
  */
 
-import { google } from "googleapis"
 import { GoogleAuth } from "google-auth-library"
 
 interface SheetLeadRow {
@@ -15,6 +15,8 @@ interface SheetLeadRow {
   source?: string
   message?: string
 }
+
+const SHEETS_API_BASE = "https://sheets.googleapis.com/v4/spreadsheets"
 
 /**
  * Append a lead data row to the configured Google Spreadsheet
@@ -39,13 +41,18 @@ export async function appendToSheet(
     const auth = new GoogleAuth({
       credentials: {
         client_email: serviceAccountEmail,
-        // The private key often comes with escaped newlines from env vars
         private_key: privateKey.replace(/\\n/g, "\n"),
       },
       scopes: ["https://www.googleapis.com/auth/spreadsheets"],
     })
 
-    const sheets = google.sheets({ version: "v4", auth })
+    const client = await auth.getClient()
+    const tokenResponse = await client.getAccessToken()
+    const accessToken = typeof tokenResponse === "string" ? tokenResponse : tokenResponse?.token
+
+    if (!accessToken) {
+      return { success: false, error: "Failed to obtain access token" }
+    }
 
     const timestamp = new Date().toLocaleString("en-US", {
       timeZone: "America/Chicago",
@@ -69,16 +76,24 @@ export async function appendToSheet(
       lead.message || "",
     ]
 
-    await sheets.spreadsheets.values.append({
-      spreadsheetId,
-      range: "Leads!A:H",
-      valueInputOption: "USER_ENTERED",
-      requestBody: {
-        values: [row],
+    const url = `${SHEETS_API_BASE}/${spreadsheetId}/values/Leads!A:H:append?valueInputOption=USER_ENTERED`
+
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json",
       },
+      body: JSON.stringify({
+        values: [row],
+      }),
     })
 
-    console.log("[Sheets] Lead appended successfully")
+    if (!response.ok) {
+      const errorText = await response.text()
+      throw new Error(`Sheets API error ${response.status}: ${errorText}`)
+    }
+
     return { success: true }
   } catch (error) {
     console.error("[Sheets] Failed to append lead:", error)

@@ -1,47 +1,9 @@
 "use client"
 
-import { useState, useEffect, lazy, Suspense, Component, type ReactNode, useRef } from "react"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
-
-// Lazy load the wave ball globe
-const WaveBallScene = lazy(() =>
-  import("./wave-ball").then((mod) => ({ default: mod.WaveBallScene }))
-)
+import { useRef } from "react"
 
 interface Hero3DProps {
   className?: string
-}
-
-// Error boundary to catch 3D rendering errors gracefully
-interface ErrorBoundaryProps {
-  children: ReactNode
-  fallback: ReactNode
-}
-
-interface ErrorBoundaryState {
-  hasError: boolean
-}
-
-class ThreeErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  constructor(props: ErrorBoundaryProps) {
-    super(props)
-    this.state = { hasError: false }
-  }
-
-  static getDerivedStateFromError(): ErrorBoundaryState {
-    return { hasError: true }
-  }
-
-  componentDidCatch(error: Error) {
-    console.warn("3D rendering error (falling back to image):", error.message)
-  }
-
-  render() {
-    if (this.state.hasError) {
-      return this.props.fallback
-    }
-    return this.props.children
-  }
 }
 
 // Shared background layer - always visible
@@ -89,50 +51,7 @@ function OverlayEffects() {
 }
 
 export function Hero3D({ className = "" }: Hero3DProps) {
-  const [shouldRender3D, setShouldRender3D] = useState(false)
-  const [isLoaded, setIsLoaded] = useState(false)
-  const prefersReducedMotion = useReducedMotion()
   const containerRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    const checkWebGL = () => {
-      try {
-        const canvas = document.createElement("canvas")
-        const gl =
-          canvas.getContext("webgl") || canvas.getContext("experimental-webgl")
-        return !!gl
-      } catch {
-        return false
-      }
-    }
-
-    const isDesktop = window.innerWidth >= 768
-    const hasWebGL = checkWebGL()
-
-    if (!prefersReducedMotion && isDesktop && hasWebGL) {
-      setShouldRender3D(true)
-    }
-
-    const handleResize = () => {
-      const isNowDesktop = window.innerWidth >= 768
-      if (!isNowDesktop) {
-        setShouldRender3D(false)
-      } else if (!prefersReducedMotion && hasWebGL) {
-        setShouldRender3D(true)
-      }
-    }
-
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [prefersReducedMotion])
-
-  // Mark as loaded after a delay to ensure smooth transition
-  useEffect(() => {
-    if (shouldRender3D) {
-      const timer = setTimeout(() => setIsLoaded(true), 500)
-      return () => clearTimeout(timer)
-    }
-  }, [shouldRender3D])
 
   return (
     <div ref={containerRef} className={`absolute inset-0 ${className}`}>

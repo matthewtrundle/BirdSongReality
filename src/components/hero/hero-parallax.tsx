@@ -28,8 +28,6 @@ interface HeroParallaxProps {
   className?: string
 }
 
-// SVG noise for grain texture (inline data URI)
-const GRAIN_SVG = `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.5'/%3E%3C/svg%3E")`
 
 export function HeroParallax({
   images,
@@ -58,6 +56,23 @@ export function HeroParallax({
     return () => clearInterval(timer)
   }, [advance, interval, imageList.length])
 
+  // Prefetch next image after idle instead of loading all at once
+  useEffect(() => {
+    if (imageList.length <= 1) return
+    const nextSrc = imageList[(currentIndex + 1) % imageList.length]
+    const prefetch = () => {
+      const img = new window.Image()
+      img.src = nextSrc
+    }
+    if ("requestIdleCallback" in window) {
+      const id = requestIdleCallback(prefetch)
+      return () => cancelIdleCallback(id)
+    } else {
+      const timer = setTimeout(prefetch, 2000)
+      return () => clearTimeout(timer)
+    }
+  }, [currentIndex, imageList])
+
   return (
     <div className={`relative min-h-screen overflow-hidden ${className}`}>
       {/* Layer 1: Rotating background images with crossfade + Ken Burns */}
@@ -85,18 +100,7 @@ export function HeroParallax({
         </motion.div>
       </AnimatePresence>
 
-      {/* Preload next image */}
-      {imageList.length > 1 && (
-        <div className="hidden">
-          <Image
-            src={imageList[(currentIndex + 1) % imageList.length]}
-            alt=""
-            fill
-            sizes="100vw"
-            quality={85}
-          />
-        </div>
-      )}
+      {/* Prefetch next image via link tag after LCP (no hidden full-size Image) */}
 
       {/* Layer 2a: Heavy gradient overlay — image complements, text dominates */}
       <div
@@ -126,14 +130,7 @@ export function HeroParallax({
         }}
       />
 
-      {/* Layer 3: Grain texture */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.08] mix-blend-overlay z-[1]"
-        style={{
-          backgroundImage: GRAIN_SVG,
-          backgroundRepeat: "repeat",
-        }}
-      />
+      {/* Grain covered by global .grain-overlay in layout */}
 
       {/* Layer 4: Content */}
       <div className="relative z-10 h-full">

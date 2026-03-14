@@ -72,8 +72,8 @@ export function HeroSection() {
               {/* Main headline */}
               <motion.h1
                 className="text-fluid-6xl font-display font-normal text-white tracking-tight leading-[1.05] mb-6"
-                initial={prefersReducedMotion ? {} : { opacity: 0, y: 30, filter: "blur(8px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                initial={prefersReducedMotion ? {} : { opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease: easeOutExpo, delay: 0.3 }}
               >
                 Sell Smarter.<br />Buy Stronger.

@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect, useMemo } from "react"
 import { motion, AnimatePresence, useInView } from "framer-motion"
 import { Container, Section } from "@/components/layout"
 import testimonialsData from "@/data/testimonials.json"
@@ -68,7 +68,7 @@ export function Testimonials() {
     )
   }
 
-  const slideVariants = getSlideVariants(direction)
+  const slideVariants = useMemo(() => getSlideVariants(direction), [direction])
 
   return (
     <Section className="section-dark section-spacing-lg">

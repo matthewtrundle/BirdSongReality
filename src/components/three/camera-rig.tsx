@@ -1,8 +1,8 @@
 "use client"
 
-import { useRef } from "react"
+import { useRef, useEffect } from "react"
 import { useFrame, useThree } from "@react-three/fiber"
-import * as THREE from "three"
+import { Vector3 } from "three"
 
 interface CameraRigProps {
   scrollFactor?: number
@@ -11,14 +11,21 @@ interface CameraRigProps {
 
 export function CameraRig({ scrollFactor = 0.0005, enabled = true }: CameraRigProps) {
   const { camera } = useThree()
-  const targetPosition = useRef(new THREE.Vector3())
-  const targetLookAt = useRef(new THREE.Vector3(0, 0, -8)) // Fish position
+  const targetPosition = useRef(new Vector3())
+  const targetLookAt = useRef(new Vector3(0, 0, -8)) // Fish position
+  const scrollRef = useRef(0)
+
+  useEffect(() => {
+    const handler = () => { scrollRef.current = window.scrollY }
+    window.addEventListener("scroll", handler, { passive: true })
+    return () => window.removeEventListener("scroll", handler)
+  }, [])
 
   useFrame((state) => {
     if (!enabled) return
 
     const t = state.clock.elapsedTime
-    const scroll = typeof window !== "undefined" ? window.scrollY : 0
+    const scroll = scrollRef.current
     const scrollOffset = scroll * scrollFactor
 
     // Subtle underwater camera drift

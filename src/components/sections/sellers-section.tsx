@@ -70,13 +70,13 @@ export function SellersSection() {
             }}
           />
         </div>
-        {/* Animated gradient accent */}
+        {/* Animated gradient accent - only animates when section is in view */}
         <motion.div
           className="absolute top-0 right-0 w-[800px] h-[800px] rounded-full bg-gradient-to-br from-accent-500/10 to-transparent blur-3xl"
-          animate={{
+          animate={isInView ? {
             scale: [1, 1.1, 1],
             opacity: [0.1, 0.15, 0.1],
-          }}
+          } : { scale: 1, opacity: 0.1 }}
           transition={{
             duration: 8,
             repeat: Infinity,

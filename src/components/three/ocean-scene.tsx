@@ -3,24 +3,24 @@
 import { useRef, useMemo } from "react"
 import { Canvas, useFrame, extend } from "@react-three/fiber"
 import { shaderMaterial } from "@react-three/drei"
-import * as THREE from "three"
+import { Vector2, Color, DoubleSide, Matrix4, Vector3, InstancedMesh } from "three"
 
 // Custom ocean shader material
 const OceanMaterial = shaderMaterial(
   {
     uTime: 0,
     uBigWavesElevation: 0.2,
-    uBigWavesFrequency: new THREE.Vector2(4, 1.5),
+    uBigWavesFrequency: new Vector2(4, 1.5),
     uBigWavesSpeed: 0.75,
     uSmallWavesElevation: 0.15,
     uSmallWavesFrequency: 3,
     uSmallWavesSpeed: 0.2,
     uSmallIterations: 4,
-    uDepthColor: new THREE.Color("#0a4d8c"),
-    uSurfaceColor: new THREE.Color("#2d8fcc"),
+    uDepthColor: new Color("#0a4d8c"),
+    uSurfaceColor: new Color("#2d8fcc"),
     uColorOffset: 0.08,
     uColorMultiplier: 5,
-    uFogColor: new THREE.Color("#0f1e32"),
+    uFogColor: new Color("#0f1e32"),
     uFogNear: 1,
     uFogFar: 10,
   },
@@ -187,14 +187,16 @@ function Ocean() {
   return (
     <mesh rotation={[-Math.PI * 0.5, 0, 0]} position={[0, -0.5, 0]}>
       <planeGeometry args={[20, 20, 256, 256]} />
-      <oceanMaterial ref={materialRef} transparent side={THREE.DoubleSide} />
+      <oceanMaterial ref={materialRef} transparent side={DoubleSide} />
     </mesh>
   )
 }
 
 // Floating particles for atmosphere
 function Particles({ count = 50 }) {
-  const mesh = useRef<THREE.InstancedMesh>(null)
+  const mesh = useRef<InstancedMesh>(null)
+  const tempMatrix = useRef(new Matrix4())
+  const tempVector = useRef(new Vector3())
 
   const particles = useMemo(() => {
     const temp = []
@@ -217,14 +219,14 @@ function Particles({ count = 50 }) {
     const time = state.clock.elapsedTime
 
     particles.forEach((particle, i) => {
-      const matrix = new THREE.Matrix4()
-      const position = new THREE.Vector3(
+      tempVector.current.set(
         particle.position[0] + Math.sin(time * particle.speed + particle.offset) * 0.5,
         particle.position[1] + Math.sin(time * 0.5 + particle.offset) * 0.2,
         particle.position[2]
       )
-      matrix.setPosition(position)
-      mesh.current!.setMatrixAt(i, matrix)
+      tempMatrix.current.identity()
+      tempMatrix.current.setPosition(tempVector.current)
+      mesh.current!.setMatrixAt(i, tempMatrix.current)
     })
     mesh.current.instanceMatrix.needsUpdate = true
   })

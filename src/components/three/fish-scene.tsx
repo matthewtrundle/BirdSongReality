@@ -1,9 +1,9 @@
 "use client"
 
-import { useRef, useEffect, useState } from "react"
+import { useRef, useMemo } from "react"
 import { useFrame } from "@react-three/fiber"
-import { useGLTF, Center } from "@react-three/drei"
-import * as THREE from "three"
+import { Center } from "@react-three/drei"
+import { Group, DoubleSide } from "three"
 
 interface FishSceneProps {
   position?: [number, number, number]
@@ -13,6 +13,33 @@ interface FishSceneProps {
   isHovering?: boolean
 }
 
+// Procedural fish shape as a placeholder (GLB asset not available)
+function ProceduralFish({ offset, color }: { offset: number; color: string }) {
+  const meshRef = useRef<any>(null)
+
+  useFrame((state) => {
+    if (!meshRef.current) return
+    const t = state.clock.elapsedTime + offset
+    // Tail wiggle
+    meshRef.current.rotation.y = Math.sin(t * 3) * 0.2
+  })
+
+  return (
+    <group ref={meshRef}>
+      {/* Body */}
+      <mesh>
+        <capsuleGeometry args={[0.15, 0.5, 8, 16]} />
+        <meshStandardMaterial color={color} side={DoubleSide} roughness={0.4} metalness={0.2} />
+      </mesh>
+      {/* Tail */}
+      <mesh position={[-0.4, 0, 0]} rotation={[0, 0, Math.PI / 4]}>
+        <coneGeometry args={[0.15, 0.25, 4]} />
+        <meshStandardMaterial color={color} side={DoubleSide} roughness={0.4} metalness={0.2} />
+      </mesh>
+    </group>
+  )
+}
+
 export function FishScene({
   position = [0, 0, 0],
   scale = 1,
@@ -20,66 +47,36 @@ export function FishScene({
   mousePos = { x: 0, y: 0 },
   isHovering = false,
 }: FishSceneProps) {
-  const groupRef = useRef<THREE.Group>(null!)
-  const mixerRef = useRef<THREE.AnimationMixer | null>(null)
+  const groupRef = useRef<Group>(null!)
 
   // Smooth mouse following with lerp
   const smoothMouseRef = useRef({ x: 0, y: 0 })
 
   // Scatter effect state
-  const [isScattered, setIsScattered] = useState(false)
+  const isScatteredRef = useRef(false)
   const scatterTimeRef = useRef(0)
 
-  // Load model with animations
-  const { scene, animations } = useGLTF("/models/fish-school-converted.glb")
-
-  // Process materials and setup animation mixer
-  useEffect(() => {
-    // Process materials
-    scene.traverse((child) => {
-      if (child instanceof THREE.Mesh && child.material) {
-        const mat = child.material as THREE.MeshStandardMaterial
-        mat.side = THREE.DoubleSide
-        if (mat.map) {
-          mat.map.colorSpace = THREE.SRGBColorSpace
-        }
-        mat.needsUpdate = true
-      }
-    })
-
-    // Create mixer directly on the loaded scene
-    if (animations.length > 0) {
-      console.log("Creating mixer for animations:", animations.map(a => a.name))
-
-      const mixer = new THREE.AnimationMixer(scene)
-      mixerRef.current = mixer
-
-      // Play all animation clips
-      animations.forEach((clip) => {
-        const action = mixer.clipAction(clip)
-        action.setEffectiveTimeScale(animationSpeed)
-        action.setLoop(THREE.LoopRepeat, Infinity)
-        action.play()
-        console.log(`Started animation: ${clip.name}`)
+  // Generate fish positions
+  const fishData = useMemo(() => {
+    const fish = []
+    const colors = ["#4488aa", "#336699", "#55aacc", "#2277aa", "#66bbdd"]
+    for (let i = 0; i < 12; i++) {
+      fish.push({
+        position: [
+          (Math.random() - 0.5) * 4,
+          (Math.random() - 0.5) * 3,
+          (Math.random() - 0.5) * 4,
+        ] as [number, number, number],
+        offset: Math.random() * Math.PI * 2,
+        color: colors[i % colors.length],
+        scale: 0.6 + Math.random() * 0.8,
       })
-    } else {
-      console.log("No animations found in GLB")
     }
+    return fish
+  }, [])
 
-    return () => {
-      if (mixerRef.current) {
-        mixerRef.current.stopAllAction()
-      }
-    }
-  }, [scene, animations, animationSpeed])
-
-  // Update mixer every frame + group movement with mouse interactivity
-  useFrame((state, delta) => {
-    // CRITICAL: Update animation mixer
-    if (mixerRef.current) {
-      mixerRef.current.update(delta)
-    }
-
+  // Update group movement with mouse interactivity
+  useFrame((state) => {
     if (groupRef.current) {
       const t = state.clock.elapsedTime
 
@@ -90,12 +87,12 @@ export function FishScene({
 
       // Handle scatter effect (when cursor gets too close)
       const mouseDistance = Math.sqrt(smoothMouseRef.current.x ** 2 + smoothMouseRef.current.y ** 2)
-      if (isHovering && mouseDistance > 0.6 && !isScattered) {
-        setIsScattered(true)
+      if (isHovering && mouseDistance > 0.6 && !isScatteredRef.current) {
+        isScatteredRef.current = true
         scatterTimeRef.current = t
       }
-      if (isScattered && t - scatterTimeRef.current > 2) {
-        setIsScattered(false)
+      if (isScatteredRef.current && t - scatterTimeRef.current > 2) {
+        isScatteredRef.current = false
       }
 
       // Base organic swimming movement
@@ -111,7 +108,7 @@ export function FishScene({
       let scatterX = 0
       let scatterY = 0
       let scatterZ = 0
-      if (isScattered) {
+      if (isScatteredRef.current) {
         const scatterProgress = (t - scatterTimeRef.current) * 2
         const scatterDecay = Math.exp(-scatterProgress * 0.8)
         scatterX = Math.sin(scatterProgress * 5) * 6 * scatterDecay
@@ -136,10 +133,14 @@ export function FishScene({
   return (
     <group ref={groupRef} position={position}>
       <Center>
-        <primitive object={scene} scale={scale} />
+        <group scale={scale}>
+          {fishData.map((fish, i) => (
+            <group key={i} position={fish.position} scale={fish.scale}>
+              <ProceduralFish offset={fish.offset} color={fish.color} />
+            </group>
+          ))}
+        </group>
       </Center>
     </group>
   )
 }
-
-useGLTF.preload("/models/fish-school-converted.glb")

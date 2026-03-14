@@ -1,6 +1,6 @@
 "use client"
 
-import { useRef } from "react"
+import { useRef, useEffect, useState } from "react"
 import { motion, useInView } from "framer-motion"
 import { Container, Section } from "@/components/layout"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
@@ -10,8 +10,36 @@ const easeOutExpo = [0.16, 1, 0.3, 1] as const
 
 export function WaveBallSection() {
   const sectionRef = useRef<HTMLDivElement>(null)
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const videoContainerRef = useRef<HTMLDivElement>(null)
+  const [videoInView, setVideoInView] = useState(false)
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" })
   const prefersReducedMotion = useReducedMotion()
+
+  // Lazy-load video playback with IntersectionObserver
+  useEffect(() => {
+    const container = videoContainerRef.current
+    if (!container) return
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVideoInView(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: "200px" }
+    )
+    observer.observe(container)
+    return () => observer.disconnect()
+  }, [])
+
+  // Play video when it comes into view
+  useEffect(() => {
+    if (videoInView && videoRef.current) {
+      videoRef.current.play().catch(() => {})
+    }
+  }, [videoInView])
 
   return (
     <Section className="relative overflow-hidden bg-gradient-to-b from-neutral-50 to-white py-24 md:py-32">
@@ -42,15 +70,21 @@ export function WaveBallSection() {
                     <div className="absolute left-0 top-0 h-full w-px bg-gradient-to-b from-white/15 via-transparent to-transparent" />
                   </div>
 
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full h-full object-cover"
-                  >
-                    <source src="/hero-cinematic.mp4" type="video/mp4" />
-                  </video>
+                  <div ref={videoContainerRef}>
+                    <video
+                      ref={videoRef}
+                      loop
+                      muted
+                      playsInline
+                      preload="none"
+                      poster="/images/hero/austin-skyline.jpg"
+                      className="w-full h-full object-cover"
+                    >
+                      {videoInView && (
+                        <source src="/hero-cinematic.mp4" type="video/mp4" />
+                      )}
+                    </video>
+                  </div>
                 </div>
               </motion.div>
 

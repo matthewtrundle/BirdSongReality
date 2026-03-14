@@ -1,8 +1,8 @@
 "use client"
 
-import { useRef, useMemo } from "react"
+import { useRef, useMemo, useEffect } from "react"
 import { useFrame, useThree } from "@react-three/fiber"
-import * as THREE from "three"
+import { FogExp2, Points, Mesh, MeshBasicMaterial, DoubleSide, AdditiveBlending, Group } from "three"
 
 interface OceanAtmosphereProps {
   color?: string
@@ -15,15 +15,17 @@ export function OceanAtmosphere({
 }: OceanAtmosphereProps) {
   const { scene } = useThree()
 
-  // Set fog for depth
-  scene.fog = new THREE.FogExp2(color, density)
+  // Set fog for depth - only when color or density changes
+  useEffect(() => {
+    scene.fog = new FogExp2(color, density)
+  }, [scene, color, density])
 
   return null
 }
 
 // Dynamic floating particles for underwater effect
 export function OceanParticles({ count = 100 }: { count?: number }) {
-  const particlesRef = useRef<THREE.Points>(null)
+  const particlesRef = useRef<Points>(null)
 
   // Create particle data with more properties for organic movement
   const particleData = useMemo(() => {
@@ -94,7 +96,7 @@ export function OceanParticles({ count = 100 }: { count?: number }) {
         transparent
         opacity={0.6}
         sizeAttenuation
-        blending={THREE.AdditiveBlending}
+        blending={AdditiveBlending}
       />
     </points>
   )
@@ -102,7 +104,7 @@ export function OceanParticles({ count = 100 }: { count?: number }) {
 
 // Dramatic light rays from above (caustics simulation) - legacy
 export function LightRays() {
-  const raysRef = useRef<THREE.Group>(null)
+  const raysRef = useRef<Group>(null)
 
   useFrame((state) => {
     if (!raysRef.current) return
@@ -111,8 +113,8 @@ export function LightRays() {
 
     // Animate light rays - opacity and subtle movement
     raysRef.current.children.forEach((child, i) => {
-      if (child instanceof THREE.Mesh) {
-        const material = child.material as THREE.MeshBasicMaterial
+      if (child instanceof Mesh) {
+        const material = child.material as MeshBasicMaterial
         // Breathing animation with different phases
         material.opacity = 0.06 + Math.sin(t * 0.4 + i * 0.7) * 0.04
 
@@ -138,8 +140,8 @@ export function LightRays() {
             color="#fffbe6"
             transparent
             opacity={0.06}
-            side={THREE.DoubleSide}
-            blending={THREE.AdditiveBlending}
+            side={DoubleSide}
+            blending={AdditiveBlending}
           />
         </mesh>
       ))}
@@ -149,7 +151,7 @@ export function LightRays() {
 
 // Organic sun rays from top-right corner - natural light beams
 export function SunRays() {
-  const raysRef = useRef<THREE.Group>(null)
+  const raysRef = useRef<Group>(null)
 
   // Create ray data with organic variations
   const rayData = useMemo(() => {
@@ -181,9 +183,9 @@ export function SunRays() {
     const t = state.clock.elapsedTime
 
     raysRef.current.children.forEach((child, i) => {
-      if (child instanceof THREE.Mesh && rayData[i]) {
+      if (child instanceof Mesh && rayData[i]) {
         const ray = rayData[i]
-        const material = child.material as THREE.MeshBasicMaterial
+        const material = child.material as MeshBasicMaterial
 
         // Organic pulsing opacity - each ray breathes independently
         const pulse = Math.sin(t * ray.speed + ray.phase)
@@ -217,8 +219,8 @@ export function SunRays() {
             color="#fff8e0"
             transparent
             opacity={ray.opacity}
-            side={THREE.DoubleSide}
-            blending={THREE.AdditiveBlending}
+            side={DoubleSide}
+            blending={AdditiveBlending}
             depthWrite={false}
           />
         </mesh>
@@ -231,7 +233,7 @@ export function SunRays() {
           color="#fffbe6"
           transparent
           opacity={0.04}
-          blending={THREE.AdditiveBlending}
+          blending={AdditiveBlending}
           depthWrite={false}
         />
       </mesh>
