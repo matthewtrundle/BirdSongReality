@@ -10,7 +10,15 @@ import { appendToSheet } from "./google-sheets"
 import { LeadNotification } from "@/emails/lead-notification"
 import { InquiryConfirmation } from "@/emails/inquiry-confirmation"
 
-const NOTIFICATION_EMAIL = "patrick@birdsongrealtyteam.com"
+const DEFAULT_NOTIFICATION_EMAIL = "patrick@birdsongrealtyteam.com"
+
+function getNotificationRecipients(): string[] {
+  const envEmails = process.env.NOTIFICATION_EMAILS
+  if (envEmails) {
+    return envEmails.split(",").map((e) => e.trim()).filter(Boolean)
+  }
+  return [DEFAULT_NOTIFICATION_EMAIL]
+}
 
 // Lazy-initialize Resend to avoid build-time errors when env var is missing
 let _resend: Resend | null = null
@@ -179,7 +187,7 @@ async function sendEmailNotifications(
 
     await getResend().emails.send({
       from: "Birdsong Realty <noreply@birdsongrealtyteam.com>",
-      to: NOTIFICATION_EMAIL,
+      to: getNotificationRecipients(),
       subject: `New Lead: ${fullName} - ${subjectDetail}`,
       html: notificationEmailHtml,
     })
