@@ -82,7 +82,7 @@ export function Testimonials() {
             transition={{ duration: 0.8, ease: easeOutExpo }}
           >
             <motion.span
-              className="text-accent-500 text-sm tracking-wider uppercase font-medium block mb-4"
+              className="text-highlight-500 text-sm tracking-wider uppercase font-medium block mb-4"
               initial={prefersReducedMotion ? {} : { opacity: 0, y: 10 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.1 }}
@@ -108,7 +108,7 @@ export function Testimonials() {
           >
             {/* Decorative quote marks */}
             <motion.div
-              className="absolute -top-8 left-0 text-8xl font-display text-accent-500/20 leading-none select-none pointer-events-none"
+              className="absolute -top-8 left-0 text-7xl font-display text-white/10 leading-none select-none pointer-events-none"
               initial={prefersReducedMotion ? {} : { opacity: 0, x: -20 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, ease: easeOutExpo, delay: 0.4 }}
@@ -116,7 +116,7 @@ export function Testimonials() {
               &ldquo;
             </motion.div>
             <motion.div
-              className="absolute -bottom-16 right-0 text-8xl font-display text-accent-500/20 leading-none select-none pointer-events-none"
+              className="absolute -bottom-16 right-0 text-7xl font-display text-white/10 leading-none select-none pointer-events-none"
               initial={prefersReducedMotion ? {} : { opacity: 0, x: 20 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, ease: easeOutExpo, delay: 0.5 }}
@@ -171,7 +171,7 @@ export function Testimonials() {
                   className={cn(
                     "h-2 rounded-full transition-all duration-300",
                     index === activeIndex
-                      ? "bg-accent-500 w-8"
+                      ? "bg-highlight-500 w-8"
                       : "bg-neutral-700 hover:bg-neutral-600 w-2"
                   )}
                   whileHover={{ scale: 1.2 }}

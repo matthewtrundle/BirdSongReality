@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, CTA
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Austin New Construction Homes | Birdsong Realty Team | Keller Williams",
+  title: "Austin New Construction Homes | Birdsong Realty Team | Realty of America",
   description:
     "Find new construction homes in Austin, TX. From master-planned communities to custom builds, the Birdsong Realty Team guides buyers through Austin's new home market.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Austin home builders",
   ],
   openGraph: {
-    title: "Austin New Construction Homes | Birdsong Realty Team | Keller Williams",
+    title: "Austin New Construction Homes | Birdsong Realty Team | Realty of America",
     description:
       "Find new construction homes in Austin, TX with expert guidance from the Birdsong Realty Team.",
   },
@@ -60,19 +60,19 @@ export default function AustinNewConstructionPage() {
             <HighlightBox title="Why Buy New Construction?">
               <ul className="space-y-3 text-neutral-700">
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Energy Efficiency:</strong> Modern insulation, windows, and HVAC systems lower utility costs</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Customization:</strong> Choose your finishes, floor plans, and design options</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Builder Warranties:</strong> Structural and systems warranties for peace of mind</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Low Maintenance:</strong> Everything is brand new with no deferred maintenance</span>
                 </li>
               </ul>

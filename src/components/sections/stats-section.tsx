@@ -9,28 +9,28 @@ import { cn } from "@/lib/utils"
 const stats = [
   {
     value: 250,
-    suffix: "+",
-    label: "Properties Sold",
-    description: "Austin area homes",
+    prefix: "$",
+    suffix: "M+",
+    label: "Closed Volume",
+    description: "In Austin home sales",
   },
   {
-    value: 15,
+    value: 600,
+    suffix: "+",
+    label: "Families Served",
+    description: "Across the Austin metro",
+  },
+  {
+    value: 20,
     suffix: "+",
     label: "Years Experience",
     description: "Austin market experts",
   },
   {
-    value: 98,
+    value: 100,
     suffix: "%",
     label: "Client Satisfaction",
-    description: "5-star reviews",
-  },
-  {
-    value: 45,
-    prefix: "$",
-    suffix: "M",
-    label: "Sales Volume",
-    description: "Last 12 months",
+    description: "5-star service",
   },
 ]
 
@@ -68,7 +68,7 @@ export function StatsSection({ variant = "gradient", className }: StatsSectionPr
         <Reveal className="text-center mb-12 md:mb-16">
           <span className={cn(
             "text-sm tracking-wider uppercase font-medium block mb-4",
-            variant === "light" ? "text-primary-600" : "text-accent-400"
+            variant === "light" ? "text-primary-600" : "text-highlight-500"
           )}>
             By The Numbers
           </span>

@@ -3,19 +3,19 @@
     "name": "Birdsong Realty Team",
     "shortName": "Birdsong Realty",
     "tagline": "Austin Homes & Real Estate",
-    "description": "Patrick Birdsong and the Birdsong Realty Team at Keller Williams help buyers, sellers, and investors navigate the Austin, Texas real estate market.",
+    "description": "Patrick Birdsong and the Birdsong Realty Team at Realty of America help buyers, sellers, and investors navigate the Austin, Texas real estate market.",
     "url": "https://birdsongrealtyteam.com"
   },
   "agent": {
     "name": "Patrick Birdsong",
     "title": "REALTOR",
-    "license": "TODO-REPLACE-license-number",
-    "brokerage": "Keller Williams",
-    "marketCenter": "Keller Williams Realty"
+    "license": "516961",
+    "brokerage": "Realty of America",
+    "marketCenter": "Realty of America"
   },
   "contact": {
-    "phone": "TODO-REPLACE-phone-number",
-    "email": "patrick@birdsongrealty.com",
+    "phone": "(512) 768-0225",
+    "email": "info@birdsongrealtyteam.com",
     "address": {
       "street": "TBD",
       "city": "Austin",
@@ -31,21 +31,24 @@
     "linkedin": "https://linkedin.com/in/patrickbirdsong"
   },
   "seo": {
-    "defaultTitle": "Austin Real Estate | Birdsong Realty Team | Keller Williams",
-    "titleTemplate": "%s | Birdsong Realty Team | Keller Williams",
-    "defaultDescription": "Find your dream home in Austin, TX with the Birdsong Realty Team at Keller Williams. Luxury homes, new construction, waterfront properties, and more.",
+    "defaultTitle": "Austin Real Estate | Birdsong Realty Team | Realty of America",
+    "titleTemplate": "%s | Birdsong Realty Team | Realty of America",
+    "defaultDescription": "Find your dream home in Austin, TX with the Birdsong Realty Team at Realty of America. Luxury homes, new construction, waterfront properties, and more.",
     "ogImage": "/images/og-default.jpg"
   },
   "features": {
     "totalListings": "100+",
-    "yearsExperience": 10,
-    "propertiesSold": "300+",
+    "yearsExperience": 20,
+    "familiesServed": "600+",
+    "closedVolume": "$250M+",
     "marketExpertise": "Austin Metro Specialist"
   },
   "trust": {
     "responseTime": "< 24 hours",
-    "clientSatisfaction": "98%",
-    "closedTransactions": 300
+    "clientSatisfaction": "100%",
+    "familiesServed": 600,
+    "avgDaysOnMarket": 42,
+    "marketAvgDaysOnMarket": 85.8
   },
   "compliance": {
     "trecIabsUrl": "https://www.trec.texas.gov/sites/default/files/pdf-forms/IABS%201-0.pdf",

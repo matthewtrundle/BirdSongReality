@@ -2,9 +2,8 @@ import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { Container, Section } from "@/components/layout"
-import { SEOPageHero, CTABanner } from "@/components/seo"
+import { SEOPageHero } from "@/components/seo"
 import { Button } from "@/components/ui"
-import { SITE_CONFIG } from "@/lib/constants"
 
 export const metadata: Metadata = {
   title: "About Us | Austin Real Estate Experts",
@@ -16,13 +15,11 @@ const teamMembers = [
     name: "Patrick Birdsong",
     role: "Founder & Lead Agent",
     bio: "With deep roots in Austin real estate, Patrick knows every corner of the city. His data-driven approach and hands-on marketing strategy consistently deliver exceptional results for buyers and sellers across Austin's most competitive markets.",
-    image: "/images/team/patrick.jpg",
   },
   {
     name: "Erin",
     role: "Agent & Client Experience",
     bio: "Erin brings a client-first approach to every transaction. Her attention to detail, clear communication, and genuine care for her clients make the buying and selling process seamless and stress-free.",
-    image: "/images/team/erin.jpg",
   },
 ]
 
@@ -114,8 +111,8 @@ export default function AboutPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/about/team-hero.jpg"
-                alt="Birdsong Realty Team in Austin"
+                src="/images/hero/austin-skyline-golden.jpg"
+                alt="Austin, Texas skyline at golden hour"
                 fill
                 className="object-cover"
               />
@@ -167,21 +164,19 @@ export default function AboutPage() {
               Our team combines decades of real estate experience with deep local knowledge
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {teamMembers.map((member) => (
-              <div key={member.name} className="text-center">
-                <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <h3 className="font-display font-semibold text-neutral-900 text-lg mb-1">
+              <div
+                key={member.name}
+                className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-100 text-center"
+              >
+                <div className="w-12 h-1 bg-primary-600 rounded-full mx-auto mb-6" />
+                <h3 className="font-display font-semibold text-neutral-900 text-xl mb-1">
                   {member.name}
                 </h3>
-                <p className="text-primary-600 text-sm font-medium mb-3">{member.role}</p>
+                <p className="text-primary-600 text-xs font-medium uppercase tracking-wider mb-4">
+                  {member.role}
+                </p>
                 <p className="text-sm text-neutral-600 leading-relaxed">{member.bio}</p>
               </div>
             ))}

@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, Sta
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Austin Investment Properties | Birdsong Realty Team | Keller Williams",
+  title: "Austin Investment Properties | Birdsong Realty Team | Realty of America",
   description:
     "Find investment properties in Austin, TX. Rental properties, multi-family, fix-and-flip, and long-term appreciation opportunities with expert investor guidance.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "real estate investment Austin",
   ],
   openGraph: {
-    title: "Austin Investment Properties | Birdsong Realty Team | Keller Williams",
+    title: "Austin Investment Properties | Birdsong Realty Team | Realty of America",
     description:
       "Find profitable investment properties in Austin, TX with expert guidance from the Birdsong Realty Team.",
   },
@@ -69,19 +69,19 @@ export default function AustinInvestmentPropertiesPage() {
             <HighlightBox title="Investment Strategies We Support">
               <ul className="space-y-3 text-neutral-700">
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Long-Term Rentals:</strong> Single-family and multi-family properties for steady cash flow</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Short-Term Rentals:</strong> STR-eligible properties in high-demand tourist areas</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Fix-and-Flip:</strong> Value-add properties with renovation upside potential</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Appreciation Plays:</strong> Properties in emerging corridors poised for growth</span>
                 </li>
               </ul>

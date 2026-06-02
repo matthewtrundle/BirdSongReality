@@ -434,7 +434,7 @@ export default function InvestmentCalculatorPage() {
               </div>
 
               {/* CTA */}
-              <div className="bg-accent-50 border border-accent-200 rounded-xl p-6">
+              <div className="bg-primary-50 border border-primary-200 rounded-xl p-6">
                 <h3 className="font-medium text-neutral-900 mb-2">Find Investment Properties</h3>
                 <p className="text-sm text-neutral-600 mb-4">
                   Browse vacation rentals with proven income potential.

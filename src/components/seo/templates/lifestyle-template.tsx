@@ -87,7 +87,7 @@ export function LifestyleTemplate({ scenario }: LifestyleTemplateProps) {
 
                 {/* Testimonial */}
                 {scenario.testimonial && (
-                  <blockquote className="border-l-4 border-accent-500 pl-6 my-10">
+                  <blockquote className="border-l-4 border-primary-600 pl-6 my-10">
                     <p className="text-lg italic text-neutral-700">
                       &ldquo;{scenario.testimonial.quote}&rdquo;
                     </p>
@@ -145,7 +145,7 @@ export function LifestyleTemplate({ scenario }: LifestyleTemplateProps) {
                           <ul className="space-y-1">
                             {scenario.relatedProperties.features.map((feature, index) => (
                               <li key={index} className="text-primary-900 flex items-center gap-2">
-                                <span className="text-accent-500">&#10003;</span>
+                                <span className="text-primary-600">&#10003;</span>
                                 {feature}
                               </li>
                             ))}
@@ -220,7 +220,7 @@ export function LifestyleTemplate({ scenario }: LifestyleTemplateProps) {
                 <Link
                   key={related.slug}
                   href={`/living/${related.slug}`}
-                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-accent-50 transition-colors"
+                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-primary-50 transition-colors"
                 >
                   <h3 className="font-display text-lg text-primary-900 group-hover:text-primary-700 mb-2">
                     {related.title}

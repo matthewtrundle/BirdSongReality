@@ -57,7 +57,7 @@ export function WaveBallSection() {
               <motion.div
                 className="absolute inset-0 rounded-3xl bg-gradient-to-b from-slate-700 via-slate-800 to-slate-900 p-3 shadow-2xl"
                 whileHover={{
-                  boxShadow: "0 25px 50px rgba(0,0,0,0.25), 0 0 60px rgba(45,80,22,0.2)",
+                  boxShadow: "0 25px 50px rgba(0,0,0,0.25), 0 0 60px rgba(16,41,90,0.2)",
                 }}
                 transition={{ duration: 0.4 }}
               >
@@ -154,7 +154,7 @@ export function WaveBallSection() {
                   transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.7 }}
                   whileHover={{
                     scale: 1.05,
-                    boxShadow: "0 10px 30px rgba(45,80,22,0.15)",
+                    boxShadow: "0 10px 30px rgba(16,41,90,0.15)",
                   }}
                 >
                   <div className="text-2xl font-display text-primary-900 mb-1">
@@ -163,13 +163,13 @@ export function WaveBallSection() {
                   <div className="text-sm text-primary-700">days of sunshine</div>
                 </motion.div>
                 <motion.div
-                  className="text-center p-5 rounded-xl bg-gradient-to-br from-accent-50 to-accent-100/50 backdrop-blur-sm border border-accent-100/50 shadow-lg shadow-accent-100/20"
+                  className="text-center p-5 rounded-xl bg-gradient-to-br from-primary-50 to-primary-100/50 backdrop-blur-sm border border-primary-100/50 shadow-lg shadow-primary-100/20"
                   initial={prefersReducedMotion ? {} : { opacity: 0, scale: 0.8, y: 20 }}
                   animate={isInView ? { opacity: 1, scale: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.8 }}
                   whileHover={{
                     scale: 1.05,
-                    boxShadow: "0 10px 30px rgba(139,105,20,0.15)",
+                    boxShadow: "0 10px 30px rgba(16,41,90,0.15)",
                   }}
                 >
                   <div className="text-2xl font-display text-primary-900 mb-1">

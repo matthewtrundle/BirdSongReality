@@ -179,7 +179,7 @@ export default function MarketPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             <Link
               href="/market/trends"
-              className="p-8 bg-neutral-50 rounded-lg hover:bg-accent-50 transition-colors group"
+              className="p-8 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group"
             >
               <h3 className="font-display text-xl text-primary-900 mb-3 group-hover:text-primary-700">
                 Market Trends
@@ -191,7 +191,7 @@ export default function MarketPage() {
             </Link>
             <Link
               href="/market/price-guide"
-              className="p-8 bg-neutral-50 rounded-lg hover:bg-accent-50 transition-colors group"
+              className="p-8 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group"
             >
               <h3 className="font-display text-xl text-primary-900 mb-3 group-hover:text-primary-700">
                 Price Guide

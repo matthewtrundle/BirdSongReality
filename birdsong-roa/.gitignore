@@ -1,0 +1,12 @@
+# Local overrides — root .gitignore covers most of this, but keep app-local
+# in case this directory is later extracted.
+
+/node_modules
+/.next/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.env*
+.DS_Store

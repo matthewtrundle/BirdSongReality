@@ -26,7 +26,7 @@ function StarRating({ rating }: { rating: number }) {
       {[1, 2, 3, 4, 5].map((star) => (
         <svg
           key={star}
-          className={`w-5 h-5 ${star <= rating ? "text-accent-500" : "text-neutral-300"}`}
+          className={`w-5 h-5 ${star <= rating ? "text-primary-600" : "text-neutral-300"}`}
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -77,7 +77,7 @@ export default function ReviewsPage() {
                 <div className="text-3xl md:text-4xl font-display font-bold text-primary-800">
                   {stats.propertiesSold}+
                 </div>
-                <div className="text-sm text-neutral-600">Properties Sold</div>
+                <div className="text-sm text-neutral-600">Families Served</div>
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-display font-bold text-primary-800">

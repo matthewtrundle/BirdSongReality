@@ -22,20 +22,20 @@ export function GuideCard({
     <Link
       href={href}
       className={cn(
-        "group block bg-white rounded-xl p-6 shadow-sm hover:shadow-lg border border-neutral-100 hover:border-accent-200 transition-all duration-300",
+        "group block bg-white rounded-xl p-6 shadow-sm hover:shadow-lg border border-neutral-100 hover:border-primary-200 transition-all duration-300",
         className
       )}
     >
       {/* Icon */}
       {icon && (
-        <div className="w-12 h-12 bg-accent-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-accent-100 transition-colors">
-          <span className="text-accent-600 text-2xl">{icon}</span>
+        <div className="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary-100 transition-colors">
+          <span className="text-primary-600 text-2xl">{icon}</span>
         </div>
       )}
 
       {/* Category */}
       {category && (
-        <span className="text-xs font-medium uppercase tracking-wider text-accent-600 mb-2 block">
+        <span className="text-xs font-medium uppercase tracking-wider text-highlight-500 mb-2 block">
           {category}
         </span>
       )}

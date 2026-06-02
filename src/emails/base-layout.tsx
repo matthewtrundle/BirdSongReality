@@ -26,7 +26,7 @@ export function BaseLayout({ previewText, children }: BaseLayoutProps) {
           {/* Header */}
           <Section style={header}>
             <Text style={logoText}>Birdsong Realty Team</Text>
-            <Text style={tagline}>Austin Real Estate | Keller Williams</Text>
+            <Text style={tagline}>Austin Real Estate | Realty of America</Text>
           </Section>
 
           {/* Main Content */}
@@ -35,7 +35,7 @@ export function BaseLayout({ previewText, children }: BaseLayoutProps) {
           {/* Footer */}
           <Section style={footer}>
             <Text style={footerText}>
-              Birdsong Realty Team | Keller Williams Realty
+              Birdsong Realty Team | Realty of America
               <br />
               Austin, TX 78701
               <br />
@@ -86,7 +86,7 @@ const container = {
 }
 
 const header = {
-  backgroundColor: "#2D5016",
+  backgroundColor: "#10295A",
   padding: "40px 48px",
   textAlign: "center" as const,
 }
@@ -100,7 +100,7 @@ const logoText = {
 }
 
 const tagline = {
-  color: "#d4e4c8",
+  color: "#aebfdc",
   fontSize: "14px",
   fontWeight: "400",
   margin: "8px 0 0 0",
@@ -132,7 +132,7 @@ const footerLinks = {
 }
 
 const footerLink = {
-  color: "#2D5016",
+  color: "#10295A",
   textDecoration: "none",
 }
 

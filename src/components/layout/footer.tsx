@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Container } from "./container"
 import { ComplianceBar } from "./compliance-bar"
-import { KWLogo } from "@/components/icons/kw-logo"
+import { ROALogo } from "@/components/icons/roa-logo"
 import siteConfig from "@/data/site-config.json"
 
 const footerLinks = {
@@ -81,9 +81,9 @@ export function Footer() {
               </p>
             </div>
 
-            {/* KW Branding */}
+            {/* Brokerage Branding */}
             <div className="mt-5 flex items-center gap-3">
-              <KWLogo size={36} />
+              <ROALogo size={36} />
               <div>
                 <p className="text-white text-sm font-medium">{agent.brokerage}</p>
                 <p className="text-neutral-500 text-xs">{agent.marketCenter}</p>

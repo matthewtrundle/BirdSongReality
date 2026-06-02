@@ -125,7 +125,7 @@ export function Header() {
                         className={cn(
                           "relative text-sm tracking-wide transition-colors duration-300 flex items-center gap-1",
                           isActive
-                            ? "text-accent-400"
+                            ? "text-highlight-500"
                             : isScrolled
                               ? "text-white/70 hover:text-white"
                               : "text-white/70 hover:text-white"
@@ -146,7 +146,7 @@ export function Header() {
                         {isActive && (
                           <motion.span
                             layoutId="nav-indicator"
-                            className="absolute -bottom-1 left-0 right-0 h-px bg-accent-400"
+                            className="absolute -bottom-1 left-0 right-0 h-px bg-highlight-500"
                             transition={calmTransition}
                           />
                         )}
@@ -170,7 +170,7 @@ export function Header() {
                                   className={cn(
                                     "block px-4 py-2.5 text-sm transition-colors duration-150",
                                     pathname === child.href
-                                      ? "bg-white/10 text-accent-400 font-medium"
+                                      ? "bg-white/10 text-highlight-500 font-medium"
                                       : "text-white/70 hover:bg-white/5 hover:text-white"
                                   )}
                                 >
@@ -192,7 +192,7 @@ export function Header() {
                     className={cn(
                       "relative text-sm tracking-wide transition-colors duration-300",
                       isActive
-                        ? "text-accent-400"
+                        ? "text-highlight-500"
                         : isScrolled
                           ? "text-white/70 hover:text-white"
                           : "text-white/70 hover:text-white"
@@ -202,7 +202,7 @@ export function Header() {
                     {isActive && (
                       <motion.span
                         layoutId="nav-indicator"
-                        className="absolute -bottom-1 left-0 right-0 h-px bg-accent-400"
+                        className="absolute -bottom-1 left-0 right-0 h-px bg-highlight-500"
                         transition={calmTransition}
                       />
                     )}
@@ -216,7 +216,7 @@ export function Header() {
               <Button
                 variant="cta"
                 size="sm"
-                className="px-6 py-2 text-sm tracking-wide border-0 rounded-md transition-all duration-300 whitespace-nowrap bg-accent-500/90 hover:bg-accent-400 text-primary-950 backdrop-blur-sm"
+                className="px-6 py-2 text-sm tracking-wide border-0 rounded-md transition-all duration-300 whitespace-nowrap bg-white/95 hover:bg-white text-primary-900 backdrop-blur-sm"
                 asChild
               >
                 <Link href="/contact">Get Started</Link>

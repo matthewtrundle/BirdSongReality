@@ -70,7 +70,7 @@ export function CTASection() {
             <div className="text-center max-w-2xl mx-auto">
               {/* Overline with slide-in */}
               <motion.span
-                className="text-accent-500 text-sm tracking-wider uppercase font-medium block mb-6"
+                className="text-highlight-500 text-sm tracking-wider uppercase font-medium block mb-6"
                 initial={prefersReducedMotion ? {} : { opacity: 0, y: 10 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.1 }}
@@ -120,13 +120,13 @@ export function CTASection() {
                 transition={{ duration: 0.7, ease: easeOutExpo, delay: 0.6 }}
               >
                 <PremiumButtonWrapper
-                  glowColor="rgba(139, 105, 20, 0.5)"
+                  glowColor="rgba(255, 255, 255, 0.25)"
                   shineColor="rgba(255, 255, 255, 0.4)"
                 >
                   <Button
                     variant="cta"
                     size="lg"
-                    className="px-8 py-4 text-base bg-accent-500 hover:bg-accent-400 text-primary-950 border-0 rounded-md transition-colors duration-300"
+                    className="px-8 py-4 text-base bg-white hover:bg-white/90 text-primary-900 border-0 rounded-md transition-colors duration-300"
                     asChild
                   >
                     <Link href="/contact">Request Listings</Link>

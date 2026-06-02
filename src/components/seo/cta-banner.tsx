@@ -48,7 +48,7 @@ export function CTABanner({
       className={cn(
         "my-16 rounded-2xl p-8 md:p-12",
         {
-          "bg-gradient-to-br from-primary-50 to-accent-50": !isDark,
+          "bg-gradient-to-br from-primary-50 to-primary-50": !isDark,
           "bg-gradient-to-br from-primary-900 to-primary-950": isDark,
         },
         className
@@ -113,7 +113,7 @@ interface InlineCTAProps {
 
 export function InlineCTA({ text, href, className }: InlineCTAProps) {
   return (
-    <div className={cn("my-8 p-6 bg-accent-50 rounded-lg border border-accent-200", className)}>
+    <div className={cn("my-8 p-6 bg-primary-50 rounded-lg border border-primary-200", className)}>
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-primary-900 font-medium">{text}</p>
         <Button variant="cta" size="md" asChild>

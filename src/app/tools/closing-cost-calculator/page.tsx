@@ -260,7 +260,7 @@ export default function ClosingCostCalculatorPage() {
                 </div>
               )}
 
-              <div className="bg-accent-50 border border-accent-200 rounded-xl p-6">
+              <div className="bg-primary-50 border border-primary-200 rounded-xl p-6">
                 <h3 className="font-medium text-neutral-900 mb-2">
                   {isBuyer ? "Ready to Buy?" : "Ready to Sell?"}
                 </h3>

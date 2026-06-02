@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, CTA
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Austin Condos & Townhomes | Birdsong Realty Team | Keller Williams",
+  title: "Austin Condos & Townhomes | Birdsong Realty Team | Realty of America",
   description:
     "Browse Austin condos and townhomes for sale. From downtown high-rises to suburban townhome communities, find the perfect low-maintenance Austin property.",
   keywords: [
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "condos near downtown Austin",
   ],
   openGraph: {
-    title: "Austin Condos & Townhomes | Birdsong Realty Team | Keller Williams",
+    title: "Austin Condos & Townhomes | Birdsong Realty Team | Realty of America",
     description:
-      "Browse Austin condos and townhomes for sale with the Birdsong Realty Team at Keller Williams.",
+      "Browse Austin condos and townhomes for sale with the Birdsong Realty Team at Realty of America.",
   },
 }
 
@@ -84,19 +84,19 @@ export default function AustinCondosTownhomesPage() {
             <HighlightBox title="Condo Buying Tips">
               <ul className="space-y-3 text-neutral-700">
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>HOA Financials:</strong> Review reserves, assessments, and monthly fees carefully</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Rules &amp; Restrictions:</strong> Understand pet policies, rental restrictions, and renovation rules</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Insurance:</strong> Know what the master policy covers vs. your individual HO6 policy</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Resale Value:</strong> Location, floor plan, and views significantly impact appreciation</span>
                 </li>
               </ul>

@@ -59,7 +59,7 @@ export function FeaturedProperties() {
       {/* Subtle background texture */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-gradient-to-bl from-primary-100/20 to-transparent blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-accent-100/15 to-transparent blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-primary-100/15 to-transparent blur-3xl" />
       </div>
       <Container className="relative">
         <div ref={sectionRef}>
@@ -71,7 +71,7 @@ export function FeaturedProperties() {
             animate={isInView ? "visible" : "hidden"}
           >
             <motion.span
-              className="text-primary-700 text-sm tracking-wider uppercase font-medium block mb-4"
+              className="text-highlight-500 text-sm tracking-wider uppercase font-medium block mb-4"
               initial={prefersReducedMotion ? {} : { opacity: 0, x: -20 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.1 }}
@@ -82,7 +82,7 @@ export function FeaturedProperties() {
               Proven results
               {/* Animated underline */}
               <motion.span
-                className="absolute -bottom-2 left-0 h-[2px] bg-accent-500"
+                className="absolute -bottom-2 left-0 h-[2px] bg-highlight-500"
                 initial={{ width: 0 }}
                 animate={isInView ? { width: "100%" } : { width: 0 }}
                 transition={{ duration: 0.8, ease: easeOutExpo, delay: 0.4 }}

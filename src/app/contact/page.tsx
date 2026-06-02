@@ -112,9 +112,9 @@ export default function ContactPage() {
               </div>
 
               {/* Response Time */}
-              <div className="bg-accent-50 border border-accent-200 rounded-xl p-6">
+              <div className="bg-primary-50 border border-primary-100 rounded-xl p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <svg className="w-6 h-6 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                   <h3 className="font-medium text-neutral-900">Quick Response</h3>

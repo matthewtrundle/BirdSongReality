@@ -84,13 +84,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
   ]
 
-  // Dynamic portfolio pages (sold properties)
-  const portfolioPages: MetadataRoute.Sitemap = propertiesData.properties.map((property) => ({
-    url: `${BASE_URL}/portfolio/${property.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }))
+  // Dynamic portfolio pages — only active/pending listings (sold hidden for now)
+  const portfolioPages: MetadataRoute.Sitemap = propertiesData.properties
+    .filter((property) => property.status !== "sold")
+    .map((property) => ({
+      url: `${BASE_URL}/portfolio/${property.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
 
   // Dynamic blog pages
   const blogPages: MetadataRoute.Sitemap = blogData.posts.map((post) => ({

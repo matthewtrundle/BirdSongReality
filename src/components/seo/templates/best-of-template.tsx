@@ -87,7 +87,7 @@ export function BestOfTemplate({ list }: BestOfTemplateProps) {
                         {item.highlights.map((highlight, index) => (
                           <li
                             key={index}
-                            className="px-3 py-1 bg-accent-50 text-accent-700 rounded-full text-sm"
+                            className="px-3 py-1 bg-primary-50 text-primary-700 rounded-full text-sm"
                           >
                             {highlight}
                           </li>
@@ -131,7 +131,7 @@ export function BestOfTemplate({ list }: BestOfTemplateProps) {
                 <Link
                   key={relatedList.slug}
                   href={`/best/${relatedList.slug}`}
-                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-accent-50 transition-colors"
+                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-primary-50 transition-colors"
                 >
                   <h3 className="font-display text-lg text-primary-900 group-hover:text-primary-700 mb-2">
                     {relatedList.title}

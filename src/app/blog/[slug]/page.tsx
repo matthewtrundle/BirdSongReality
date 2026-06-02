@@ -132,7 +132,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {/* Header */}
             <header className="mb-12">
               <div className="flex items-center gap-4 mb-4">
-                <span className="px-3 py-1 bg-accent-100 text-accent-700 text-sm font-medium rounded-full">
+                <span className="px-3 py-1 bg-primary-100 text-primary-700 text-sm font-medium rounded-full">
                   {post.category}
                 </span>
                 <span className="text-neutral-500 text-sm">{post.readTime} min read</span>

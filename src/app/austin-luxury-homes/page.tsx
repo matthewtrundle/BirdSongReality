@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, CTA
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Austin Luxury Homes | Birdsong Realty Team | Keller Williams",
+  title: "Austin Luxury Homes | Birdsong Realty Team | Realty of America",
   description:
     "Explore Austin's finest luxury real estate. From Westlake estates to Barton Creek mansions, the Birdsong Realty Team helps discerning buyers find premium properties in Austin, TX.",
   keywords: [
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "premium Austin properties",
   ],
   openGraph: {
-    title: "Austin Luxury Homes | Birdsong Realty Team | Keller Williams",
+    title: "Austin Luxury Homes | Birdsong Realty Team | Realty of America",
     description:
-      "Explore Austin's finest luxury real estate with the Birdsong Realty Team at Keller Williams.",
+      "Explore Austin's finest luxury real estate with the Birdsong Realty Team at Realty of America.",
   },
 }
 
@@ -84,19 +84,19 @@ export default function AustinLuxuryHomesPage() {
             <HighlightBox title="Austin Luxury Property Features">
               <ul className="space-y-3 text-neutral-700">
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Premier Locations:</strong> Westlake Hills, Barton Creek, Tarrytown, and Lake Austin</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Custom Architecture:</strong> Award-winning designs with high-end finishes throughout</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Resort-Style Amenities:</strong> Infinity pools, outdoor living, home theaters, wine cellars</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Smart Home Technology:</strong> Integrated automation, security, and energy systems</span>
                 </li>
               </ul>

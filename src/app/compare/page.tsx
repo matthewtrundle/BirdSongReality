@@ -52,7 +52,7 @@ export default function ComparePage() {
                   <div className="flex items-center px-4 bg-neutral-100">
                     <span className="text-neutral-500 font-medium">vs</span>
                   </div>
-                  <div className="flex-1 bg-accent-600 p-4 text-center">
+                  <div className="flex-1 bg-highlight-500 p-4 text-center">
                     <span className="text-white font-medium">
                       {comparison.optionB.name}
                     </span>

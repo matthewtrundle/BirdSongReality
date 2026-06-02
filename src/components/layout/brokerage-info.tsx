@@ -1,6 +1,6 @@
 import siteConfig from "@/data/site-config.json"
 import { cn } from "@/lib/utils"
-import { KWLogo } from "@/components/icons/kw-logo"
+import { ROALogo } from "@/components/icons/roa-logo"
 
 interface BrokerageInfoProps {
   className?: string
@@ -11,10 +11,10 @@ interface BrokerageInfoProps {
 }
 
 /**
- * Keller Williams Brokerage Information Block
+ * Realty of America Brokerage Information Block
  *
  * Displays required brokerage information:
- * - Keller Williams branding with KW logo
+ * - Realty of America branding with ROA logo
  * - Market center name
  * - Office address
  * - Independent ownership disclaimer
@@ -42,14 +42,14 @@ export function BrokerageInfo({
         className
       )}
     >
-      {/* KW Logo + Market Center */}
+      {/* ROA Logo + Market Center */}
       <div
         className={cn(
           "flex items-center gap-3",
           layout === "inline" ? "" : ""
         )}
       >
-        <KWLogo size={40} />
+        <ROALogo size={40} />
         <div>
           <p className={cn("font-semibold text-sm", textPrimary)}>
             {agent.marketCenter}

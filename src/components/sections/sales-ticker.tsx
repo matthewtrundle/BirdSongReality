@@ -102,7 +102,7 @@ export function SalesTicker({ className, variant = "banner" }: SalesTickerProps)
                   <span className="text-neutral-400">•</span>
                   <span className="text-neutral-400">{sale.neighborhood}</span>
                   <span className="text-neutral-400">•</span>
-                  <span className="text-accent-400 font-semibold">{formatPrice(sale.price)}</span>
+                  <span className="text-highlight-500 font-semibold">{formatPrice(sale.price)}</span>
                   <span className="text-neutral-500 text-xs">{formatTimeAgo(sale.daysAgo)}</span>
                 </motion.div>
               )}

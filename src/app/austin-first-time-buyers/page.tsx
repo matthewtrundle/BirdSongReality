@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, CTA
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "First-Time Home Buyers in Austin | Birdsong Realty Team | Keller Williams",
+  title: "First-Time Home Buyers in Austin | Birdsong Realty Team | Realty of America",
   description:
     "A complete guide for first-time home buyers in Austin, TX. The Birdsong Realty Team walks you through every step from pre-approval to closing day.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Austin home buying process",
   ],
   openGraph: {
-    title: "First-Time Home Buyers in Austin | Birdsong Realty Team | Keller Williams",
+    title: "First-Time Home Buyers in Austin | Birdsong Realty Team | Realty of America",
     description:
       "A complete guide for first-time home buyers in Austin, TX with the Birdsong Realty Team.",
   },

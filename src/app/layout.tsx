@@ -2,12 +2,10 @@ import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-import { Header } from "@/components/layout/header"
-import { Footer } from "@/components/layout/footer"
+import { SiteChrome } from "@/components/layout/site-chrome"
 import { AnalyticsProvider } from "@/components/providers/analytics-provider"
 import { LenisProvider } from "@/components/providers/lenis-provider"
 import { GlobalSchemas } from "@/components/seo"
-import { LazyChat } from "@/components/chat/lazy-chat"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,16 +22,16 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://birdsongrealtyteam.com"),
   title: {
-    default: "Austin Real Estate | Birdsong Realty Team | Keller Williams",
-    template: "%s | Birdsong Realty Team | Keller Williams",
+    default: "Austin Real Estate | Birdsong Realty Team | Realty of America",
+    template: "%s | Birdsong Realty Team | Realty of America",
   },
   description:
-    "Find your dream home in Austin, TX with the Birdsong Realty Team at Keller Williams. Luxury homes, new construction, waterfront properties, condos, and investment opportunities.",
+    "Find your dream home in Austin, TX with the Birdsong Realty Team at Realty of America. Luxury homes, new construction, waterfront properties, condos, and investment opportunities.",
   keywords: [
     "Austin real estate",
     "Austin homes for sale",
     "Austin TX realtor",
-    "Keller Williams Austin",
+    "Realty of America Austin",
     "Birdsong Realty Team",
     "Austin luxury homes",
     "Austin new construction",
@@ -47,23 +45,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://birdsongrealtyteam.com",
     siteName: "Birdsong Realty Team",
-    title: "Austin Real Estate | Birdsong Realty Team | Keller Williams",
+    title: "Austin Real Estate | Birdsong Realty Team | Realty of America",
     description:
-      "Find your dream home in Austin, TX with the Birdsong Realty Team at Keller Williams.",
+      "Find your dream home in Austin, TX with the Birdsong Realty Team at Realty of America.",
     images: [
       {
         url: "/images/og-default.jpg",
         width: 1200,
         height: 630,
-        alt: "Birdsong Realty Team - Austin Real Estate at Keller Williams",
+        alt: "Birdsong Realty Team - Austin Real Estate at Realty of America",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Austin Real Estate | Birdsong Realty Team | Keller Williams",
+    title: "Austin Real Estate | Birdsong Realty Team | Realty of America",
     description:
-      "Find your dream home in Austin, TX with the Birdsong Realty Team at Keller Williams.",
+      "Find your dream home in Austin, TX with the Birdsong Realty Team at Realty of America.",
     images: ["/images/og-default.jpg"],
   },
   robots: {
@@ -87,15 +85,9 @@ export default function RootLayout({
         <GlobalSchemas />
         <LenisProvider>
           <AnalyticsProvider>
-            <Header />
-            <main className="min-h-screen">{children}</main>
-            <Footer />
+            <SiteChrome>{children}</SiteChrome>
           </AnalyticsProvider>
         </LenisProvider>
-        {/* AI Chat Widget - lazy loaded client-side */}
-        <LazyChat />
-        {/* Premium grain texture overlay */}
-        <div className="grain-overlay" aria-hidden="true" />
         <Analytics />
       </body>
     </html>

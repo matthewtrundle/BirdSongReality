@@ -20,7 +20,7 @@ const buttonVariants = cva(
         ghost:
           "text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900 focus-visible:ring-neutral-500",
         cta:
-          "bg-accent-500 text-primary-950 hover:bg-accent-400 shadow-lg hover:shadow-xl focus-visible:ring-accent-500",
+          "bg-highlight-500 text-white hover:bg-highlight-600 shadow-lg hover:shadow-xl focus-visible:ring-highlight-500",
         link:
           "text-primary-500 underline-offset-4 hover:underline focus-visible:ring-primary-500",
       },

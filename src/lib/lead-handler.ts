@@ -10,14 +10,17 @@ import { appendToSheet } from "./google-sheets"
 import { LeadNotification } from "@/emails/lead-notification"
 import { InquiryConfirmation } from "@/emails/inquiry-confirmation"
 
-const DEFAULT_NOTIFICATION_EMAIL = "patrick@birdsongrealtyteam.com"
+const DEFAULT_NOTIFICATION_EMAILS = [
+  "patrick@birdsongrealtyteam.com",
+  "info@birdsongrealtyteam.com",
+]
 
 function getNotificationRecipients(): string[] {
   const envEmails = process.env.NOTIFICATION_EMAILS
   if (envEmails) {
     return envEmails.split(",").map((e) => e.trim()).filter(Boolean)
   }
-  return [DEFAULT_NOTIFICATION_EMAIL]
+  return DEFAULT_NOTIFICATION_EMAILS
 }
 
 // Lazy-initialize Resend to avoid build-time errors when env var is missing

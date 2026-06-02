@@ -102,9 +102,9 @@
     }
   ],
   "stats": {
-    "propertiesSold": 500,
-    "yearsExperience": 15,
-    "clientSatisfaction": "98%",
-    "averageClosingTime": "38 days"
+    "propertiesSold": 600,
+    "yearsExperience": 20,
+    "clientSatisfaction": "100%",
+    "averageClosingTime": "42 days"
   }
 }

@@ -1,6 +1,5 @@
 import {
   HeroSection,
-  FeaturedProperties,
   ValueProps,
   WaveBallSection,
   SellersSection,
@@ -14,8 +13,6 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-
-      <FeaturedProperties />
 
       {/* Cinematic break - Hill Country aerial (light above → dark below for ValueProps) */}
       <CinematicDivider

@@ -53,7 +53,7 @@ export function NeighborhoodCard({
         {/* Stats */}
         <div className="flex items-center justify-between text-sm">
           {priceRange && (
-            <span className="text-accent-600 font-medium">{priceRange}</span>
+            <span className="text-primary-600 font-medium">{priceRange}</span>
           )}
           {propertyCount !== undefined && (
             <span className="text-neutral-500">

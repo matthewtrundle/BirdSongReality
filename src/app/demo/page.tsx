@@ -130,7 +130,7 @@ export default function DemoPage() {
         <Container>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-accent-400 text-sm tracking-wider uppercase font-medium block mb-4">
+              <span className="text-highlight-500 text-sm tracking-wider uppercase font-medium block mb-4">
                 Market Activity
               </span>
               <h2 className="text-fluid-3xl md:text-fluid-4xl font-display font-semibold text-white tracking-tight mb-4">

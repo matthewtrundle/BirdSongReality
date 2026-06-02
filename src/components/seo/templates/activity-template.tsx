@@ -97,7 +97,7 @@ export function ActivityTemplate({ activity }: ActivityTemplateProps) {
                       {activity.bestSeason.map((season, index) => (
                         <span
                           key={index}
-                          className="px-4 py-2 bg-accent-100 text-accent-800 rounded-full"
+                          className="px-4 py-2 bg-primary-100 text-primary-800 rounded-full"
                         >
                           {season}
                         </span>
@@ -113,7 +113,7 @@ export function ActivityTemplate({ activity }: ActivityTemplateProps) {
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {activity.whatToBring.map((item, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <span className="text-accent-500 mt-1">&#8226;</span>
+                          <span className="text-primary-600 mt-1">&#8226;</span>
                           <span>{item}</span>
                         </li>
                       ))}
@@ -255,7 +255,7 @@ export function ActivityTemplate({ activity }: ActivityTemplateProps) {
                 <Link
                   key={related.slug}
                   href={`/activities/${related.slug}`}
-                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-accent-50 transition-colors"
+                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-primary-50 transition-colors"
                 >
                   <h3 className="font-display text-lg text-primary-900 group-hover:text-primary-700 mb-2">
                     {related.name}

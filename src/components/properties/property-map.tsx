@@ -49,7 +49,7 @@ export function PropertyMap({ className, onPropertySelect }: PropertyMapProps) {
   }, [selectedNeighborhood])
 
   return (
-    <div className={cn("relative bg-gradient-to-br from-primary-50 to-accent-50 rounded-2xl overflow-hidden", className)}>
+    <div className={cn("relative bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl overflow-hidden", className)}>
       {/* Controls */}
       <div className="absolute top-4 left-4 z-20 flex gap-2">
         <button
@@ -202,7 +202,7 @@ export function PropertyMap({ className, onPropertySelect }: PropertyMapProps) {
                     className={cn(
                       "relative px-2 py-1 rounded-full shadow-lg text-xs font-bold transition-all",
                       hoveredProperty === property.id
-                        ? "bg-accent-500 text-white scale-110 z-10"
+                        ? "bg-primary-600 text-white scale-110 z-10"
                         : "bg-white text-neutral-900"
                     )}
                   >
@@ -211,7 +211,7 @@ export function PropertyMap({ className, onPropertySelect }: PropertyMapProps) {
                     <div
                       className={cn(
                         "absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent",
-                        hoveredProperty === property.id ? "border-t-accent-500" : "border-t-white"
+                        hoveredProperty === property.id ? "border-t-primary-600" : "border-t-white"
                       )}
                     />
                   </div>

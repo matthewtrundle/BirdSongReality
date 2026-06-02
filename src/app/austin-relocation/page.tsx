@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, Sta
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Relocating to Austin TX | Birdsong Realty Team | Keller Williams",
+  title: "Relocating to Austin TX | Birdsong Realty Team | Realty of America",
   description:
     "Your complete guide to relocating to Austin, Texas. The Birdsong Realty Team helps families and professionals make a smooth transition to Austin living.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Austin area guide",
   ],
   openGraph: {
-    title: "Relocating to Austin TX | Birdsong Realty Team | Keller Williams",
+    title: "Relocating to Austin TX | Birdsong Realty Team | Realty of America",
     description:
       "Your complete guide to relocating to Austin, Texas with the Birdsong Realty Team.",
   },

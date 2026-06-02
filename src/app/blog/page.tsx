@@ -71,7 +71,7 @@ export default function BlogPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                     <div className="absolute bottom-4 left-4">
-                      <span className="px-3 py-1 bg-accent-500 text-primary-950 text-xs font-medium rounded-full">
+                      <span className="px-3 py-1 bg-highlight-500 text-white text-xs font-medium rounded-full">
                         {post.category}
                       </span>
                     </div>
@@ -112,7 +112,7 @@ export default function BlogPage() {
                       />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <span className="text-xs font-medium text-accent-600 mb-2 block">{post.category}</span>
+                      <span className="text-xs font-medium text-highlight-500 mb-2 block">{post.category}</span>
                       <h3 className="text-lg font-semibold text-neutral-900 group-hover:text-primary-600 transition-colors line-clamp-2 mb-2">
                         {post.title}
                       </h3>

@@ -102,30 +102,30 @@ export function HeroParallax({
 
       {/* Prefetch next image via link tag after LCP (no hidden full-size Image) */}
 
-      {/* Layer 2a: Heavy gradient overlay — image complements, text dominates */}
+      {/* Layer 2a: Editorial scrim — weighted to bottom-left where the headline sits */}
       <div
         className="absolute inset-0 pointer-events-none z-[1]"
         style={{
-          background: "linear-gradient(to bottom, rgba(18,35,8,0.82) 0%, rgba(18,35,8,0.65) 35%, rgba(18,35,8,0.6) 55%, rgba(18,35,8,0.82) 100%)",
+          background:
+            "linear-gradient(115deg, rgba(6,14,31,0.92) 0%, rgba(9,21,46,0.72) 32%, rgba(16,41,90,0.32) 62%, rgba(9,21,46,0.18) 100%)",
         }}
       />
 
-      {/* Layer 2b: Strong vignette — pushes focus to center text */}
+      {/* Layer 2b: Bottom anchor — grounds the stat ribbon + content */}
       <div
         className="absolute inset-0 pointer-events-none z-[1]"
         style={{
-          background: "radial-gradient(ellipse at center, transparent 20%, rgba(18,35,8,0.7) 100%)",
+          background:
+            "linear-gradient(to top, rgba(6,14,31,0.9) 0%, rgba(6,14,31,0.35) 28%, transparent 55%)",
         }}
       />
 
-      {/* Layer 2c: Subtle warm light leak from top-left */}
+      {/* Layer 2c: Cool light leak, top-right — gives the image room to breathe */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-20 z-[1]"
+        className="absolute inset-0 pointer-events-none opacity-30 z-[1]"
         style={{
-          background: `
-            radial-gradient(ellipse at 25% 30%, rgba(201,169,98,0.2) 0%, transparent 50%),
-            radial-gradient(ellipse at 75% 70%, rgba(201,169,98,0.08) 0%, transparent 40%)
-          `,
+          background:
+            "radial-gradient(ellipse at 82% 18%, rgba(173,188,219,0.22) 0%, transparent 52%)",
           mixBlendMode: "screen",
         }}
       />

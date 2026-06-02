@@ -244,7 +244,7 @@ const badgeSection = {
 }
 
 const badgeText = {
-  backgroundColor: "#059669",
+  backgroundColor: "#1A9175",
   borderRadius: "20px",
   color: "#ffffff",
   display: "inline-block",
@@ -257,7 +257,7 @@ const badgeText = {
 }
 
 const heading = {
-  color: "#2D5016",
+  color: "#10295A",
   fontSize: "32px",
   fontWeight: "700",
   lineHeight: "40px",
@@ -326,14 +326,14 @@ const contactLabel = {
 }
 
 const contactValue = {
-  color: "#2D5016",
+  color: "#10295A",
   fontSize: "16px",
   fontWeight: "600",
   textDecoration: "none",
 }
 
 const contactValueText = {
-  color: "#2D5016",
+  color: "#10295A",
   fontSize: "16px",
   fontWeight: "600",
   margin: "0",
@@ -391,7 +391,7 @@ const actionsSection = {
 }
 
 const primaryButton = {
-  backgroundColor: "#2D5016",
+  backgroundColor: "#10295A",
   borderRadius: "8px",
   color: "#ffffff",
   display: "inline-block",
@@ -406,9 +406,9 @@ const primaryButton = {
 
 const secondaryButton = {
   backgroundColor: "#ffffff",
-  border: "2px solid #2D5016",
+  border: "2px solid #10295A",
   borderRadius: "8px",
-  color: "#2D5016",
+  color: "#10295A",
   display: "inline-block",
   fontSize: "15px",
   fontWeight: "600",

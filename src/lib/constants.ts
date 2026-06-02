@@ -7,7 +7,7 @@ export const SITE_CONFIG = {
   shortName: "Birdsong Realty",
   tagline: "Austin Homes & Real Estate",
   description:
-    "Patrick Birdsong and the Birdsong Realty Team at Keller Williams help buyers, sellers, and investors navigate the Austin, Texas real estate market.",
+    "Patrick Birdsong and the Birdsong Realty Team at Realty of America help buyers, sellers, and investors navigate the Austin, Texas real estate market.",
   url: "https://birdsongrealtyteam.com",
   address: {
     city: "Austin",
@@ -19,10 +19,9 @@ export const SITE_CONFIG = {
 
 export const NAV_LINKS = [
   {
-    href: "/portfolio",
-    label: "Portfolio",
+    href: "/austin-luxury-homes",
+    label: "Buy",
     children: [
-      { href: "/portfolio", label: "All Properties" },
       { href: "/austin-luxury-homes", label: "Luxury Homes" },
       { href: "/austin-new-construction", label: "New Construction" },
       { href: "/austin-waterfront-homes", label: "Waterfront Homes" },

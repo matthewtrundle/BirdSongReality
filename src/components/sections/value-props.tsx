@@ -77,12 +77,12 @@ function ValueCard({
         />
         {/* Number badge on image */}
         <motion.div
-          className="absolute top-6 left-6 w-12 h-12 rounded-full bg-accent-500/90 backdrop-blur-sm flex items-center justify-center"
+          className="absolute top-6 left-6 w-12 h-12 rounded-full bg-highlight-500 backdrop-blur-sm flex items-center justify-center"
           initial={prefersReducedMotion ? {} : { opacity: 0, scale: 0.5 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.5, ease: easeOutExpo, delay: 0.5 + index * 0.15 }}
         >
-          <span className="text-sm font-semibold text-primary-950 tracking-wider">{item.number}</span>
+          <span className="text-sm font-semibold text-white tracking-wider">{item.number}</span>
         </motion.div>
       </div>
 
@@ -98,7 +98,7 @@ function ValueCard({
         </motion.h3>
 
         <motion.div
-          className="w-12 h-px bg-accent-500/60 mb-6"
+          className="w-12 h-px bg-highlight-500/70 mb-6"
           initial={prefersReducedMotion ? {} : { scaleX: 0 }}
           animate={isInView ? { scaleX: 1 } : {}}
           transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.4 + index * 0.15 }}
@@ -124,7 +124,7 @@ function ValueCard({
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.4, ease: easeOutExpo, delay: 0.55 + index * 0.15 + idx * 0.08 }}
             >
-              <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-accent-500/70" />
+              <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-highlight-500/80" />
               {highlight}
             </motion.li>
           ))}
@@ -145,7 +145,7 @@ export function ValueProps() {
       <div className="absolute inset-0 pointer-events-none">
         {/* Subtle gradient glow */}
         <div className="absolute top-0 right-0 w-[800px] h-[800px] rounded-full bg-gradient-to-bl from-primary-800/20 to-transparent blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] rounded-full bg-gradient-to-tr from-accent-900/10 to-transparent blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] rounded-full bg-gradient-to-tr from-primary-700/15 to-transparent blur-3xl" />
         {/* Grain */}
         <div
           className="absolute inset-0 opacity-[0.04] mix-blend-overlay"
@@ -169,16 +169,16 @@ export function ValueProps() {
               transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.1 }}
             >
               <motion.div
-                className="h-px w-12 bg-gradient-to-r from-transparent to-accent-500/60"
+                className="h-px w-12 bg-gradient-to-r from-transparent to-white/25"
                 initial={{ width: 0 }}
                 animate={isInView ? { width: 48 } : { width: 0 }}
                 transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.2 }}
               />
-              <span className="text-accent-400/80 text-sm tracking-[0.2em] uppercase font-medium">
+              <span className="text-highlight-500 text-sm tracking-[0.2em] uppercase font-medium">
                 Why Choose Us
               </span>
               <motion.div
-                className="h-px w-12 bg-gradient-to-l from-transparent to-accent-500/60"
+                className="h-px w-12 bg-gradient-to-l from-transparent to-white/25"
                 initial={{ width: 0 }}
                 animate={isInView ? { width: 48 } : { width: 0 }}
                 transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.2 }}

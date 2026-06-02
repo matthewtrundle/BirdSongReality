@@ -312,7 +312,7 @@ export default function HomeValueEstimatorPage() {
               </div>
 
               {/* Get Accurate Estimate */}
-              <div className="bg-accent-50 border border-accent-200 rounded-xl p-6">
+              <div className="bg-primary-50 border border-primary-200 rounded-xl p-6">
                 <h3 className="font-medium text-neutral-900 mb-2">Want a Precise Value?</h3>
                 <p className="text-sm text-neutral-600 mb-4">
                   Get a free, no-obligation Comparative Market Analysis from our local experts.

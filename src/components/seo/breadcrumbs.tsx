@@ -48,7 +48,7 @@ export function Breadcrumbs({ items, className }: BreadcrumbsProps) {
                     {item.label}
                   </Link>
                 ) : (
-                  <span className={isLast ? "text-accent-400" : "text-neutral-300"}>
+                  <span className={isLast ? "text-highlight-500" : "text-neutral-300"}>
                     {item.label}
                   </span>
                 )}

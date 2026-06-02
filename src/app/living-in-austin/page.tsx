@@ -12,7 +12,7 @@ import {
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Living in Austin TX | Cost of Living, Lifestyle & Community | Birdsong Realty Team | Keller Williams",
+  title: "Living in Austin TX | Cost of Living, Lifestyle & Community | Birdsong Realty Team | Realty of America",
   description:
     "Discover what it's like to live in Austin, Texas. Learn about the cost of living, neighborhoods, schools, outdoor recreation, and why Austin is one of America's best cities.",
   keywords: [
@@ -211,7 +211,7 @@ export default function LivingInAustinPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <Link
               href="/austin-relocation"
-              className="p-6 bg-neutral-50 rounded-lg hover:bg-accent-50 transition-colors group"
+              className="p-6 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group"
             >
               <h3 className="font-display text-lg text-primary-900 mb-2 group-hover:text-primary-700">
                 Relocation Guide
@@ -222,7 +222,7 @@ export default function LivingInAustinPage() {
             </Link>
             <Link
               href="/neighborhoods"
-              className="p-6 bg-neutral-50 rounded-lg hover:bg-accent-50 transition-colors group"
+              className="p-6 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group"
             >
               <h3 className="font-display text-lg text-primary-900 mb-2 group-hover:text-primary-700">
                 Neighborhoods
@@ -233,7 +233,7 @@ export default function LivingInAustinPage() {
             </Link>
             <Link
               href="/market"
-              className="p-6 bg-neutral-50 rounded-lg hover:bg-accent-50 transition-colors group"
+              className="p-6 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group"
             >
               <h3 className="font-display text-lg text-primary-900 mb-2 group-hover:text-primary-700">
                 Market Overview

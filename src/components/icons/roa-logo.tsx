@@ -1,17 +1,18 @@
 import { cn } from "@/lib/utils"
 
-interface KWLogoProps {
+interface ROALogoProps {
   className?: string
   size?: number
 }
 
 /**
- * Keller Williams logo placeholder component.
- * Renders a clean "KW" text-based logo in KW brand red (#B40101).
- * Replace with official KW SVG when available.
+ * Realty of America logo placeholder component.
+ * Renders a clean "ROA" text-based logo in Powersuit Blue (#10295A)
+ * with a Power Pink (#DB1263) underline accent.
+ * Replace with the official ROA SVG when available.
  */
-export function KWLogo({ className, size = 48 }: KWLogoProps) {
-  const fontSize = size * 0.45
+export function ROALogo({ className, size = 48 }: ROALogoProps) {
+  const fontSize = size * 0.34
   const borderWidth = Math.max(1.5, size * 0.04)
 
   return (
@@ -23,7 +24,7 @@ export function KWLogo({ className, size = 48 }: KWLogoProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Keller Williams"
+      aria-label="Realty of America"
     >
       {/* Outer border */}
       <rect
@@ -32,23 +33,23 @@ export function KWLogo({ className, size = 48 }: KWLogoProps) {
         width={48 - borderWidth}
         height={48 - borderWidth}
         rx="4"
-        stroke="#B40101"
+        stroke="#10295A"
         strokeWidth={borderWidth}
         fill="none"
       />
-      {/* KW text */}
+      {/* ROA text */}
       <text
         x="24"
-        y="26"
+        y="25"
         textAnchor="middle"
         dominantBaseline="central"
-        fill="#B40101"
+        fill="#10295A"
         fontFamily="Georgia, 'Times New Roman', serif"
         fontWeight="bold"
         fontSize={fontSize}
         letterSpacing="-0.5"
       >
-        KW
+        ROA
       </text>
       {/* Underline accent */}
       <line
@@ -56,7 +57,7 @@ export function KWLogo({ className, size = 48 }: KWLogoProps) {
         y1="36"
         x2="38"
         y2="36"
-        stroke="#B40101"
+        stroke="#DB1263"
         strokeWidth={borderWidth * 0.75}
       />
     </svg>

@@ -71,7 +71,7 @@ export function EventTemplate({ event }: EventTemplateProps) {
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {event.highlights.map((highlight, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <span className="text-accent-500 mt-1">&#9733;</span>
+                          <span className="text-primary-600 mt-1">&#9733;</span>
                           <span>{highlight}</span>
                         </li>
                       ))}
@@ -239,9 +239,9 @@ export function EventTemplate({ event }: EventTemplateProps) {
                 <Link
                   key={related.slug}
                   href={`/events/${related.slug}`}
-                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-accent-50 transition-colors"
+                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-primary-50 transition-colors"
                 >
-                  <div className="text-xs text-accent-600 uppercase tracking-wide mb-2">
+                  <div className="text-xs text-highlight-500 uppercase tracking-wide mb-2">
                     {formatRecurring(related.recurring)}
                   </div>
                   <h3 className="font-display text-lg text-primary-900 group-hover:text-primary-700 mb-2">

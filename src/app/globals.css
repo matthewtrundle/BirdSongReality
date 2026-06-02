@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
 /* ========== CSS Custom Properties (Design Tokens) ========== */
-/* Hill Country Luxury: Earthy greens, warm golds, Texas limestone warmth */
+/* Realty of America: Powersuit Blue navy, Legacy Green accent, clean white */
 :root {
-  /* Primary - Hill Country Green (#2D5016 base) */
-  --color-primary-50: 240 245 236;
-  --color-primary-100: 220 235 210;
-  --color-primary-200: 185 210 168;
-  --color-primary-300: 140 178 118;
-  --color-primary-400: 95 145 72;
-  --color-primary-500: 60 110 35;
-  --color-primary-600: 45 80 22;
-  --color-primary-700: 38 68 18;
-  --color-primary-800: 32 58 15;
-  --color-primary-900: 25 48 12;
-  --color-primary-950: 18 35 8;
+  /* Primary - Powersuit Blue (#10295A base) */
+  --color-primary-50: 237 241 247;
+  --color-primary-100: 214 222 237;
+  --color-primary-200: 173 188 219;
+  --color-primary-300: 122 145 191;
+  --color-primary-400: 71 102 145;
+  --color-primary-500: 33 66 120;
+  --color-primary-600: 16 41 90;
+  --color-primary-700: 13 33 73;
+  --color-primary-800: 11 27 58;
+  --color-primary-900: 9 21 46;
+  --color-primary-950: 6 14 31;
 
-  /* Accent - Limestone Gold (#A67C1A base, brightened for readability) */
-  --color-accent-300: 220 195 130;
-  --color-accent-400: 200 170 100;
-  --color-accent-500: 166 124 26;
-  --color-accent-600: 139 105 20;
+  /* Accent - Legacy Green (#1A9175 base) */
+  --color-accent-300: 138 213 195;
+  --color-accent-400: 70 178 153;
+  --color-accent-500: 26 145 117;
+  --color-accent-600: 20 117 95;
+
+  /* Highlight - Power Pink (#DB1263 base) — surgical accent only */
+  --color-highlight-400: 232 70 130;
+  --color-highlight-500: 219 18 99;
+  --color-highlight-600: 176 14 79;
 
   /* Secondary - Warm Limestone/Sand */
   --color-secondary-50: 253 251 248;
@@ -96,6 +101,18 @@
   --tracking-normal: 0;
   --tracking-wide: 0.025em;
   --tracking-wider: 0.05em;
+
+  /* ROA Navy scale (raw triples) — single dominant brand color for /roa */
+  --color-navy-50: 235 240 250;
+  --color-navy-100: 210 220 240;
+  --color-navy-200: 165 185 220;
+  --color-navy-300: 110 135 185;
+  --color-navy-400: 60 90 145;
+  --color-navy-500: 30 60 115;
+  --color-navy-600: 16 41 90;   /* #10295A — ROA primary */
+  --color-navy-700: 11 26 57;   /* #0B1A39 — deeper variant */
+  --color-navy-800: 8 20 45;
+  --color-navy-900: 6 15 35;
 }
 
 /* Reduced motion preferences */
@@ -127,6 +144,10 @@
   --color-accent-400: rgb(var(--color-accent-400));
   --color-accent-500: rgb(var(--color-accent-500));
   --color-accent-600: rgb(var(--color-accent-600));
+
+  --color-highlight-400: rgb(var(--color-highlight-400));
+  --color-highlight-500: rgb(var(--color-highlight-500));
+  --color-highlight-600: rgb(var(--color-highlight-600));
 
   --color-secondary-50: rgb(var(--color-secondary-50));
   --color-secondary-100: rgb(var(--color-secondary-100));
@@ -180,6 +201,21 @@
 
   /* Border Radius - Subtle, not pill */
   --radius-card: 0.75rem;
+
+  /* ROA navy scale (global — no conflict with main palette) */
+  --color-navy-50: rgb(var(--color-navy-50));
+  --color-navy-100: rgb(var(--color-navy-100));
+  --color-navy-200: rgb(var(--color-navy-200));
+  --color-navy-300: rgb(var(--color-navy-300));
+  --color-navy-400: rgb(var(--color-navy-400));
+  --color-navy-500: rgb(var(--color-navy-500));
+  --color-navy-600: rgb(var(--color-navy-600));
+  --color-navy-700: rgb(var(--color-navy-700));
+  --color-navy-800: rgb(var(--color-navy-800));
+  --color-navy-900: rgb(var(--color-navy-900));
+
+  /* ROA pill radius (used on /roa) */
+  --radius-pill: 1rem;
 }
 
 /* ========== Base Styles ========== */
@@ -341,8 +377,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .glow-accent:hover {
-  box-shadow: 0 0 30px rgba(166, 124, 26, 0.3),
-              0 0 60px rgba(166, 124, 26, 0.15);
+  box-shadow: 0 0 30px rgba(219, 18, 99, 0.3),
+              0 0 60px rgba(219, 18, 99, 0.15);
 }
 
 .glow-primary {
@@ -350,8 +386,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .glow-primary:hover {
-  box-shadow: 0 0 30px rgba(45, 80, 22, 0.3),
-              0 0 60px rgba(45, 80, 22, 0.15);
+  box-shadow: 0 0 30px rgba(16, 41, 90, 0.3),
+              0 0 60px rgba(16, 41, 90, 0.15);
 }
 
 /* Smooth scroll behavior with Lenis override */
@@ -374,7 +410,7 @@ html.lenis body {
 
 /* Premium text gradient utility */
 .text-gradient-gold {
-  background: linear-gradient(135deg, rgb(var(--color-accent-400)) 0%, rgb(var(--color-accent-600)) 100%);
+  background: linear-gradient(135deg, rgb(var(--color-highlight-400)) 0%, rgb(var(--color-highlight-600)) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -397,10 +433,10 @@ html.lenis body {
 /* Pulse glow animation */
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(166, 124, 26, 0.3);
+    box-shadow: 0 0 20px rgba(219, 18, 99, 0.3);
   }
   50% {
-    box-shadow: 0 0 40px rgba(166, 124, 26, 0.5);
+    box-shadow: 0 0 40px rgba(219, 18, 99, 0.5);
   }
 }
 
@@ -437,7 +473,77 @@ html.lenis body {
 }
 
 .focus-ring:focus-visible {
-  outline: 2px solid rgb(var(--color-accent-500));
+  outline: 2px solid rgb(var(--color-highlight-500));
   outline-offset: 3px;
-  box-shadow: 0 0 0 4px rgba(166, 124, 26, 0.2);
+  box-shadow: 0 0 0 4px rgba(219, 18, 99, 0.2);
+}
+
+/* ========================================================================
+   ROA (/roa) — Scoped Realty of America design system
+   Faithful port of the standalone birdsong-roa landing page. Navy tokens are
+   global (declared above, no conflict). Cool neutrals + green-teal accent +
+   Figtree + tighter spacing are scoped to .roa-scope so the main site is
+   completely untouched (Tailwind v4 token-cascade override).
+   ======================================================================== */
+.roa-scope {
+  font-family: var(--font-figtree), system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: rgb(var(--color-neutral-900));
+
+  /* Cool-toned neutrals (override main's warm stone) */
+  --color-neutral-50: 250 250 251;
+  --color-neutral-100: 243 244 246;
+  --color-neutral-200: 233 234 235;
+  --color-neutral-300: 209 213 219;
+  --color-neutral-400: 168 171 174;
+  --color-neutral-500: 117 117 117;
+  --color-neutral-600: 83 88 98;
+  --color-neutral-700: 65 70 81;
+  --color-neutral-800: 41 47 56;
+  --color-neutral-900: 24 29 39;
+
+  /* ROA green-teal accent (exact ROA values) */
+  --color-accent-400: 60 180 150;
+  --color-accent-500: 26 145 117;
+  --color-accent-600: 20 120 95;
+
+  /* Tighter ROA spacing */
+  --section-y: clamp(4rem, 3rem + 6vw, 7.5rem);
+  --container-x: clamp(1.25rem, 0.75rem + 3vw, 3rem);
+  --container-max: 1200px;
+}
+
+/* ROA headings use Figtree (override main's Playfair) */
+.roa-scope h1,
+.roa-scope h2,
+.roa-scope h3,
+.roa-scope h4,
+.roa-scope h5,
+.roa-scope h6 {
+  font-family: var(--font-figtree), system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* ROA layout utilities (only used within /roa) */
+.container-x {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-x);
+}
+.section-y {
+  padding-top: var(--section-y);
+  padding-bottom: var(--section-y);
+}
+.section-mute {
+  background-color: rgb(var(--color-neutral-100));
+}
+.section-navy {
+  background-color: rgb(var(--color-navy-600));
+  color: rgb(255 255 255);
+}
+.section-navy-deep {
+  background-color: rgb(var(--color-navy-700));
+  color: rgb(255 255 255);
 }

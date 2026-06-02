@@ -5,19 +5,19 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, Sta
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Sell Your Austin Home | Birdsong Realty Team | Keller Williams",
+  title: "Sell Your Austin Home | Birdsong Realty Team | Realty of America",
   description:
-    "Sell your Austin home for top dollar with the Birdsong Realty Team at Keller Williams. Expert pricing, professional marketing, and proven negotiation strategies.",
+    "Sell your Austin home for top dollar with the Birdsong Realty Team at Realty of America. Expert pricing, professional marketing, and proven negotiation strategies.",
   keywords: [
     "sell home Austin TX",
     "Austin listing agent",
     "sell my house Austin",
     "Austin home selling",
-    "Keller Williams Austin seller",
+    "Realty of America Austin seller",
     "best realtor to sell Austin home",
   ],
   openGraph: {
-    title: "Sell Your Austin Home | Birdsong Realty Team | Keller Williams",
+    title: "Sell Your Austin Home | Birdsong Realty Team | Realty of America",
     description:
       "Sell your Austin home for top dollar with expert guidance from the Birdsong Realty Team.",
   },
@@ -30,9 +30,9 @@ export default function SellerServicesPage() {
   ]
 
   const sellerStats = [
-    { value: "98%", label: "List-to-sale ratio" },
-    { value: "21", label: "Avg. days on market" },
-    { value: "100+", label: "Homes sold" },
+    { value: "42", label: "Avg. days on market" },
+    { value: "$250M+", label: "Closed volume" },
+    { value: "600+", label: "Families served" },
     { value: "5-Star", label: "Client reviews" },
   ]
 
@@ -54,7 +54,7 @@ export default function SellerServicesPage() {
                 Selling your home is about more than putting a sign in the yard. The
                 Birdsong Realty Team combines data-driven pricing strategy, professional
                 marketing, and skilled negotiation to help Austin homeowners achieve the
-                best possible outcome. Backed by Keller Williams, we bring world-class
+                best possible outcome. Backed by Realty of America, we bring world-class
                 resources to every listing.
               </p>
             </ContentSection>
@@ -81,19 +81,19 @@ export default function SellerServicesPage() {
             <HighlightBox title="What Sets Us Apart">
               <ul className="space-y-3 text-neutral-700">
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Professional Photography &amp; Video:</strong> High-quality visuals that make your home stand out online</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Digital Marketing Expertise:</strong> Targeted campaigns across social media and search platforms</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
-                  <span><strong>Keller Williams Network:</strong> Access to the largest real estate network in the world</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
+                  <span><strong>Realty of America Network:</strong> Access to the largest real estate network in the world</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Transparent Communication:</strong> Weekly updates, showing feedback, and market insights</span>
                 </li>
               </ul>

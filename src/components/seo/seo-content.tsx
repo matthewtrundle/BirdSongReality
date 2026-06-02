@@ -38,9 +38,9 @@ export function SEOContent({ children, className }: SEOContentProps) {
         // Custom bullet styling for ul
         "[&_ul>li]:relative [&_ul>li]:pl-7 [&_ul>li]:py-1",
         "[&_ul>li]:before:content-[''] [&_ul>li]:before:absolute [&_ul>li]:before:left-0 [&_ul>li]:before:top-[0.75em]",
-        "[&_ul>li]:before:w-2 [&_ul>li]:before:h-2 [&_ul>li]:before:bg-accent-500 [&_ul>li]:before:rounded-full",
+        "[&_ul>li]:before:w-2 [&_ul>li]:before:h-2 [&_ul>li]:before:bg-primary-600 [&_ul>li]:before:rounded-full",
         // Blockquotes
-        "prose-blockquote:border-l-4 prose-blockquote:border-accent-500 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-neutral-600",
+        "prose-blockquote:border-l-4 prose-blockquote:border-primary-600 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-neutral-600",
         "prose-blockquote:bg-neutral-50 prose-blockquote:py-4 prose-blockquote:pr-6 prose-blockquote:rounded-r-lg",
         // Strong/bold
         "prose-strong:text-primary-900 prose-strong:font-semibold",
@@ -107,7 +107,7 @@ export function HighlightBox({ children, title, variant = "info", className }: H
         "my-10 p-6 rounded-xl border-l-4 shadow-sm not-prose",
         {
           "bg-primary-50 border-primary-500": variant === "info",
-          "bg-amber-50 border-accent-500": variant === "tip",
+          "bg-amber-50 border-primary-500": variant === "tip",
           "bg-orange-50 border-orange-500": variant === "warning",
         },
         className
@@ -117,8 +117,7 @@ export function HighlightBox({ children, title, variant = "info", className }: H
         <div className={cn(
           "flex-shrink-0 mt-0.5",
           {
-            "text-primary-600": variant === "info",
-            "text-accent-600": variant === "tip",
+            "text-primary-600": variant === "info" || variant === "tip",
             "text-orange-600": variant === "warning",
           }
         )}>

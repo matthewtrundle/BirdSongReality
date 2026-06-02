@@ -113,7 +113,7 @@ export function MonthlyTemplate({ guide }: MonthlyTemplateProps) {
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {guide.highlights.map((highlight, index) => (
                         <li key={index} className="flex items-start gap-2">
-                          <span className="text-accent-500 mt-1">&#9733;</span>
+                          <span className="text-primary-600 mt-1">&#9733;</span>
                           <span>{highlight}</span>
                         </li>
                       ))}
@@ -225,7 +225,7 @@ export function MonthlyTemplate({ guide }: MonthlyTemplateProps) {
                     <ul className="space-y-2">
                       {guide.packing.map((item, index) => (
                         <li key={index} className="flex items-center gap-2 text-sm text-neutral-700">
-                          <span className="text-accent-500">&#9679;</span>
+                          <span className="text-primary-600">&#9679;</span>
                           {item}
                         </li>
                       ))}

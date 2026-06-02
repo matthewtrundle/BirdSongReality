@@ -113,7 +113,7 @@ export function CompareTemplate({ comparison }: CompareTemplateProps) {
 
               {/* Option B */}
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
-                <div className="bg-accent-600 p-4">
+                <div className="bg-primary-600 p-4">
                   <h2 className="font-display text-2xl text-white mb-0">
                     {comparison.optionB.name}
                   </h2>
@@ -219,7 +219,7 @@ export function CompareTemplate({ comparison }: CompareTemplateProps) {
                   </h4>
                   <p className="text-neutral-700">{comparison.verdict.chooseA}</p>
                 </div>
-                <div className="bg-accent-50 p-6 rounded-lg">
+                <div className="bg-primary-50 p-6 rounded-lg">
                   <h4 className="font-display text-lg text-primary-900 mb-2">
                     Choose {comparison.optionB.name} if:
                   </h4>
@@ -251,7 +251,7 @@ export function CompareTemplate({ comparison }: CompareTemplateProps) {
                 <Link
                   key={related.slug}
                   href={`/compare/${related.slug}`}
-                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-accent-50 transition-colors"
+                  className="group bg-neutral-50 rounded-lg p-6 hover:bg-primary-50 transition-colors"
                 >
                   <h3 className="font-display text-lg text-primary-900 group-hover:text-primary-700 mb-2">
                     {related.title}

@@ -72,7 +72,7 @@ export function SellersSection() {
         </div>
         {/* Animated gradient accent - only animates when section is in view */}
         <motion.div
-          className="absolute top-0 right-0 w-[800px] h-[800px] rounded-full bg-gradient-to-br from-accent-500/10 to-transparent blur-3xl"
+          className="absolute top-0 right-0 w-[800px] h-[800px] rounded-full bg-gradient-to-br from-primary-700/15 to-transparent blur-3xl"
           animate={isInView ? {
             scale: [1, 1.1, 1],
             opacity: [0.1, 0.15, 0.1],
@@ -100,12 +100,12 @@ export function SellersSection() {
               transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.1 }}
             >
               <motion.div
-                className="h-px bg-gradient-to-r from-transparent to-accent-400"
+                className="h-px bg-gradient-to-r from-transparent to-white/25"
                 initial={{ width: 0 }}
                 animate={isInView ? { width: 48 } : { width: 0 }}
                 transition={{ duration: 0.6, ease: easeOutExpo, delay: 0.2 }}
               />
-              <span className="text-accent-400 text-sm tracking-[0.2em] uppercase font-medium">
+              <span className="text-highlight-500 text-sm tracking-[0.2em] uppercase font-medium">
                 For Sellers
               </span>
             </motion.div>
@@ -118,7 +118,7 @@ export function SellersSection() {
             >
               Thinking About<br />
               <motion.span
-                className="text-accent-400 inline-block"
+                className="text-highlight-500 inline-block"
                 initial={prefersReducedMotion ? {} : { opacity: 0, x: -20 }}
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.7, ease: easeOutExpo, delay: 0.4 }}
@@ -145,13 +145,13 @@ export function SellersSection() {
               transition={{ duration: 0.7, ease: easeOutExpo, delay: 0.4 }}
             >
               <PremiumButtonWrapper
-                glowColor="rgba(139, 105, 20, 0.4)"
+                glowColor="rgba(255, 255, 255, 0.25)"
                 shineColor="rgba(255, 255, 255, 0.3)"
               >
                 <Button
                   variant="cta"
                   size="lg"
-                  className="bg-accent-500 hover:bg-accent-400 text-primary-950"
+                  className="bg-white hover:bg-white/90 text-primary-900"
                   asChild
                 >
                   <Link href="/contact?type=seller">Get a Free Valuation</Link>
@@ -193,16 +193,16 @@ export function SellersSection() {
                   whileHover={{
                     y: -6,
                     backgroundColor: "rgba(255,255,255,0.1)",
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.2), 0 0 0 1px rgba(139,105,20,0.2)",
+                    boxShadow: "0 10px 30px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,255,255,0.12)",
                   }}
                   transition={{ duration: 0.3 }}
                 >
                   <div className="flex items-center gap-3 mb-3">
                     <motion.div
-                      className="w-2 h-2 rounded-full bg-accent-500"
-                      whileHover={{ scale: 1.5, boxShadow: "0 0 10px rgba(139,105,20,0.5)" }}
+                      className="w-2 h-2 rounded-full bg-highlight-500"
+                      whileHover={{ scale: 1.5, boxShadow: "0 0 10px rgba(219,18,99,0.5)" }}
                     />
-                    <h3 className="text-lg font-display text-white group-hover:text-accent-400 transition-colors duration-300">
+                    <h3 className="text-lg font-display text-white group-hover:text-highlight-500 transition-colors duration-300">
                       {benefit.title}
                     </h3>
                   </div>

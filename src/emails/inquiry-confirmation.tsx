@@ -184,7 +184,7 @@ const waveIcon = {
 }
 
 const heading = {
-  color: "#2D5016",
+  color: "#10295A",
   fontSize: "28px",
   fontWeight: "600",
   lineHeight: "36px",
@@ -213,7 +213,7 @@ const highlightIcon = {
 }
 
 const highlightText = {
-  color: "#2D5016",
+  color: "#10295A",
   fontSize: "16px",
   lineHeight: "26px",
   margin: "0",
@@ -250,7 +250,7 @@ const detailLabel = {
 }
 
 const detailValue = {
-  color: "#2D5016",
+  color: "#10295A",
   fontWeight: "500",
 }
 
@@ -265,7 +265,7 @@ const stepItem = {
 }
 
 const stepNumber = {
-  backgroundColor: "#2D5016",
+  backgroundColor: "#10295A",
   borderRadius: "50%",
   color: "#ffffff",
   display: "inline-block",
@@ -297,7 +297,7 @@ const ctaText = {
 }
 
 const primaryButton = {
-  backgroundColor: "#2D5016",
+  backgroundColor: "#10295A",
   borderRadius: "8px",
   color: "#ffffff",
   display: "inline-block",
@@ -312,9 +312,9 @@ const primaryButton = {
 
 const secondaryButton = {
   backgroundColor: "#ffffff",
-  border: "2px solid #2D5016",
+  border: "2px solid #10295A",
   borderRadius: "8px",
-  color: "#2D5016",
+  color: "#10295A",
   display: "inline-block",
   fontSize: "15px",
   fontWeight: "600",
@@ -337,7 +337,7 @@ const signatureText = {
 }
 
 const signatureName = {
-  color: "#2D5016",
+  color: "#10295A",
   fontSize: "16px",
   fontWeight: "600",
   margin: "0",

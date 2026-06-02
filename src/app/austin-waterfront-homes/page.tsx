@@ -5,7 +5,7 @@ import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, CTA
 import { LeadFormSection } from "@/components/sections"
 
 export const metadata: Metadata = {
-  title: "Austin Waterfront Homes | Birdsong Realty Team | Keller Williams",
+  title: "Austin Waterfront Homes | Birdsong Realty Team | Realty of America",
   description:
     "Find waterfront homes on Lake Austin, Lake Travis, and beyond. The Birdsong Realty Team specializes in lakefront and waterfront properties across the Austin area.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "lake homes Austin",
   ],
   openGraph: {
-    title: "Austin Waterfront Homes | Birdsong Realty Team | Keller Williams",
+    title: "Austin Waterfront Homes | Birdsong Realty Team | Realty of America",
     description:
       "Find waterfront homes on Lake Austin, Lake Travis, and beyond with the Birdsong Realty Team.",
   },
@@ -84,19 +84,19 @@ export default function AustinWaterfrontHomesPage() {
             <HighlightBox title="Waterfront Property Considerations">
               <ul className="space-y-3 text-neutral-700">
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Water Access:</strong> Verify dock permits, water depth, and boat access rights</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Flood Zones:</strong> Understand FEMA flood maps and insurance requirements</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>LCRA Regulations:</strong> Lake-level management and shoreline building rules</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-accent-500 font-bold">&#10003;</span>
+                  <span className="text-primary-600 font-bold">&#10003;</span>
                   <span><strong>Septic vs. Sewer:</strong> Many lakefront properties use septic systems</span>
                 </li>
               </ul>

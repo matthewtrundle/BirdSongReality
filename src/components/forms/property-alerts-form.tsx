@@ -211,8 +211,8 @@ export function PropertyAlertsForm({ className, variant = "card" }: PropertyAler
                   className={cn(
                     "px-3 py-1.5 rounded-full text-sm font-medium transition-all border",
                     selectedNeighborhoods.includes(hood)
-                      ? "bg-accent-500 text-white border-accent-500"
-                      : "bg-white text-neutral-700 border-neutral-200 hover:border-accent-300"
+                      ? "bg-primary-600 text-white border-primary-600"
+                      : "bg-white text-neutral-700 border-neutral-200 hover:border-primary-300"
                   )}
                 >
                   {hood}

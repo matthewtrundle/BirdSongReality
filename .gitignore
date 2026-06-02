@@ -37,6 +37,13 @@ yarn-error.log*
 public/hero-action.mp4
 public/hero-professional.mp4
 
+# image regen staging area — generated previews before --commit
+public/images/**/__new/
+
+# local dev screenshots & playwright artifacts
+.playwright-mcp/
+/*.jpeg
+
 # vercel
 .vercel
 

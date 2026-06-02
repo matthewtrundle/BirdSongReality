@@ -59,7 +59,7 @@ export default function LivingPage() {
                         key={index}
                         className="flex items-center gap-2 text-sm text-neutral-700"
                       >
-                        <span className="text-accent-500">&#10003;</span>
+                        <span className="text-primary-600">&#10003;</span>
                         <span>{benefit.title}</span>
                       </div>
                     ))}
