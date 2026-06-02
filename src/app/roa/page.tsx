@@ -1,380 +1,140 @@
 import Link from "next/link"
 
-export default function RoaHomePage() {
+export default function RoaRecruitingPage() {
   return (
     <>
       <Hero />
-      <FeaturedListings />
-      <ValueProp />
-      <RoaPartnership />
-      <Neighborhoods />
-      <JoinTeam />
+      <Economics />
+      <WhyJoin />
+      <Values />
+      <Process />
       <FinalCta />
     </>
   )
 }
 
 /* ============================================================
-   1. HERO — Navy gradient, big H1, Buy/Sell/Rent search pill
+   1. HERO — Recruiting headline + dual CTA over navy gradient
    ============================================================ */
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-navy-50 to-white">
-      {/* Subtle radial accent for airy depth */}
+    <section className="relative overflow-hidden bg-gradient-to-b from-navy-700 to-navy-600 text-white">
+      {/* Atmospheric accents */}
       <div
         aria-hidden
-        className="absolute inset-0 opacity-70"
+        className="absolute inset-0 opacity-60"
         style={{
           background:
-            "radial-gradient(ellipse 70% 55% at 78% 0%, rgb(210 220 240) 0%, transparent 60%)",
+            "radial-gradient(ellipse 60% 50% at 85% 10%, rgb(26 145 117 / 0.35) 0%, transparent 60%), radial-gradient(ellipse 50% 50% at 10% 90%, rgb(219 18 99 / 0.18) 0%, transparent 55%)",
         }}
       />
-      <div className="container-x relative grid gap-12 py-24 lg:grid-cols-[1.2fr_1fr] lg:gap-16 lg:py-32">
-        <div>
-          <p className="text-sm font-medium uppercase tracking-wider text-accent-600">
-            Austin, Texas · Realty of America
-          </p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-navy-700 sm:text-5xl lg:text-6xl">
-            Find your perfect Austin home.
-          </h1>
-          <p className="mt-6 max-w-xl text-lg text-neutral-600">
-            Patrick Birdsong helps buyers, sellers, and renters move
-            confidently through Austin&apos;s real estate market — backed by
-            the modern tools and national network of Realty of America.
-          </p>
-
-          {/* Search pill */}
-          <div className="mt-10 max-w-2xl rounded-2xl border border-neutral-200 bg-white p-2 shadow-xl shadow-navy-900/10">
-            {/* Buy / Sell / Rent toggle */}
-            <div className="flex gap-1 px-2 pt-1">
-              <button className="rounded-pill bg-accent-500 px-5 py-2 text-sm font-semibold text-white">
-                Buy
-              </button>
-              <button className="rounded-pill px-5 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-100">
-                Sell
-              </button>
-              <button className="rounded-pill px-5 py-2 text-sm font-semibold text-neutral-700 hover:bg-neutral-100">
-                Rent
-              </button>
-            </div>
-
-            <div className="mt-2 flex items-center gap-2 p-2">
-              <input
-                type="text"
-                placeholder="Address, neighborhood, city, or ZIP"
-                className="flex-1 rounded-pill bg-neutral-50 px-5 py-3 text-sm text-neutral-900 placeholder:text-neutral-500 focus:bg-white focus:outline-2 focus:outline-accent-500"
-              />
-              <button className="rounded-pill bg-navy-600 px-8 py-3 text-sm font-semibold text-white transition hover:bg-navy-700">
-                Search
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Right column: stat block — light card */}
-        <div className="hidden lg:block">
-          <div className="ml-auto max-w-sm rounded-2xl border border-neutral-200 bg-white p-8 shadow-card">
-            <div className="flex items-baseline gap-2">
-              <span className="text-5xl font-bold tracking-tight text-navy-700">600+</span>
-              <span className="text-neutral-500">families served</span>
-            </div>
-            <p className="mt-4 text-sm text-neutral-600">
-              From first-time buyers to luxury sellers, Birdsong has guided
-              hundreds of Austin families home over the last decade.
-            </p>
-            <div className="mt-8 grid grid-cols-2 gap-6 border-t border-neutral-200 pt-6">
-              <div>
-                <div className="text-2xl font-bold text-navy-700">$250M+</div>
-                <div className="text-xs text-neutral-500">in transactions</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-navy-700">5.0★</div>
-                <div className="text-xs text-neutral-500">average rating</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-/* ============================================================
-   2. FEATURED LISTINGS — 3-up cards
-   ============================================================ */
-const listings = [
-  {
-    price: "$1,850,000",
-    address: "1234 Travis Heights Dr",
-    location: "Travis Heights · Austin, TX",
-    beds: 4,
-    baths: 3,
-    sqft: 3200,
-    tag: "New Listing",
-  },
-  {
-    price: "$895,000",
-    address: "456 Mueller Ln",
-    location: "Mueller · Austin, TX",
-    beds: 3,
-    baths: 2.5,
-    sqft: 2100,
-    tag: "Open House",
-  },
-  {
-    price: "$2,450,000",
-    address: "789 Westlake Cv",
-    location: "West Lake Hills · Austin, TX",
-    beds: 5,
-    baths: 4.5,
-    sqft: 4800,
-    tag: "Featured",
-  },
-]
-
-function FeaturedListings() {
-  return (
-    <section className="section-y bg-white">
-      <div className="container-x">
-        <div className="flex items-end justify-between">
-          <div>
-            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Featured Austin Listings
-            </h2>
-            <p className="mt-2 text-neutral-500">
-              Hand-picked homes from the Birdsong portfolio.
-            </p>
-          </div>
-          <Link
-            href="/roa/buy"
-            className="hidden text-sm font-semibold text-navy-600 hover:text-navy-700 sm:inline-block"
-          >
-            View all listings →
-          </Link>
-        </div>
-
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {listings.map((l) => (
-            <article
-              key={l.address}
-              className="group overflow-hidden rounded-xl border border-neutral-200 bg-white transition hover:shadow-lg"
-            >
-              {/* Photo placeholder — gradient until real photos drop in */}
-              <div
-                className="aspect-[4/3] bg-gradient-to-br from-navy-200 to-navy-400"
-                role="img"
-                aria-label={`${l.address} photo`}
-              >
-                <div className="flex h-full items-start justify-between p-4">
-                  <span className="rounded-pill bg-white/90 px-3 py-1 text-xs font-semibold text-navy-700">
-                    {l.tag}
-                  </span>
-                </div>
-              </div>
-              <div className="p-5">
-                <div className="text-2xl font-bold tracking-tight text-navy-700">
-                  {l.price}
-                </div>
-                <div className="mt-1 text-sm font-medium text-neutral-900">
-                  {l.address}
-                </div>
-                <div className="text-sm text-neutral-500">{l.location}</div>
-                <div className="mt-4 flex gap-4 border-t border-neutral-200 pt-4 text-sm text-neutral-600">
-                  <span>
-                    <strong className="text-neutral-900">{l.beds}</strong> bed
-                  </span>
-                  <span>
-                    <strong className="text-neutral-900">{l.baths}</strong> bath
-                  </span>
-                  <span>
-                    <strong className="text-neutral-900">
-                      {l.sqft.toLocaleString()}
-                    </strong>{" "}
-                    sqft
-                  </span>
-                </div>
-              </div>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
-
-/* ============================================================
-   3. VALUE PROP — Centered headline + 3-up cards (Buy / Sell / Rent)
-   ============================================================ */
-const valueProps = [
-  {
-    title: "Buy",
-    body: "Find the home you'll grow into. Birdsong helps Austin buyers cut through noise, win in tight markets, and move with confidence.",
-    cta: "Start your search",
-    href: "/roa/buy",
-  },
-  {
-    title: "Sell",
-    body: "Top-dollar marketing, professional photography, and a national buyer network through Realty of America. Your listing, everywhere it matters.",
-    cta: "Get your home value",
-    href: "/roa/sell",
-  },
-  {
-    title: "Rent",
-    body: "Whether you're between homes or new to Austin, we'll help you find a rental that fits your life — without the typical Austin headache.",
-    cta: "Browse rentals",
-    href: "/roa/rent",
-  },
-]
-
-function ValueProp() {
-  return (
-    <section className="section-y section-mute">
-      <div className="container-x">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            A smarter way to buy, sell, & rent.
-          </h2>
-          <p className="mt-3 text-lg text-neutral-600">
-            Expert local agents + the modern tools of Realty of America = a
-            better real estate experience.
-          </p>
-        </div>
-
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
-          {valueProps.map((v) => (
-            <div
-              key={v.title}
-              className="rounded-xl bg-white p-8 shadow-sm transition hover:shadow-lg"
-            >
-              <h3 className="text-2xl font-bold tracking-tight text-navy-700">
-                {v.title}
-              </h3>
-              <p className="mt-3 text-neutral-600">{v.body}</p>
-              <Link
-                href={v.href}
-                className="mt-6 inline-flex rounded-pill border border-neutral-200 px-5 py-2 text-sm font-semibold text-navy-600 transition hover:border-navy-600 hover:bg-navy-50"
-              >
-                {v.cta} →
-              </Link>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
-
-/* ============================================================
-   4. ROA PARTNERSHIP — Dark navy strip, the "we joined ROA" moment
-   ============================================================ */
-function RoaPartnership() {
-  return (
-    <section className="section-navy-deep section-y">
-      <div className="container-x grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-center">
+      <div className="container-x relative grid gap-12 py-24 lg:grid-cols-[1.25fr_1fr] lg:items-center lg:gap-16 lg:py-32">
         <div>
           <p className="text-sm font-semibold uppercase tracking-widest text-accent-400">
-            Built by REALTORS®
+            Empowering Agents · Simplifying Real Estate
           </p>
-          <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
-            Birdsong is now part of Realty of America.
-          </h2>
-          <p className="mt-5 max-w-xl text-lg text-white/80">
-            We joined Realty of America to bring our Austin clients the
-            national network, modern tooling, and competitive economics of a
-            cloud-first brokerage — without giving up the local team they
-            already trust.
+          <h1 className="mt-5 text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
+            Build your business.
+            <br />
+            Build your equity.
+          </h1>
+          <p className="mt-6 max-w-xl text-lg text-white/80">
+            Birdsong Realty Team is growing in Austin with Realty of America —
+            a brokerage built to give agents better economics, modern tools,
+            and a real team behind them. If you&apos;re ready to keep more of
+            what you earn and grow something that lasts, let&apos;s talk.
           </p>
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-10 flex flex-wrap gap-3">
             <Link
-              href="/roa/why-roa"
-              className="rounded-pill bg-white px-6 py-3 text-sm font-semibold text-navy-700 transition hover:bg-neutral-100"
+              href="/roa/apply"
+              className="rounded-pill bg-accent-500 px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-accent-500/20 transition hover:bg-accent-600"
             >
-              Why we made the move
+              Apply to join the team
             </Link>
             <Link
-              href="/roa/join"
-              className="rounded-pill border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+              href="/roa/call"
+              className="rounded-pill border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-white/10"
             >
-              Join us at ROA
+              Book a confidential call
             </Link>
           </div>
         </div>
 
-        {/* Right: stat panel */}
-        <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur">
-          <div className="grid grid-cols-2 gap-6">
-            <Stat label="Commission split" value="85/15" />
-            <Stat label="Annual cap" value="$14k" />
-            <Stat label="Post-cap" value="100%" />
-            <Stat label="Markets" value="22+" />
+        {/* Right: quick proof panel */}
+        <div className="hidden lg:block">
+          <div className="ml-auto max-w-sm rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur">
+            <p className="text-sm font-medium text-white/70">
+              Why agents are making the move
+            </p>
+            <div className="mt-6 space-y-5">
+              <ProofRow value="85/15" label="Commission split until cap" />
+              <ProofRow value="$14k" label="Annual cap — then keep 100%" />
+              <ProofRow value="Equity" label="Own a piece of the brokerage" />
+              <ProofRow value="Rev share" label="Build income beyond your own deals" />
+            </div>
+            <p className="mt-6 border-t border-white/10 pt-4 text-xs text-white/50">
+              Backed by a real Austin team — coaching, lead support, and
+              accountability, not a faceless dashboard.
+            </p>
           </div>
-          <p className="mt-6 text-sm text-white/60">
-            Plus revenue share, equity, and modern agent tools.
-          </p>
         </div>
       </div>
     </section>
   )
 }
 
-function Stat({ label, value }: { label: string; value: string }) {
+function ProofRow({ value, label }: { value: string; label: string }) {
   return (
-    <div>
-      <div className="text-3xl font-bold tracking-tight text-white">{value}</div>
-      <div className="mt-1 text-xs uppercase tracking-wider text-white/60">
-        {label}
-      </div>
+    <div className="flex items-baseline gap-3">
+      <span className="w-20 flex-none text-2xl font-bold tracking-tight text-accent-400">
+        {value}
+      </span>
+      <span className="text-sm text-white/75">{label}</span>
     </div>
   )
 }
 
 /* ============================================================
-   5. NEIGHBORHOODS — 4×2 grid mirroring ROA's "Trending Cities"
+   2. ECONOMICS — The numbers, front and center
    ============================================================ */
-const neighborhoods = [
-  { name: "Zilker", slug: "zilker" },
-  { name: "Tarrytown", slug: "tarrytown" },
-  { name: "Hyde Park", slug: "hyde-park" },
-  { name: "Mueller", slug: "mueller" },
-  { name: "West Lake Hills", slug: "west-lake-hills" },
-  { name: "Travis Heights", slug: "travis-heights" },
-  { name: "South Congress", slug: "south-congress" },
-  { name: "East Austin", slug: "east-austin" },
+const economics = [
+  { value: "85/15", label: "Commission split", sub: "until you hit your annual cap" },
+  { value: "$14,000", label: "Annual cap", sub: "then you keep 100% of commissions" },
+  { value: "100%", label: "Post-cap", sub: "every dollar after cap is yours" },
+  { value: "Equity", label: "Ownership", sub: "earn stock as the company grows" },
 ]
 
-function Neighborhoods() {
+function Economics() {
   return (
-    <section className="section-y bg-white">
+    <section id="economics" className="section-y bg-white scroll-mt-16">
       <div className="container-x">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Explore Austin&apos;s top neighborhoods.
+          <p className="text-sm font-semibold uppercase tracking-widest text-accent-600">
+            The economics
+          </p>
+          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-navy-700 sm:text-4xl">
+            Keep more of what you earn.
           </h2>
-          <p className="mt-3 text-neutral-600">
-            From Hill Country quiet to East Side energy — find where you belong.
+          <p className="mt-3 text-lg text-neutral-600">
+            Realty of America&apos;s model is built so agents win first — at
+            every production level, from your first deal to your hundredth.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-4">
-          {neighborhoods.map((n, i) => (
-            <Link
-              key={n.slug}
-              href={`/roa/neighborhoods/${n.slug}`}
-              className="group relative aspect-[4/3] overflow-hidden rounded-xl"
-              style={{
-                background: `linear-gradient(135deg, hsl(${
-                  210 + i * 12
-                } 50% ${30 + (i % 3) * 8}%) 0%, hsl(${
-                  220 + i * 8
-                } 60% ${20 + (i % 3) * 6}%) 100%)`,
-              }}
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {economics.map((e) => (
+            <div
+              key={e.label}
+              className="rounded-xl border border-neutral-200 bg-white p-7 text-center transition hover:border-accent-500/40 hover:shadow-md"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-navy-900/20 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 p-5">
-                <h3 className="text-lg font-semibold text-white">{n.name}</h3>
-                <p className="text-xs text-white/70">Austin, TX</p>
+              <div className="text-4xl font-bold tracking-tight text-navy-700">
+                {e.value}
               </div>
-            </Link>
+              <div className="mt-2 text-sm font-semibold text-neutral-900">
+                {e.label}
+              </div>
+              <div className="mt-1 text-sm text-neutral-500">{e.sub}</div>
+            </div>
           ))}
         </div>
       </div>
@@ -383,64 +143,56 @@ function Neighborhoods() {
 }
 
 /* ============================================================
-   6. JOIN TEAM — recruiting block (the "ROA-as-us" hook)
+   3. WHY JOIN — Pillars drawn from ROA's values & mission
    ============================================================ */
-const joinReasons = [
+const pillars = [
   {
-    title: "Better economics",
-    body: "85/15 split, $14k cap, 100% post-cap. Keep more of every transaction at every production tier.",
+    title: "Empowerment",
+    body: "Get the resources, technology, and support you need to win — to achieve success, build equity, and foster meaningful client relationships.",
   },
   {
-    title: "Revenue share & equity",
-    body: "Build passive income through ROA's revenue share program — and earn equity as the company grows.",
+    title: "Innovation",
+    body: "Cutting-edge tools and platforms that streamline the busywork and elevate the experience for you and your clients alike.",
   },
   {
-    title: "A real local team",
-    body: "Cloud brokerage economics, but with a real Austin team behind you. Coaching, lead support, and weekly accountability — not a faceless dashboard.",
+    title: "Integrity",
+    body: "Trust is the foundation of everything we do. We earn it by consistently doing what's right — guiding every decision toward your long-term success.",
+  },
+  {
+    title: "Community Impact",
+    body: "We're dedicated to making a positive difference through meaningful initiatives that strengthen and uplift the communities we serve.",
   },
 ]
 
-function JoinTeam() {
+function WhyJoin() {
   return (
-    <section className="section-y bg-white">
+    <section id="why" className="section-y section-mute scroll-mt-16">
       <div className="container-x">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1.3fr] lg:items-start">
+        <div className="grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:items-start">
           <div className="lg:sticky lg:top-24">
-            <p className="text-sm font-semibold uppercase tracking-widest text-accent-500">
-              For agents
+            <p className="text-sm font-semibold uppercase tracking-widest text-accent-600">
+              Why Realty of America
             </p>
-            <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
-              Why agents are joining Birdsong at Realty of America.
+            <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tight text-navy-700 sm:text-4xl">
+              A brokerage built around the agent.
             </h2>
             <p className="mt-4 text-lg text-neutral-600">
-              If you&apos;re producing in Austin and ready for better economics
-              without losing local support, we should talk.
+              Our mission is to empower agents to succeed while building
+              stronger, more connected communities — earning trust through
+              transparency, modern tools, and lasting relationships.
             </p>
-            <Link
-              href="/roa/join"
-              className="mt-8 inline-flex rounded-pill bg-navy-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-navy-700"
-            >
-              Schedule a 15-minute call →
-            </Link>
           </div>
 
-          <div className="space-y-4">
-            {joinReasons.map((r, i) => (
+          <div className="grid gap-4 sm:grid-cols-2">
+            {pillars.map((p) => (
               <div
-                key={r.title}
+                key={p.title}
                 className="rounded-xl border border-neutral-200 bg-white p-7 transition hover:border-accent-500/40 hover:shadow-md"
               >
-                <div className="flex items-start gap-5">
-                  <div className="flex h-10 w-10 flex-none items-center justify-center rounded-full bg-accent-500/10 text-sm font-bold text-accent-600">
-                    0{i + 1}
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold tracking-tight text-navy-700">
-                      {r.title}
-                    </h3>
-                    <p className="mt-2 text-neutral-600">{r.body}</p>
-                  </div>
-                </div>
+                <span className="inline-block rounded-pill bg-navy-700 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white">
+                  {p.title}
+                </span>
+                <p className="mt-4 text-neutral-600">{p.body}</p>
               </div>
             ))}
           </div>
@@ -451,33 +203,145 @@ function JoinTeam() {
 }
 
 /* ============================================================
-   7. FINAL CTA — Navy strip
+   4. VALUES — The local-team differentiator (navy strip)
+   ============================================================ */
+function Values() {
+  return (
+    <section className="section-navy-deep section-y">
+      <div className="container-x grid gap-10 lg:grid-cols-[1.3fr_1fr] lg:items-center">
+        <div>
+          <p className="text-sm font-semibold uppercase tracking-widest text-accent-400">
+            Cloud economics, local team
+          </p>
+          <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
+            You don&apos;t have to choose between great splits and real support.
+          </h2>
+          <p className="mt-5 max-w-xl text-lg text-white/80">
+            Most cloud brokerages hand you a login and wish you luck. Birdsong
+            gives you the economics of a modern brokerage with a real Austin
+            team behind you — coaching, lead support, and weekly accountability
+            from people who actually know the market.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              href="/roa/apply"
+              className="rounded-pill bg-white px-6 py-3 text-sm font-semibold text-navy-700 transition hover:bg-neutral-100"
+            >
+              Apply to join
+            </Link>
+            <Link
+              href="/roa/call"
+              className="rounded-pill border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+            >
+              Book a call
+            </Link>
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur">
+          <ul className="space-y-5">
+            {[
+              "1-on-1 coaching and business planning",
+              "Lead support and proven systems",
+              "Weekly accountability with a real team",
+              "Revenue share — income beyond your own deals",
+              "Equity ownership as the company grows",
+            ].map((item) => (
+              <li key={item} className="flex items-start gap-3">
+                <span
+                  aria-hidden
+                  className="mt-1.5 h-2 w-2 flex-none rounded-full bg-accent-400"
+                />
+                <span className="text-white/85">{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+/* ============================================================
+   5. PROCESS — Simple 3-step path to joining
+   ============================================================ */
+const steps = [
+  {
+    title: "Have a conversation",
+    body: "Book a confidential call. We'll learn about your business and where you want to take it — no pressure, no pitch.",
+  },
+  {
+    title: "See the numbers",
+    body: "We'll walk through the economics, the tools, and exactly what support looks like, side-by-side with where you are today.",
+  },
+  {
+    title: "Make the move",
+    body: "When it's a fit, we handle the transition and get you onboarded with the team, systems, and coaching from day one.",
+  },
+]
+
+function Process() {
+  return (
+    <section id="process" className="section-y bg-white scroll-mt-16">
+      <div className="container-x">
+        <div className="mx-auto max-w-2xl text-center">
+          <p className="text-sm font-semibold uppercase tracking-widest text-accent-600">
+            How it works
+          </p>
+          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-navy-700 sm:text-4xl">
+            Joining is simple.
+          </h2>
+        </div>
+
+        <div className="mt-14 grid gap-6 md:grid-cols-3">
+          {steps.map((s, i) => (
+            <div
+              key={s.title}
+              className="rounded-xl border border-neutral-200 bg-white p-7"
+            >
+              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-accent-500/10 text-sm font-bold text-accent-600">
+                0{i + 1}
+              </div>
+              <h3 className="mt-5 text-xl font-semibold tracking-tight text-navy-700">
+                {s.title}
+              </h3>
+              <p className="mt-2 text-neutral-600">{s.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+/* ============================================================
+   6. FINAL CTA — Navy strip
    ============================================================ */
 function FinalCta() {
   return (
-    <section className="section-mute border-t border-neutral-200">
+    <section className="bg-navy-700 text-white">
       <div className="container-x flex flex-col items-start justify-between gap-6 py-16 md:flex-row md:items-center">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight text-navy-700 sm:text-3xl">
-            Ready to make a move?
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            Ready to grow with Birdsong?
           </h2>
-          <p className="mt-2 max-w-md text-neutral-600">
-            Whether you&apos;re buying, selling, or thinking about your next
-            chapter as an agent — Birdsong is here.
+          <p className="mt-2 max-w-md text-white/70">
+            Take 15 minutes to see what your business could look like at Realty
+            of America. The conversation is always confidential.
           </p>
         </div>
         <div className="flex flex-wrap gap-3">
           <Link
-            href="/roa/contact"
-            className="rounded-pill bg-navy-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-navy-700"
+            href="/roa/apply"
+            className="rounded-pill bg-accent-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-accent-600"
           >
-            Talk to Birdsong
+            Apply to join the team
           </Link>
           <Link
-            href="/roa/join"
-            className="rounded-pill border border-neutral-300 px-6 py-3 text-sm font-semibold text-navy-700 transition hover:border-navy-600 hover:bg-white"
+            href="/roa/call"
+            className="rounded-pill border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
-            Join the team
+            Book a confidential call
           </Link>
         </div>
       </div>

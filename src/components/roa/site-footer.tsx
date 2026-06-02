@@ -1,39 +1,31 @@
+import Image from "next/image"
 import Link from "next/link"
 
 const footerCols = [
   {
-    heading: "Buyers",
+    heading: "Join the Team",
     links: [
-      { label: "Search Listings", href: "/roa/buy" },
-      { label: "Featured Homes", href: "/roa/featured" },
-      { label: "Neighborhoods", href: "/roa/neighborhoods" },
-      { label: "Mortgage Tools", href: "/roa/tools" },
+      { label: "Apply Now", href: "/roa/apply" },
+      { label: "Book a Call", href: "/roa/call" },
+      { label: "Why Realty of America", href: "/roa#why" },
+      { label: "The Economics", href: "/roa#economics" },
     ],
   },
   {
-    heading: "Sellers",
+    heading: "For Agents",
     links: [
-      { label: "Sell Your Home", href: "/roa/sell" },
-      { label: "Home Valuation", href: "/roa/valuation" },
-      { label: "Marketing Plan", href: "/roa/marketing" },
-    ],
-  },
-  {
-    heading: "Agents",
-    links: [
-      { label: "Join Birdsong", href: "/roa/join" },
-      { label: "Why Realty of America", href: "/roa/why-roa" },
-      { label: "Commission & Cap", href: "/roa/commission" },
-      { label: "Revenue Share", href: "/roa/rev-share" },
+      { label: "Revenue Share", href: "/roa#why" },
+      { label: "Equity & Ownership", href: "/roa#economics" },
+      { label: "Coaching & Support", href: "/roa#why" },
+      { label: "How It Works", href: "/roa#process" },
     ],
   },
   {
     heading: "Company",
     links: [
-      { label: "About Us", href: "/roa/about" },
-      { label: "Our Team", href: "/roa/team" },
-      { label: "Contact", href: "/roa/contact" },
-      { label: "Privacy", href: "/roa/privacy" },
+      { label: "About Birdsong", href: "/roa" },
+      { label: "Realty of America", href: "https://www.realtyofamerica.com" },
+      { label: "Contact", href: "/roa/call" },
     ],
   },
 ]
@@ -42,19 +34,23 @@ export function SiteFooter() {
   return (
     <footer className="bg-navy-700 text-white">
       <div className="container-x py-16">
-        <div className="grid gap-12 md:grid-cols-[1.5fr_repeat(4,1fr)]">
+        <div className="grid gap-12 md:grid-cols-[1.5fr_repeat(3,1fr)]">
           {/* Brand block */}
           <div>
             <div className="flex items-center gap-3">
               <span className="text-xl font-bold tracking-tight">BIRDSONG</span>
               <span className="h-5 w-px bg-white/30" aria-hidden />
-              <span className="text-xs font-medium uppercase tracking-wider text-white/70">
-                Realty of America
-              </span>
+              <Image
+                src="/images/roa/roa-horizontal-white.svg"
+                alt="Realty of America"
+                width={150}
+                height={14}
+                className="h-3.5 w-auto"
+              />
             </div>
             <p className="mt-4 max-w-xs text-sm text-white/70">
-              Patrick Birdsong. Austin, Texas. A smarter way to buy, sell,
-              and rent — built by REALTORS®.
+              Empowering agents, simplifying real estate. Birdsong Realty Team
+              is growing in Austin, Texas with Realty of America.
             </p>
             <p className="mt-6 text-sm text-white/70">
               <a href="mailto:hello@birdsongrealtyteam.com" className="hover:text-white">
@@ -70,7 +66,7 @@ export function SiteFooter() {
               </h4>
               <ul className="mt-4 space-y-3">
                 {col.links.map((link) => (
-                  <li key={link.href}>
+                  <li key={link.href + link.label}>
                     <Link
                       href={link.href}
                       className="text-sm text-white/80 transition-colors hover:text-white"

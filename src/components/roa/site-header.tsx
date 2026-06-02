@@ -1,26 +1,30 @@
+import Image from "next/image"
 import Link from "next/link"
 
 const navLinks = [
-  { label: "Buy", href: "/roa/buy" },
-  { label: "Sell", href: "/roa/sell" },
-  { label: "Rent", href: "/roa/rent" },
-  { label: "Our Team", href: "/roa/team" },
-  { label: "Join Birdsong", href: "/roa/join" },
+  { label: "Why ROA", href: "/roa#why" },
+  { label: "The Economics", href: "/roa#economics" },
+  { label: "How It Works", href: "/roa#process" },
 ]
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-white/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between">
-        {/* Co-branded wordmark: BIRDSONG | REALTY OF AMERICA */}
+        {/* Co-branded: Birdsong + official ROA horizontal logo */}
         <Link href="/roa" className="flex items-center gap-3">
           <span className="text-lg font-bold tracking-tight text-navy-600">
             BIRDSONG
           </span>
           <span className="h-5 w-px bg-neutral-300" aria-hidden />
-          <span className="text-xs font-medium uppercase tracking-wider text-neutral-500">
-            Realty of America
-          </span>
+          <Image
+            src="/images/roa/roa-horizontal-blue.svg"
+            alt="Realty of America"
+            width={150}
+            height={14}
+            className="h-3.5 w-auto"
+            priority
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -37,16 +41,16 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <Link
-            href="/roa/join"
+            href="/roa/call"
             className="hidden rounded-pill border border-neutral-200 bg-white px-4 py-2 text-sm font-semibold text-navy-600 transition hover:bg-neutral-50 sm:inline-flex"
           >
-            Join Our Team
+            Book a call
           </Link>
           <Link
-            href="/roa/contact"
+            href="/roa/apply"
             className="inline-flex rounded-pill bg-navy-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-navy-700"
           >
-            Contact
+            Apply Now
           </Link>
         </div>
       </div>
