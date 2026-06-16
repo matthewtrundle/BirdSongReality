@@ -1,5 +1,5 @@
-import Image from "next/image"
 import Link from "next/link"
+import { CoBrandLockup } from "@/components/roa/co-brand-lockup"
 
 const navLinks = [
   { label: "Why ROA", href: "/roa#why" },
@@ -9,25 +9,14 @@ const navLinks = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-white/90 backdrop-blur">
-      <div className="container-x flex h-16 items-center justify-between">
-        {/* Co-branded: Birdsong + official ROA horizontal logo */}
-        <Link href="/roa" className="flex items-center gap-3">
-          <span className="text-lg font-bold tracking-tight text-navy-600">
-            BIRDSONG
-          </span>
-          <span className="h-5 w-px bg-neutral-300" aria-hidden />
-          <Image
-            src="/images/roa/roa-horizontal-blue.svg"
-            alt="Realty of America"
-            width={150}
-            height={14}
-            className="h-3.5 w-auto"
-            priority
-          />
+    <header className="sticky top-0 z-50 w-full border-b border-navy-700/10 bg-[#f7f4ee]/90 backdrop-blur">
+      <div className="container-x flex h-20 items-center justify-between">
+        {/* Editorial co-brand lockup: Birdsong mark + official ROA logo */}
+        <Link href="/roa" className="transition-opacity hover:opacity-80">
+          <CoBrandLockup tone="light" variant="default" />
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}

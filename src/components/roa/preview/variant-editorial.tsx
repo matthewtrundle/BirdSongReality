@@ -15,14 +15,6 @@ export function VariantEditorial() {
       {/* ---------------- HERO ---------------- */}
       <section className="border-b border-navy-700/10">
         <div className="container-x">
-          {/* Co-brand masthead */}
-          <div className="flex flex-col gap-4 border-b border-navy-700/10 py-7 sm:flex-row sm:items-center sm:justify-between">
-            <CoBrandLockup tone="light" variant="default" />
-            <span className="text-xs font-medium uppercase tracking-[0.32em] text-navy-700/45">
-              Agent Opportunities · Austin, TX
-            </span>
-          </div>
-
           <div className="grid gap-12 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16 lg:py-24">
             <div className="flex flex-col justify-center">
               <p className="font-display text-sm italic text-accent-600">
@@ -52,17 +44,46 @@ export function VariantEditorial() {
               </div>
             </div>
 
-            {/* Patrick — tall editorial portrait, fixed crop */}
-            <figure className="relative">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-navy-700/10 shadow-xl shadow-navy-900/10">
+            {/* Patrick — tall editorial portrait with layered effects */}
+            <figure className="group relative">
+              {/* Offset accent frame behind the photo */}
+              <div
+                aria-hidden
+                className="absolute -bottom-5 -right-5 -z-10 hidden h-full w-full rounded-sm border border-accent-500/50 lg:block"
+              />
+              {/* Soft accent glow */}
+              <div
+                aria-hidden
+                className="absolute -inset-3 -z-10 rounded-sm bg-accent-500/5 blur-2xl"
+              />
+              <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-navy-700/10 shadow-2xl shadow-navy-900/20">
                 <Image
                   src="/images/team/patrick-seated.jpg"
                   alt="Patrick Birdsong, founder of Birdsong Realty Team"
                   fill
                   sizes="(min-width: 1024px) 40vw, 100vw"
-                  className="scale-[1.15] object-cover object-[50%_20%]"
+                  className="scale-[1.15] object-cover object-[50%_20%] transition-transform duration-[1200ms] ease-out group-hover:scale-[1.22]"
                   priority
                 />
+                {/* Tonal depth: warm up shadows, lift the top */}
+                <div
+                  aria-hidden
+                  className="absolute inset-0 bg-gradient-to-t from-navy-900/45 via-navy-900/5 to-transparent"
+                />
+                <div
+                  aria-hidden
+                  className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent mix-blend-overlay"
+                />
+                {/* Now-hiring badge */}
+                <div className="absolute left-4 top-4 flex items-center gap-2 rounded-pill bg-[#f7f4ee]/90 px-3 py-1.5 backdrop-blur">
+                  <span className="relative flex h-2 w-2">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-500/70" />
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-accent-500" />
+                  </span>
+                  <span className="text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-navy-700">
+                    Now hiring · Austin
+                  </span>
+                </div>
               </div>
               <figcaption className="mt-4 flex items-baseline justify-between border-t border-navy-700/10 pt-3">
                 <span className="font-display text-lg font-semibold">Patrick Birdsong</span>
