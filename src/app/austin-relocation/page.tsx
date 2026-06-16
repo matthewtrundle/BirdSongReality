@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Container, Section } from "@/components/layout"
 import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, StatsGrid, CTABanner } from "@/components/seo"
-import { LeadFormSection } from "@/components/sections"
+import { RelocationForm } from "@/components/forms"
 
 export const metadata: Metadata = {
   title: "Relocating to Austin TX | Birdsong Realty Team | Realty of America",
@@ -150,12 +150,23 @@ export default function AustinRelocationPage() {
         </Container>
       </Section>
 
-      <LeadFormSection
-        variant="dark"
-        title="Let Us Help You Relocate"
-        subtitle="Tell us where you're coming from, when you're moving, and what you're looking for."
-        source="relocation_page"
-      />
+      <Section className="bg-neutral-50">
+        <Container size="narrow">
+          <div className="mx-auto mb-10 max-w-2xl text-center">
+            <h2 className="text-fluid-3xl font-display font-semibold tracking-tight text-neutral-900">
+              Let Us Help You Relocate
+            </h2>
+            <p className="mt-4 text-lg text-neutral-600">
+              Tell us where you&apos;re coming from, when you&apos;re moving, and what
+              you&apos;re looking for — we&apos;ll send our Austin relocation guide and
+              connect you with a local specialist.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-neutral-100 bg-white p-8 shadow-sm">
+            <RelocationForm source="relocation_page" />
+          </div>
+        </Container>
+      </Section>
     </>
   )
 }

@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import Link from "next/link"
 import { Container, Section } from "@/components/layout"
 import { Breadcrumbs, SEOPageHero, SEOContent, ContentSection, HighlightBox, StatsGrid, CTABanner } from "@/components/seo"
-import { LeadFormSection } from "@/components/sections"
+import { CMARequestForm } from "@/components/forms"
 
 export const metadata: Metadata = {
   title: "Sell Your Austin Home | Birdsong Realty Team | Realty of America",
@@ -160,12 +160,22 @@ export default function SellerServicesPage() {
         </Container>
       </Section>
 
-      <LeadFormSection
-        variant="dark"
-        title="Request a Free Home Valuation"
-        subtitle="Tell us about your property and we'll provide a complimentary market analysis."
-        source="seller_services_page"
-      />
+      <Section className="bg-neutral-50">
+        <Container size="narrow">
+          <div className="mx-auto mb-10 max-w-2xl text-center">
+            <h2 className="text-fluid-3xl font-display font-semibold tracking-tight text-neutral-900">
+              Request a Free Home Valuation
+            </h2>
+            <p className="mt-4 text-lg text-neutral-600">
+              Tell us about your property and we&apos;ll prepare a complimentary,
+              no-obligation market analysis with a recommended pricing strategy.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-neutral-100 bg-white p-8 shadow-sm">
+            <CMARequestForm source="seller_services_page" />
+          </div>
+        </Container>
+      </Section>
     </>
   )
 }
