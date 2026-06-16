@@ -2,11 +2,11 @@
 
 import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { usePathname } from "next/navigation"
 import { Container } from "./container"
 import { Button } from "@/components/ui"
+import { BrandLockup } from "@/components/icons/brand-lockup"
 import { NAV_LINKS, SITE_CONFIG } from "@/lib/constants"
 import { cn } from "@/lib/utils"
 import { MobileNav } from "./mobile-nav"
@@ -87,23 +87,11 @@ export function Header() {
             isHomepage && !isScrolled ? "h-28 md:h-40" : "h-20"
           )}>
             {/* Logo */}
-            <Link href="/" className="relative flex items-center z-10">
-              <Image
-                src="/logo.png"
-                alt="Birdsong Realty Team"
-                width={600}
-                height={400}
-                className={cn(
-                  "w-auto transition-all duration-500",
-                  isHomepage && !isScrolled
-                    ? "h-24 md:h-36"
-                    : "h-10 md:h-14"
-                )}
-                style={{
-                  filter: "brightness(0) invert(1)",
-                }}
-                priority
-              />
+            <Link
+              href="/"
+              className="relative z-10 flex items-center text-white transition-all duration-500"
+            >
+              <BrandLockup variant={isHomepage && !isScrolled ? "hero" : "default"} />
             </Link>
 
             {/* Desktop Navigation */}

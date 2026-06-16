@@ -10,18 +10,15 @@ export const metadata: Metadata = {
   description: "Meet the team at Birdsong Realty Team. Local experts dedicated to helping you find your perfect home, investment property, or rental in Austin, Texas.",
 }
 
-const teamMembers = [
-  {
-    name: "Patrick Birdsong",
-    role: "Founder & Lead Agent",
-    bio: "With deep roots in Austin real estate, Patrick knows every corner of the city. His data-driven approach and hands-on marketing strategy consistently deliver exceptional results for buyers and sellers across Austin's most competitive markets.",
-  },
-  {
-    name: "Erin",
-    role: "Agent & Client Experience",
-    bio: "Erin brings a client-first approach to every transaction. Her attention to detail, clear communication, and genuine care for her clients make the buying and selling process seamless and stress-free.",
-  },
-]
+const patrick = {
+  name: "Patrick Birdsong",
+  role: "Founder & Lead Agent",
+  photo: "/images/team/patrick-portrait.jpg",
+  bio: [
+    "With deep roots in Austin real estate, Patrick knows every corner of the city. His data-driven approach and hands-on marketing strategy consistently deliver exceptional results for buyers and sellers across Austin's most competitive markets.",
+    "From first-time buyers to seasoned investors, Patrick brings a client-first approach to every transaction — clear communication, sharp negotiation, and genuine care that makes the process seamless from first showing to closing day.",
+  ],
+}
 
 const values = [
   {
@@ -150,36 +147,48 @@ export default function AboutPage() {
         </Container>
       </Section>
 
-      {/* Team Section */}
+      {/* Team Section — Patrick */}
       <Section className="bg-white">
         <Container>
           <div className="text-center mb-12">
             <span className="text-primary-600 text-sm tracking-wider uppercase font-medium block mb-4">
-              Meet The Team
+              Meet Your Agent
             </span>
             <h2 className="text-fluid-3xl font-display font-semibold text-neutral-900 tracking-tight mb-4">
-              Your Austin Experts
+              Your Austin Expert
             </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Our team combines decades of real estate experience with deep local knowledge
-            </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            {teamMembers.map((member) => (
-              <div
-                key={member.name}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-neutral-100 text-center"
-              >
-                <div className="w-12 h-1 bg-primary-600 rounded-full mx-auto mb-6" />
-                <h3 className="font-display font-semibold text-neutral-900 text-xl mb-1">
-                  {member.name}
-                </h3>
-                <p className="text-primary-600 text-xs font-medium uppercase tracking-wider mb-4">
-                  {member.role}
-                </p>
-                <p className="text-sm text-neutral-600 leading-relaxed">{member.bio}</p>
+
+          <div className="mx-auto grid max-w-5xl items-center gap-10 lg:grid-cols-[0.85fr_1fr] lg:gap-14">
+            <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-2xl shadow-xl">
+              <Image
+                src={patrick.photo}
+                alt={`${patrick.name}, ${patrick.role} at Birdsong Realty Team`}
+                fill
+                sizes="(max-width: 1024px) 384px, 420px"
+                className="object-cover"
+              />
+            </div>
+
+            <div>
+              <div className="mb-6 h-1 w-12 rounded-full bg-primary-600" />
+              <h3 className="font-display text-3xl font-semibold tracking-tight text-neutral-900">
+                {patrick.name}
+              </h3>
+              <p className="mt-1 text-sm font-medium uppercase tracking-wider text-primary-600">
+                {patrick.role}
+              </p>
+              <div className="mt-6 space-y-4 text-neutral-600 leading-relaxed">
+                {patrick.bio.map((para) => (
+                  <p key={para}>{para}</p>
+                ))}
               </div>
-            ))}
+              <div className="mt-8">
+                <Button variant="cta" asChild>
+                  <Link href="/contact">Work With Patrick</Link>
+                </Button>
+              </div>
+            </div>
           </div>
         </Container>
       </Section>

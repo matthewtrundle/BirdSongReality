@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function RoaRecruitingPage() {
@@ -60,22 +61,33 @@ function Hero() {
           </div>
         </div>
 
-        {/* Right: quick proof panel */}
-        <div className="hidden lg:block">
-          <div className="ml-auto max-w-sm rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur">
-            <p className="text-sm font-medium text-white/70">
-              Why agents are making the move
-            </p>
-            <div className="mt-6 space-y-5">
-              <ProofRow value="85/15" label="Commission split until cap" />
-              <ProofRow value="$14k" label="Annual cap — then keep 100%" />
-              <ProofRow value="Equity" label="Own a piece of the brokerage" />
-              <ProofRow value="Rev share" label="Build income beyond your own deals" />
+        {/* Right: Patrick portrait + floating proof card */}
+        <div className="relative hidden lg:block">
+          <div className="relative ml-auto aspect-[4/5] max-w-md overflow-hidden rounded-3xl border border-white/10 shadow-2xl shadow-black/40">
+            <Image
+              src="/images/team/patrick-seated.jpg"
+              alt="Patrick Birdsong, founder of Birdsong Realty Team"
+              fill
+              sizes="448px"
+              className="object-cover"
+              priority
+            />
+            <div
+              aria-hidden
+              className="absolute inset-0 bg-gradient-to-t from-navy-700 via-navy-700/20 to-transparent"
+            />
+            <div className="absolute inset-x-4 bottom-4 rounded-2xl border border-white/15 bg-navy-700/70 p-5 backdrop-blur">
+              <p className="text-sm font-semibold text-white">Patrick Birdsong</p>
+              <p className="text-xs text-white/65">
+                Founder · Birdsong Realty Team
+              </p>
+              <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-3">
+                <ProofRow value="85/15" label="Split to cap" />
+                <ProofRow value="$14k" label="Annual cap" />
+                <ProofRow value="Equity" label="Real ownership" />
+                <ProofRow value="Rev share" label="Beyond your deals" />
+              </div>
             </div>
-            <p className="mt-6 border-t border-white/10 pt-4 text-xs text-white/50">
-              Backed by a real Austin team — coaching, lead support, and
-              accountability, not a faceless dashboard.
-            </p>
           </div>
         </div>
       </div>
@@ -85,11 +97,11 @@ function Hero() {
 
 function ProofRow({ value, label }: { value: string; label: string }) {
   return (
-    <div className="flex items-baseline gap-3">
-      <span className="w-20 flex-none text-2xl font-bold tracking-tight text-accent-400">
+    <div>
+      <div className="text-lg font-bold leading-tight tracking-tight text-accent-400">
         {value}
-      </span>
-      <span className="text-sm text-white/75">{label}</span>
+      </div>
+      <div className="text-xs text-white/65">{label}</div>
     </div>
   )
 }
