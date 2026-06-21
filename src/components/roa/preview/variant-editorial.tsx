@@ -17,6 +17,15 @@ export function VariantEditorial() {
         <div className="container-x">
           <div className="grid gap-12 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16 lg:py-24">
             <div className="flex flex-col justify-center">
+              {/* Brand seal — leads the page */}
+              <Image
+                src="/images/brand/seal-navy.png"
+                alt="Birdsong Realty Team"
+                width={744}
+                height={744}
+                priority
+                className="mb-8 h-24 w-24 object-contain md:h-28 md:w-28"
+              />
               <p className="font-display text-sm italic text-accent-600">
                 An invitation to Austin agents
               </p>

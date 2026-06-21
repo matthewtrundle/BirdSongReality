@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion"
 import { usePathname } from "next/navigation"
 import { Container } from "./container"
 import { Button } from "@/components/ui"
-import { BrandLockup } from "@/components/icons/brand-lockup"
-import { NAV_LINKS, SITE_CONFIG } from "@/lib/constants"
+import { SealLogo } from "@/components/icons/seal-logo"
+import { NAV_LINKS } from "@/lib/constants"
 import { cn } from "@/lib/utils"
 import { MobileNav } from "./mobile-nav"
 
@@ -91,7 +91,7 @@ export function Header() {
               href="/"
               className="relative z-10 flex items-center text-white transition-all duration-500"
             >
-              <BrandLockup variant={isHomepage && !isScrolled ? "hero" : "default"} />
+              <SealLogo variant={isHomepage && !isScrolled ? "hero" : "default"} tone="white" />
             </Link>
 
             {/* Desktop Navigation */}

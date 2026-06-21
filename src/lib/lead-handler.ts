@@ -9,11 +9,17 @@ import { pushLeadToFUB, type LeadType } from "./follow-up-boss"
 import { appendToSheet } from "./google-sheets"
 import { LeadNotification } from "@/emails/lead-notification"
 import { InquiryConfirmation } from "@/emails/inquiry-confirmation"
+import { RoaConfirmation } from "@/emails/roa-confirmation"
 
-const DEFAULT_NOTIFICATION_EMAILS = [
-  "patrick@birdsongrealtyteam.com",
-  "info@birdsongrealtyteam.com",
-]
+// Central inbox all contact-form / lead notifications are routed to.
+const DEFAULT_NOTIFICATION_EMAILS = ["info@birdsongrealtyteam.com"]
+const TEAM_INBOX = "info@birdsongrealtyteam.com"
+const FROM_ADDRESS = "Birdsong Realty <noreply@birdsongrealtyteam.com>"
+
+/** ROA recruiting leads originate from the /roa page (source starts with "roa"). */
+function isRoaLead(source?: string): boolean {
+  return !!source && source.toLowerCase().startsWith("roa")
+}
 
 function getNotificationRecipients(): string[] {
   const envEmails = process.env.NOTIFICATION_EMAILS
@@ -188,28 +194,51 @@ async function sendEmailNotifications(
       })
     )
 
+    const roaLead = isRoaLead(lead.source)
+    const notificationSubject = roaLead
+      ? `New ROA Recruiting Lead: ${fullName}`
+      : `New Lead: ${fullName} - ${subjectDetail}`
+
     await getResend().emails.send({
-      from: "Birdsong Realty <noreply@birdsongrealtyteam.com>",
+      from: FROM_ADDRESS,
       to: getNotificationRecipients(),
-      subject: `New Lead: ${fullName} - ${subjectDetail}`,
+      replyTo: lead.email,
+      subject: notificationSubject,
       html: notificationEmailHtml,
     })
 
-    // 2. Send confirmation to lead
-    const confirmationEmailHtml = await render(
-      InquiryConfirmation({
-        name: fullName,
-        propertyInterest: lead.propertyInterest,
-        propertyType: lead.propertyType,
-        priceRange: lead.priceRange,
-        source: lead.source,
-      })
-    )
+    // 2. Send confirmation to the lead — recruiting tone for ROA agents,
+    //    consumer tone for the core real-estate site.
+    let confirmationEmailHtml: string
+    let confirmationSubject: string
+
+    if (roaLead) {
+      confirmationEmailHtml = await render(
+        RoaConfirmation({
+          name: fullName,
+          intent: lead.source?.includes("call") ? "call" : "apply",
+        })
+      )
+      confirmationSubject =
+        "Thanks for reaching out — Birdsong Realty Team at Realty of America"
+    } else {
+      confirmationEmailHtml = await render(
+        InquiryConfirmation({
+          name: fullName,
+          propertyInterest: lead.propertyInterest,
+          propertyType: lead.propertyType,
+          priceRange: lead.priceRange,
+          source: lead.source,
+        })
+      )
+      confirmationSubject = "Thanks for reaching out! - Birdsong Realty Team"
+    }
 
     await getResend().emails.send({
-      from: "Birdsong Realty <noreply@birdsongrealtyteam.com>",
+      from: FROM_ADDRESS,
       to: lead.email,
-      subject: "Thanks for reaching out! - Birdsong Realty Team",
+      replyTo: TEAM_INBOX,
+      subject: confirmationSubject,
       html: confirmationEmailHtml,
     })
 

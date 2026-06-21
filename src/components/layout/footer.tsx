@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Container } from "./container"
 import { ComplianceBar } from "./compliance-bar"
 import { ROALogo } from "@/components/icons/roa-logo"
@@ -54,7 +55,14 @@ export function Footer() {
           {/* Brand & Agent Info Column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             {/* Team Branding */}
-            <Link href="/" className="inline-block">
+            <Link href="/" className="inline-flex items-center gap-3">
+              <Image
+                src="/images/brand/seal-white.png"
+                alt="Birdsong Realty Team"
+                width={744}
+                height={744}
+                className="h-12 w-12 shrink-0 object-contain"
+              />
               <span className="font-display text-2xl font-semibold text-white">
                 {site.name}
               </span>
